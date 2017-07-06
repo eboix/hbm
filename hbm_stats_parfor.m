@@ -1,3 +1,4 @@
+maxNumCompThreads(4)
 n_vals = 2000:2000:2000;
 d_vals = 0:0.2:0.2;
 [N,D] = meshgrid(n_vals,d_vals);

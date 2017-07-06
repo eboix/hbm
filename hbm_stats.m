@@ -37,7 +37,7 @@ for trialnum = 1:trials
         case 'randwalk'
             [class,V,D] = randwalk_classifier(obj,giant_A,giant_rev);
         case 'sdp'
-            sdp_classifier(obj,giant_A,giant_mask);
+            class = sdp_classifier(obj,giant_A,giant_mask);
         case 'high_deg'
             class = high_deg_classifier(obj,giant_A,giant_mask);
         otherwise

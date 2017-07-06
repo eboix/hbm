@@ -1,0 +1,6 @@
+n = 2000*
+parfor iter=1:length(n)*length(d)
+    for c = 2:10
+        hbm_stats('randwalk',n*2000,0,0,c*2,d*0.2,1,10)
+    end
+end

@@ -2,7 +2,7 @@
 #SBATCH -N 1  # node count
 #SBATCH -n 1  # number of tasks per node?
 #SBATCH -c 20
-#SBATCH -t 1:00:00
+#SBATCH -t 2:00:00
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
 #SBATCH --mail-user=eboix@princeton.edu

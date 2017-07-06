@@ -1,4 +1,4 @@
-function res = hbm_stats(methodname,n,a,b,c,d,t,trials)
+function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref)
 if nargin == 0
     methodname = 'randwalk';
     n = 20000;
@@ -8,6 +8,7 @@ if nargin == 0
     d = 2.5;
     t = 1;
     trials = 10;
+    out_pref='res/'
 end
 methodname
 n
@@ -58,7 +59,8 @@ for trialnum = 1:trials
     res(trialnum) = agreement;
     giant_ns(trialnum) = giant_n;
 end
-filename = sprintf('res/%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', methodname, n, a, b, c, d, t);
+
+filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
 
 save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D');
 end

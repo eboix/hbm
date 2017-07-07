@@ -4,7 +4,7 @@ d_vals = 0:0.2:2.4;
 c_vals = 6:2:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
 
-if job_num == -1
+if nargin == 0 || job_num == -1
     command=strcat('export EBOIX_NUM_JOBS=',int2str(length(N(:))));
     disp(command);
     system(command);

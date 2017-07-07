@@ -1,7 +1,7 @@
 #!/bin/bash 
 #SBATCH -N 1 # node count 
 #SBATCH --ntasks-per-node=20 
-#SBATCH -t 0:30:00 
+#SBATCH -t 2:00:00 
 # sends mail when process begins, and 
 # when it ends. Make sure you define your email 
 #SBATCH --mail-type=begin 

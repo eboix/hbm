@@ -35,9 +35,6 @@ for iter=begin_raw_job:end_raw_job
     n = N(iter);
     d = D(iter);
     c = C(iter);
-    if c < 5 || abs(c*0.0592 + 1.7 - d) > 0.3
-        continue
-    end
     
     hbm_stats(methodname,n,0,0,c,d,1,5,sprintf('res/%s/',methodname),false)
 end

@@ -1,4 +1,5 @@
-directory_name = 'res/giant_size';
+METHOD_TO_TEST = 'nbwalk';
+directory_name = sprintf('res/%s',METHOD_TO_TEST);
 files = dir(directory_name);
 
 file_index = find(~[files.isdir]);
@@ -43,11 +44,10 @@ t = T;
 D = Dval;
 giant_n = GiantNs;
 T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
-METHOD_TO_TEST = 'giant_size';
 N_TO_TEST = 20000;
 Trn = T((T.methodname == METHOD_TO_TEST) & (T.n == N_TO_TEST) & (T.t == 1),:);
-drange = 0:0.05:4;
-crange = 0:0.05:20;
+drange = 0:0.1:4;
+crange = 0:0.1:20;
 imgres = cell(length(drange), length(crange));
 imggiantn = cell(length(drange), length(crange));
 di = 0;
@@ -72,7 +72,7 @@ for d = drange
     end
 end
 
-mvals = cellfun(@(x) sum(x)/length(x), imggiantn);
+mvals = cellfun(@(x) sum(x)/length(x), imgres);
 % FILL WITH APPROX DATA:
 approxvals = mvals;
 approx_iter = 0;
@@ -102,7 +102,7 @@ end
 color_res = 1024;
 colormap(jet(color_res));
 disp('About to draw heatmap.')
-heatmap(mvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0,'MaxColorValue',N_TO_TEST)
+heatmap(mvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
 title(sprintf('GBM Giant Size, avg of 5 trials, n = %d', N_TO_TEST));

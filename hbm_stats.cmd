@@ -20,7 +20,7 @@ mpicc -o mpi_parallelize mpi_parallelize.c
 # Calling "matlab -r matfile(i)" for i in 1:job_num runs the desired job.
 export EBOIX_MAT_CALL="/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "
 matfile='hbm_stats_exec_job'
-eval $EBOIX_MAT_CALL $matfile
+eval $EBOIX_MAT_CALL '"'$matfile', exit"'
 
 # Run the jobs.
 srun ./mpi_parallelize $matfile $EBOIX_NUM_JOBS

@@ -138,9 +138,9 @@ classdef hybrid_block_model
             
             % Combine temp_gbm_adj_list and temp_sbm_adj_list.
             temp_inter = intersect(temp_gbm_adj_list, temp_sbm_adj_list, 'rows');
-            curr_num_edges = length(temp_gbm_adj_list);
+            curr_num_edges = size(temp_gbm_adj_list, 1);
             temp_gbm_adj_list = temp_gbm_adj_list(rand(1,curr_num_edges) < t,:); % Subsample edges.
-            curr_num_edges = length(temp_sbm_adj_list);
+            curr_num_edges = size(temp_sbm_adj_list, 1);
             temp_sbm_adj_list = temp_sbm_adj_list(rand(1,curr_num_edges) > t,:);
             obj.adj_list = unique([temp_gbm_adj_list; temp_sbm_adj_list; temp_inter], 'rows');
            

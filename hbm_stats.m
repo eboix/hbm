@@ -1,4 +1,4 @@
-function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref)
+function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite)
 if nargin == 0
     methodname = 'randwalk';
     n = 20000;
@@ -9,6 +9,13 @@ if nargin == 0
     t = 1;
     trials = 10;
     out_pref='res/'
+    overwrite=false;
+end
+
+filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
+if exist(filename,'file')
+    res = -ones(1,trials);
+    return
 end
 methodname
 n
@@ -73,8 +80,6 @@ for trialnum = 1:trials
 end
 
 D = Dlist;
-
-filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
 
 save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D');
 end

@@ -1,4 +1,4 @@
-directory_name = 'res';
+directory_name = 'res_adroit';
 files = dir(directory_name);
 
 file_index = find(~[files.isdir]);
@@ -46,7 +46,7 @@ T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
 
 Trn = T((T.methodname == 'nbwalk') & (T.n == 20000) & (T.t == 1),:);
 drange = 0:0.2:2.4;
-crange = 4:2:20;
+crange = 6:2:20;
 di = 0;
 for d = drange
     di = di + 1;
@@ -62,8 +62,8 @@ for d = drange
     end
 end
 
-% mvals = cellfun(@(x) sum(x)/length(x), imgres);
-mvals = cellfun(@(x,y) sum(x.*y/18000)/length(x), imgres,imggiantn);
+mvals = cellfun(@(x) sum(x)/length(x), imgres);
+% mvals = cellfun(@(x,y) sum(x.*y/18000)/length(x), imgres,imggiantn);
 % mvals = real(cellfun(@(x) x, imgres));
 color_res = 1024;
 colormap(hot(color_res));

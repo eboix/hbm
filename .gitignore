@@ -1,4 +1,10 @@
 figs/
 res/
+<<<<<<< HEAD
 res_backup/
 manual_figs/
+=======
+manual_figs/
+res_adroit/
+NUM_JOBS
+>>>>>>> 9c3bca440bbd4f237d0a0b47917116dafcdc15cb

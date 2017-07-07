@@ -52,7 +52,6 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
 {
     
   //  fprintf( stderr, "INIT SLAVE\n");
-    char buf[256];
     int  rank;
     
     // Announce yourself as slave.
@@ -75,9 +74,8 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
         else {
             fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
             char buf[2048];
-            printf("Processor: %d Job: %d\n", rank, job_num);
+            fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
             sprintf(buf, "eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num,job_num);
-            fprintf(err, buf);
             system(buf);
         }
         

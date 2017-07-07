@@ -5,14 +5,15 @@ int main( argc, argv )
 int argc;
 char **argv;
 {
+    int tot_job_number = atoi(argv[2]);
     int rank, size;
     MPI_Comm new_comm;
 
     MPI_Init( &argc, &argv );
     MPI_Comm_rank( MPI_COMM_WORLD, &rank );
     MPI_Comm_split( MPI_COMM_WORLD, rank == 0, 0, &new_comm );
-    if (rank == 0) 
-        master_io( MPI_COMM_WORLD, new_comm );
+    if (rank == 0)
+        master_io( MPI_COMM_WORLD, new_comm, tot_job_number );
     else
         slave_io( MPI_COMM_WORLD, new_comm );
 
@@ -21,7 +22,7 @@ char **argv;
 }
 
 /* This is the master */
-int master_io( MPI_Comm master_comm, MPI_Comm comm )
+int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number)
 {
   //  fprintf( stderr, "INIT MASTER\n");
     int        i,proc_num,job_num, size; 
@@ -30,7 +31,7 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm )
     MPI_Status status;
     
     MPI_Comm_size( master_comm, &size );
-    for(job_num = 0; job_num < 1000; job_num++) {
+    for(job_num = 1; job_num <= tot_job_number; job_num++) {
  //       fprintf(stderr, "LISTENING IN ON MESSAGES\n");
         MPI_Recv(&proc_num, 1, MPI_INT, MPI_ANY_SOURCE, 0, master_comm, &status );
  //       fprintf(stderr, "MESSAGE %d RECEIVED\n", proc_num);
@@ -44,7 +45,7 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm )
 }
 
 /* This is the slave */
-int slave_io( MPI_Comm master_comm, MPI_Comm comm )
+int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
 {
     
   //  fprintf( stderr, "INIT SLAVE\n");
@@ -70,7 +71,7 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm )
         }
         else {
             printf("Processor: %d Job: %d\n", rank, job_num);
-            system("~/res/")
+            system("eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num);
         }
         
         // Announce that you're ready again!

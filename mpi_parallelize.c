@@ -76,10 +76,7 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
             char buf[2048];
             fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
             sprintf(buf, "eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num,job_num);
-<<<<<<< HEAD
             fprintf(stderr, buf);
-=======
->>>>>>> 6debe4fe2c08963da6fa6f5ed726d8fda13e473f
             system(buf);
         }
         

@@ -18,7 +18,7 @@ char **argv;
     if (rank == 0)
         master_io( MPI_COMM_WORLD, new_comm, tot_job_number );
     else
-        slave_io( MPI_COMM_WORLD, new_comm );
+        slave_io( MPI_COMM_WORLD, new_comm, argv );
 
     MPI_Finalize( );
     return 0;
@@ -72,12 +72,12 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
             break;
         }
         else {
-            fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
+          //  fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
             char buf[2048];
-            fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
+          //   fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
             sprintf(buf, "eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num,job_num);
             fprintf(stderr, buf);
-            system(buf);
+            // system(buf);
         }
         
         // Announce that you're ready again!

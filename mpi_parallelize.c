@@ -6,6 +6,9 @@ int argc;
 char **argv;
 {
     int tot_job_number = atoi(argv[2]);
+    fprintf(stderr, "INITING PROC\n");
+    fprintf(stderr, "MATLAB FILE TO CALL: %s\n", argv[1]);
+    fprintf(stderr, "TOT NUMBER OF JOBS: %d\n", tot_job_number);
     int rank, size;
     MPI_Comm new_comm;
 
@@ -70,6 +73,7 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
             break;
         }
         else {
+            fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
             char buf[2048];
             printf("Processor: %d Job: %d\n", rank, job_num);
             sprintf(buf, "eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num,job_num);

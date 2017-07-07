@@ -75,9 +75,11 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
           //  fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
             char buf[2048];
           //   fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
-            sprintf(buf, "eval $EBOIX_MAT_CALL \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",argv[1],job_num,job_num);
-            fprintf(stderr, buf);
-            // system(buf);
+            char* matlab_run = "/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r"; 
+	    char* matlab_file = argv[1];
+	    sprintf(buf, "%s \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",matlab_run,matlab_file,job_num,job_num);
+            fprintf(stderr, "%s\n", buf);
+            system(buf);
         }
         
         // Announce that you're ready again!

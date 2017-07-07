@@ -1,4 +1,4 @@
-function C=nb_classifier(obj)
+function class=nb_classifier(obj,giant_mask)
     % CODE FROM COLIN SANDON'S THESIS. NBTRACKING WALK CLASSIFIER.
     % MODIFIED BY ENRIC FOR EFFICIENCY.
     % obj is a hybrid_block_model object.
@@ -8,12 +8,17 @@ function C=nb_classifier(obj)
     %for each vertex. 1 to k are the communities, while vertices that are
     %outside the main component get an entry of 0 in the output.
     %Computes the graph’s nonbacktracking walk matrix.
+    disp('Running nb_classifier');
+    if nargin == 1
+        [~,giant_mask,~,~,~] = obj.get_giant_adj_matrix;
+    end
     k = obj.k;
     n = obj.n;
     G = obj.adj_list;
+    % Filter out non-giant vertices.
+    G = G(giant_mask(G(:,1)) & giant_mask(G(:,2)),:);
     [e,~] = size(G);
-    disp('Running nb_classifier');
-        
+    
     % Vectorize for efficiency.
     % About 100s of times faster on 550,000 edges, n = 20,000!
     Gt = G'; % transpose
@@ -60,16 +65,17 @@ function C=nb_classifier(obj)
     %main community.
     d=max(max(D));
     V2=I1'*V;
-    indices=zeros(n,1);
-    count=n;
-    V2copy=V2;
-    for i=0:(n-1)
-        if V2(n-i,1)==0
-            V2=[V2(1:n-i-1,:);V2(n-i+1:count,:)];
-            indices=[indices(1:n-i-1,1);indices(n-i+1:count,1)];
-            count=count-1;
-        end
-    end
+    
+%     indices=zeros(n,1);
+%     count=n;
+%     V2copy=V2;
+%     for i=0:(n-1)
+%         if V2(n-i,1)==0
+%             V2=[V2(1:n-i-1,:);V2(n-i+1:count,:)];
+%             indices=[indices(1:n-i-1,1);indices(n-i+1:count,1)];
+%             count=count-1;
+%         end
+%     end
 
     % ABBE-SANDON CODE:
 %     %Recalibrates the magnitudes of the vectors in an effort to make their
@@ -100,16 +106,11 @@ function C=nb_classifier(obj)
 % DIVIDING BY TWO SEEMS MORE EFFECTIVE IN THE SYMMETRIC THRESHOLD GRAPH
 % WE'RE CONSIDERING.
 
-V2t = V2(:,2);
+V2t = V2(giant_mask(:),2);
 [~,idx] = sort(V2t);
 comp_n = length(V2t);
 C = ones(comp_n,1);
 C(idx(1:floor(comp_n/2))) = 2;
-    
-    for i=1:n
-        if V2copy(i,1)==0
-            C=[C(1:i-1); 0; C(i:count)];
-            count=count+1;
-        end
-    end
+class = zeros(n,1);
+class(giant_mask) = C;
 end

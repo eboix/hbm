@@ -44,26 +44,30 @@ D = Dval;
 giant_n = GiantNs;
 T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
 
-Trn = T((T.methodname == 'randwalk') & (T.n == 6000) & (T.t == 1),:);
-drange = 0:0.1:2.5;
+Trn = T((T.methodname == 'nbwalk') & (T.n == 20000) & (T.t == 1),:);
+drange = 0:0.2:2.4;
 crange = 4:2:20;
 di = 0;
-for d = 0:0.1:2.5
+for d = drange
     di = di + 1;
     ci = 0;
     for c = crange
       %  c
        % d
         ci = ci + 1;
-        imgres(di,ci) = Trn(Trn.c == c & Trn.d == d,:).res;
+%        imgres(di,ci) = Trn(Trn.c == c & abs(Trn.d - d) <= 0.0001,:).res;
+% I made a small mistake in nbwalk:
+        imgres(di,ci) = Trn(Trn.c == c & abs(Trn.d - d) <= 0.0001,:).res;
+        imggiantn(di,ci) = Trn(Trn.c == c & abs(Trn.d - d) <= 0.0001,:).giant_n;
     end
 end
 
-mvals = cellfun(@(x) sum(x)/length(x), imgres);
+% mvals = cellfun(@(x) sum(x)/length(x), imgres);
+mvals = cellfun(@(x,y) sum(x.*y/18000)/length(x), imgres,imggiantn);
 % mvals = real(cellfun(@(x) x, imgres));
 color_res = 1024;
 colormap(hot(color_res));
 heatmap(mvals,crange,drange,'%0.2f','ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title('randwalk agreement, avg of 5 trials');
+title('nbwalk agreement, avg of 5 trials, n = 20000');

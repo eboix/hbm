@@ -1,4 +1,4 @@
-directory_name = 'res_adroit';
+directory_name = 'res_adroit/adj';
 files = dir(directory_name);
 
 file_index = find(~[files.isdir]);
@@ -43,10 +43,11 @@ t = T;
 D = Dval;
 giant_n = GiantNs;
 T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
-
-Trn = T((T.methodname == 'nbwalk') & (T.n == 20000) & (T.t == 1),:);
-drange = 0:0.2:2.4;
-crange = 6:2:20;
+METHOD_TO_TEST = 'adj';
+N_TO_TEST = 20000;
+Trn = T((T.methodname == METHOD_TO_TEST) & (T.n == N_TO_TEST) & (T.t == 1),:);
+drange = 0:0.1:2.4;
+crange = 6:1:20;
 di = 0;
 for d = drange
     di = di + 1;
@@ -62,12 +63,12 @@ for d = drange
     end
 end
 
-mvals = cellfun(@(x) sum(x)/length(x), imgres);
+mvals = cellfun(@(x) sum(x)/length(x), imggiantn);
 % mvals = cellfun(@(x,y) sum(x.*y/18000)/length(x), imgres,imggiantn);
-% mvals = real(cellfun(@(x) x, imgres));
+% mvals = real(cellfun(@(x) x, imggiantn));
 color_res = 1024;
 colormap(hot(color_res));
-heatmap(mvals,crange,drange,'%0.2f','ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
+heatmap(mvals,crange,drange,'%0.2f','ColorBar',true,'MinColorValue',0,'MaxColorValue',N_TO_TEST)
 xlabel('c');
 ylabel('d');
-title('nbwalk agreement, avg of 5 trials, n = 20000');
+title(sprintf('%s agreement, avg of 5 trials, n = %d',METHOD_TO_TEST, N_TO_TEST));

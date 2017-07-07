@@ -240,15 +240,27 @@ classdef hybrid_block_model
             elseif nragin ~= 3
                 error('Invalid number of arguments.');
             end
-            comp = conncomp(sparseg);
-            binrange = 1:max(comp);
-            bincount = histc(comp, binrange);
-            [~, idx1] = sort(bincount);
-            giant_mask = (comp == idx1(end));
+            
+            [~,comp] = obj.get_comp_sizes(obj,sparseg);
+            giant_mask = (comp == 1);
             giant_rev = find(giant_mask);
             giant_A = A(giant_mask, giant_mask); 
         end
         
+        function [sbincount, comp] = get_comp_sizes(obj,sparseg)
+            % Returns component sizes in descending order, and index array of
+            % vertex to component. 1 is largest comp, length(sbincount) is
+            % smallest component.
+            if nargin == 1
+                sparseg = get_graph(obj);
+            end
+            comp = conncomp(sparseg);
+            binrange = 1:max(comp);
+            bincount = histc(comp, binrange);
+            [sbincount, idx] = sort(bincount, 'descend');
+            inv_idx(idx) = 1:length(idx); % Invert permutation.
+            comp = inv_idx(comp);
+        end
         
     end
 end

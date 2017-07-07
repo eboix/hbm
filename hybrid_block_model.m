@@ -241,7 +241,7 @@ classdef hybrid_block_model
                 error('Invalid number of arguments.');
             end
             
-            [~,comp] = obj.get_comp_sizes(obj,sparseg);
+            [~,comp] = obj.get_comp_sizes(sparseg);
             giant_mask = (comp == 1);
             giant_rev = find(giant_mask);
             giant_A = A(giant_mask, giant_mask); 

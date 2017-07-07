@@ -2,10 +2,10 @@ function hbm_stats_exec_job(job_num)
 
 DESIRED_MAX_NUM_JOBS = 100;
 
-methodname = 'giant_size';
+methodname = 'nbwalk';
 n_vals = 20000;
 d_vals = 0:0.1:4;
-c_vals = 0:0.5:20;
+c_vals = 5:0.1:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
 
 raw_num_jobs = length(N(:));
@@ -38,27 +38,6 @@ for iter=begin_raw_job:end_raw_job
     if c < 5 || abs(c*0.0592 + 1.7 - d) > 0.3
         continue
     end
-%     if c > 8 && d < 1
-%         continue
-%     end
-%     if c > 13 && d < 1.5
-%         continue
-%     end
-%     if c > 17 && d < 2.5
-%         continue
-%     end
-%     if d > 2.95
-%         continue
-%     end
-%     if d < 2.05
-%         continue
-%     end
-%     if  c < 7.45
-%         continue
-%     end
-%     if c > 8
-%         continue
-%     end
     
     hbm_stats(methodname,n,0,0,c,d,1,5,sprintf('res/%s/',methodname),false)
 end

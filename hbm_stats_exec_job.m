@@ -1,7 +1,7 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'adj';
-n_vals = 1000:1000:9000;
+n_vals = 400;
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);

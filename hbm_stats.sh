@@ -16,4 +16,4 @@ eval $EBOIX_MAT_CALL '"'$matfile', exit"'
 num_jobs=$(cat NUM_JOBS)
 
 # Run the jobs.
-./parallel.sh $matfile $num_jobs
+sbatch ./parallel.sh $matfile $num_jobs

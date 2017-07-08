@@ -1,6 +1,5 @@
 function hbm_stats_exec_job(job_num)
 
-
 methodname = 'nbwalk';
 n_vals = 20000;
 d_vals = 0:0.1:4;
@@ -32,10 +31,17 @@ if job_num == -2
     end_raw_job = raw_num_jobs;
 end
 
+
+rng default; % So that the partition is standardized.
+[~,perm] = sort(rand(1,raw_num_jobs));
+
+rng('shuffle'); % Restore true randomness.
+
 for iter=begin_raw_job:end_raw_job
-    n = N(iter);
-    d = D(iter);
-    c = C(iter);
+    perm_iter = perm(iter);
+    n = N(perm_iter);
+    d = D(perm_iter);
+    c = C(perm_iter);
     
-    hbm_stats(methodname,n,0,0,c,d,1,5,sprintf('res/%s/',methodname),false)
+    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/',methodname),false)
 end

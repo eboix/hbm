@@ -105,7 +105,7 @@ disp('About to draw heatmap.')
 heatmap(mvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title(sprintf('GBM Giant Size, avg of 5 trials, n = %d', N_TO_TEST));
+title(sprintf('GBM Giant Size, some are avg of 5 trials, some are 1 trial, n = %d', N_TO_TEST));
 h = gcf;
 set(h,'PaperOrientation','landscape');
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_TEST,N_TO_TEST);

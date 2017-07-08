@@ -1,53 +1,18 @@
-METHOD_TO_TEST = 'adj';
-N_TO_TEST = 200;
-directory_name = sprintf('res/%s/n%d',METHOD_TO_TEST,N_TO_TEST);
-files = dir(directory_name);
-
-file_index = find(~[files.isdir]);
-num_files = length(file_index);
-
-MethodName = cell(num_files,1);
-Res = cell(num_files,1);
-N = zeros(num_files,1);
-A = zeros(num_files,1);
-B = zeros(num_files,1);
-C = zeros(num_files,1);
-dval = zeros(num_files,1);
-T = zeros(num_files,1);
-Dval = cell(num_files,1);
-row_names = cell(num_files,1);
-GiantNs = cell(num_files,1);
-for i = 1:num_files;
-    if mod(i,100) == 0
-        i
-    end
-    file_name = files(file_index(i)).name;
-    load(sprintf('%s/%s', directory_name, file_name));
-    MethodName{i} = methodname;
-    Res{i} = res;
-    N(i) = n;
-    A(i) = a;
-    B(i) = b;
-    C(i) = c;
-    dval(i) = d;
-    T(i) = t;
-    Dval{i} = D;
-    GiantNs{i} = giant_ns;
-end
-methodname = categorical(MethodName);
-res = Res;
-n = N;
-a = A;
-b = B;
-c = C;
-d = dval;
-t = T;
-D = Dval;
-giant_n = GiantNs;
-T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
-Trn = T((T.methodname == METHOD_TO_TEST) & (T.n == N_TO_TEST) & (T.t == 1),:);
+METHOD_TO_PARSE = 'adj';
+N_TO_PARSE = 200;
+DO_APPROX_STEP = false;
+REFRESH_DATA = false;
 drange = 0:0.05:4;
 crange = 0:0.05:20;
+
+directory_name = sprintf('res/%s/n%d',METHOD_TO_PARSE,N_TO_PARSE);
+combined_file = combine_hbm_stats(directory_name,~REFRESH_DATA);
+
+load(combined_file); % LOAD T.
+
+Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == 1),:);
+
+% PARSE T.
 imgres = cell(length(drange), length(crange));
 imggiantn = cell(length(drange), length(crange));
 imgtrials = zeros(length(drange), length(crange));
@@ -78,10 +43,12 @@ end
 mintrials = min(imgtrials);
 maxtrials = max(imgtrials);
 mres = cellfun(@(x) sum(x)/length(x), imgres);
-% FILL WITH APPROX DATA:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OPTIONALLY FILL WITH APPROX DATA:
 approxvals = mres;
-approx_iter = 0;
-if sum(sum(~isnan(approxvals))) ~= 0
+if DO_APPROX_STEP && sum(sum(~isnan(approxvals))) ~= 0
+    approx_iter = 0;
     while(sum(sum(isnan(approxvals))) ~= 0)
         approx_iter = approx_iter + 1
         oldapproxvals = approxvals;
@@ -103,21 +70,21 @@ if sum(sum(~isnan(approxvals))) ~= 0
         end
     end
 end
-% mvals = approxvals;
-% mvals = cellfun(@(x,y) sum(x.*y/18000)/length(x), imgres,imggiantn);
-% mvals = real(cellfun(@(x) x, imggiantn));
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DO THE PLOT
 color_res = 1024;
 colormap(jet(color_res));
 disp('About to draw heatmap.')
-heatmap(mres,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
+heatmap(approxvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title(sprintf('Adj success, 1 trial, n = %d', N_TO_TEST));
+title(sprintf('Adj success, 1 trial, n = %d', N_TO_PARSE));
 h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
 set(frame_h,'Maximized',1); 
-pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_TEST,N_TO_TEST);
+pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_PARSE,N_TO_PARSE);
 export_fig(pdfname,'-q101')
 % print('-fillpage',pdfname,'-dpdf')

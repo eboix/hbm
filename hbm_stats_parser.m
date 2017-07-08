@@ -1,7 +1,10 @@
+function hbm_stats_parser(N_TO_PARSE)
+if nargin == 0
+    N_TO_PARSE = 1000;
+end
 METHOD_TO_PARSE = 'adj';
-N_TO_PARSE = 400;
 DO_APPROX_STEP = false;
-REFRESH_DATA = true;
+REFRESH_DATA = false;
 SAVE_PLOT = true;
 drange = 0:0.05:4;
 crange = 0:0.05:20;
@@ -33,7 +36,6 @@ for d = drange
             imggiantn(di,ci) = {NaN};
             imgtrials(di,ci) = 0;
         else
-            imgres(di,ci) = currtab.res;
             imgtrials(di,ci) = length(currtab.res{:});
             imggiantn(di,ci) = currtab.giant_n;
         end
@@ -84,9 +86,7 @@ h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
-set(frame_h,'Maximized',1); 
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_PARSE,N_TO_PARSE);
 if SAVE_PLOT
     export_fig(pdfname,'-q101')
 end
-% print('-fillpage',pdfname,'-dpdf')

@@ -36,8 +36,9 @@ for d = drange
             imggiantn(di,ci) = {NaN};
             imgtrials(di,ci) = 0;
         else
-            imgtrials(di,ci) = length(currtab.res{:});
-            imggiantn(di,ci) = currtab.giant_n;
+            imgres(di,ci) = currtab.res(1);
+            imgtrials(di,ci) = length(imgres(di,ci));
+            imggiantn(di,ci) = currtab.giant_n(1);
         end
     end
 end
@@ -86,7 +87,10 @@ h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
+set(frame_h,'Maximized',1);
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_PARSE,N_TO_PARSE);
 if SAVE_PLOT
     export_fig(pdfname,'-q101')
+end
+% print('-fillpage',pdfname,'-dpdf')
 end

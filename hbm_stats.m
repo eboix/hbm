@@ -24,7 +24,7 @@ end
 
 res = zeros(trials,1);
 giant_ns = zeros(trials,1);
-Dlist = zeros(trials,1);
+Dlist = cell(trials,1);
 
 thresh = c/sqrt(n);
 Q = [a b; b a]./n;
@@ -64,9 +64,9 @@ for trialnum = 1:trials
     end
     
     if exist('D','var') % EIGVAL INFO IF THERE IS ANY.
-        Dlist(trialnum) = diag(D);
+        Dlist{trialnum} = diag(D);
     else
-        Dlist(trialnum) = 0;
+        Dlist{trialnum} = 0;
     end
     
     [agreement, ~] = obj.classification_agreement(class);

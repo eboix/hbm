@@ -38,7 +38,7 @@ rng default; % So that the partition is standardized.
 rng('shuffle'); % Restore "true" randomness.
 
 for iter=begin_raw_job:end_raw_job
-    if mod(iter,100) == 0
+    if mod(iter,10) == 0
         iter
     end
     perm_iter = perm(iter);

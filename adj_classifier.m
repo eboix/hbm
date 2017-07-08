@@ -6,7 +6,7 @@ function [class,V,D] = adj_classifier(obj,giant_A,giant_rev)
 
     assert(nargin == 1 || nargin == 3);
     
-    disp('Running adj_classifier');
+ %   disp('Running adj_classifier');
     if nargin == 1
         [giant_A,~,giant_rev,~,~] = get_giant_adj_matrix(obj);
     end

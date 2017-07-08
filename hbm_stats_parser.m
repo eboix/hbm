@@ -1,4 +1,4 @@
-METHOD_TO_TEST = 'nbwalk';
+METHOD_TO_TEST = 'adj';
 directory_name = sprintf('res/%s',METHOD_TO_TEST);
 files = dir(directory_name);
 
@@ -44,12 +44,13 @@ t = T;
 D = Dval;
 giant_n = GiantNs;
 T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
-N_TO_TEST = 20000;
+N_TO_TEST = 200;
 Trn = T((T.methodname == METHOD_TO_TEST) & (T.n == N_TO_TEST) & (T.t == 1),:);
 drange = 0:0.1:4;
 crange = 0:0.1:20;
 imgres = cell(length(drange), length(crange));
 imggiantn = cell(length(drange), length(crange));
+imgtrials = zeros(length(drange), length(crange));
 di = 0;
 for d = drange
     d
@@ -65,16 +66,20 @@ for d = drange
         if size(currtab,1) == 0
             imgres(di,ci) = {NaN};
             imggiantn(di,ci) = {NaN};
+            imgtrials(di,ci) = 0;
         else
             imgres(di,ci) = currtab.res;
+            imgtrials(di,ci) = length(currtab.res{:});
             imggiantn(di,ci) = currtab.giant_n;
         end
     end
 end
 
-mvals = cellfun(@(x) sum(x)/length(x), imgres);
+mintrials = min(imgtrials);
+maxtrials = max(imgtrials);
+mres = cellfun(@(x) sum(x)/length(x), imgres);
 % FILL WITH APPROX DATA:
-approxvals = mvals;
+approxvals = mres;
 approx_iter = 0;
 while(sum(sum(isnan(approxvals))) ~= 0)
     approx_iter = approx_iter + 1
@@ -102,12 +107,14 @@ end
 color_res = 1024;
 colormap(jet(color_res));
 disp('About to draw heatmap.')
-heatmap(mvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
+heatmap(mres,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title(sprintf('NBwalk success, 1-5 trials avg, n = %d', N_TO_TEST));
+title(sprintf('Adj success, 1 trial, n = %d', N_TO_TEST));
 h = gcf;
 set(h,'PaperOrientation','landscape');
+frame_h = get(handle(gcf),'JavaFrame');
+set(frame_h,'Maximized',1); 
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_TEST,N_TO_TEST);
 export_fig(pdfname,'-q101')
 % print('-fillpage',pdfname,'-dpdf')

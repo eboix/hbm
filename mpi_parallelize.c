@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "mpi.h"
 
+
 int main( argc, argv )
 int argc;
 char **argv;
@@ -27,7 +28,6 @@ char **argv;
 /* This is the master */
 int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number)
 {
-  //  fprintf( stderr, "INIT MASTER\n");
     int        i,proc_num,job_num, size; 
     int CANCEL_JOB = -1;
     char       buf[256];
@@ -35,56 +35,70 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number)
     
     MPI_Comm_size( master_comm, &size );
     for(job_num = 1; job_num <= tot_job_number; job_num++) {
- //       fprintf(stderr, "LISTENING IN ON MESSAGES\n");
         MPI_Recv(&proc_num, 1, MPI_INT, MPI_ANY_SOURCE, 0, master_comm, &status );
- //       fprintf(stderr, "MESSAGE %d RECEIVED\n", proc_num);
         MPI_Send(&job_num,1,MPI_INT,proc_num,0,master_comm);
     }
+    // All jobs have been sent out.
     for(proc_num = 1; proc_num < size; proc_num++) {
- //       fprintf(stderr, "Cancelling process %d", proc_num);
         MPI_Send(&CANCEL_JOB,1,MPI_INT,proc_num,0,master_comm);
     }
+    // Serially confirm that each job has cancelled.
+    for(proc_num = 1; proc_num < size; proc_num++) {
+        MPI_Recv(&i, 1, MPI_INT, proc_num, 0, master_comm, &status );
+        if(i != -1) {
+            fprintf(stderr, "I should only be getting cancel messages!\n");
+            return 1;
+        }
+    }
+    // All jobs are done: now you can quickly post-process.
+    if(argc > 3) {
+        char matlab_command[2048];
+        char* matlab_file = argv[3];
+        sprintf(matlab_command, "%s", matlab_file);
+        run_matlab(matlab_command, tot_job_number + 1);
+    }
+    
     return 0;
 }
 
 /* This is the slave */
 int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
 {
-    
-  //  fprintf( stderr, "INIT SLAVE\n");
     int  rank;
+    int EXITING = -1;
     
     // Announce yourself as slave.
     MPI_Comm_rank( master_comm, &rank );
     MPI_Send(&rank, 1, MPI_INT, 0, 0, master_comm);
-    
- //   fprintf(stderr, "SLAVE %d MSG SENT\n", rank);
-
+   
     while(1) {
-   //     fprintf(stderr, "%d Looking for JOB", rank);
         int job_num;
         MPI_Status status;
         
         // Receive a job and do it.
         MPI_Recv(&job_num,1,MPI_INT,0,0,master_comm,&status);
-       // fprintf(stderr, "SLAVE %d MSG RECEIVED. JOB: %d\n", rank, job_num);
         if(job_num == -1) {
             break;
         }
         else {
-          //  fprintf(stderr,"Will try to do job %d on processor %d.\n",job_num,rank);
-            char buf[2048];
-          //   fprintf(stderr, "Processor: %d Job: %d\n", rank, job_num);
-            char* matlab_run = "/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r"; 
-	    char* matlab_file = argv[1];
-	    sprintf(buf, "%s \"try, %s(%d), catch fopen('errors/error%d','wt+'), end, exit\"",matlab_run,matlab_file,job_num,job_num);
-            fprintf(stderr, "%s\n", buf);
-            system(buf);
+            char matlab_command[2048];
+    	    char* matlab_file = argv[1];
+            sprintf(matlab_command, "%s(%d)", matlab_file, job_num);
+            run_matlab(matlab_command, job_num);
         }
         
         // Announce that you're ready again!
         MPI_Send(&rank,1,MPI_INT,0,0,master_comm);
     }
+    MPI_Send(&EXITING,1,MPI_INT,0,0,master_comm);
         
     return 0;
+}
+
+void run_matlab(char* matlab_command, int job_num) {
+  char buf[2048];
+  char* MATLAB_RUN = "/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r"; 
+  sprintf(buf, "%s \"try, %s, catch fopen('errors/error%d','wt+'), end, exit\"",MATLAB_RUN,matlab_command,job_num);
+  fprintf(stderr, "%s\n", buf);
+  system(buf);
 }

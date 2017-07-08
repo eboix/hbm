@@ -1,6 +1,5 @@
 function hbm_stats_exec_job(job_num)
 
-DESIRED_MAX_NUM_JOBS = 100;
 
 methodname = 'nbwalk';
 n_vals = 20000;
@@ -9,6 +8,8 @@ c_vals = 5:0.1:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
 
 raw_num_jobs = length(N(:));
+DESIRED_MAX_NUM_JOBS = 100;
+
 if DESIRED_MAX_NUM_JOBS > raw_num_jobs
     DESIRED_MAX_NUM_JOBS = raw_num_jobs;
 end

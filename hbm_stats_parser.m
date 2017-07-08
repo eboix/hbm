@@ -1,7 +1,8 @@
 METHOD_TO_PARSE = 'adj';
-N_TO_PARSE = 200;
+N_TO_PARSE = 100;
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
+SAVE_PLOT = true;
 drange = 0:0.05:4;
 crange = 0:0.05:20;
 
@@ -26,7 +27,6 @@ for d = drange
         % c
         % d
         ci = ci + 1;
-        % I made a small mistake in nbwalk:
         currtab = Trnd(abs(Trnd.c - c) <= 0.0001,:);
         if size(currtab,1) == 0
             imgres(di,ci) = {NaN};
@@ -86,5 +86,7 @@ pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
 set(frame_h,'Maximized',1); 
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_PARSE,N_TO_PARSE);
-export_fig(pdfname,'-q101')
+if SAVE_PLOT
+    export_fig(pdfname,'-q101')
+end
 % print('-fillpage',pdfname,'-dpdf')

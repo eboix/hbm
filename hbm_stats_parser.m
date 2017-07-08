@@ -1,5 +1,6 @@
 METHOD_TO_TEST = 'adj';
-directory_name = sprintf('res/%s',METHOD_TO_TEST);
+N_TO_TEST = 200;
+directory_name = sprintf('res/%s/n%d',METHOD_TO_TEST,N_TO_TEST);
 files = dir(directory_name);
 
 file_index = find(~[files.isdir]);
@@ -44,10 +45,9 @@ t = T;
 D = Dval;
 giant_n = GiantNs;
 T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
-N_TO_TEST = 200;
 Trn = T((T.methodname == METHOD_TO_TEST) & (T.n == N_TO_TEST) & (T.t == 1),:);
-drange = 0:0.1:4;
-crange = 0:0.1:20;
+drange = 0:0.05:4;
+crange = 0:0.05:20;
 imgres = cell(length(drange), length(crange));
 imggiantn = cell(length(drange), length(crange));
 imgtrials = zeros(length(drange), length(crange));
@@ -81,22 +81,24 @@ mres = cellfun(@(x) sum(x)/length(x), imgres);
 % FILL WITH APPROX DATA:
 approxvals = mres;
 approx_iter = 0;
-while(sum(sum(isnan(approxvals))) ~= 0)
-    approx_iter = approx_iter + 1
-    oldapproxvals = approxvals;
-    for di = 1:length(drange)
-        for ci = 1:length(crange)
-            if isnan(approxvals(di,ci)) && di > 1
-                approxvals(di,ci) = oldapproxvals(di-1,ci);
-            end
-            if isnan(approxvals(di,ci)) && di < length(drange)
-                approxvals(di,ci) = oldapproxvals(di+1,ci);
-            end
-            if isnan(approxvals(di,ci)) && ci < length(crange)
-                approxvals(di,ci) = oldapproxvals(di,ci+1);
-            end
-            if isnan(approxvals(di,ci)) && ci > 1
-                approxvals(di,ci) = oldapproxvals(di,ci-1);
+if sum(sum(~isnan(approxvals))) ~= 0
+    while(sum(sum(isnan(approxvals))) ~= 0)
+        approx_iter = approx_iter + 1
+        oldapproxvals = approxvals;
+        for di = 1:length(drange)
+            for ci = 1:length(crange)
+                if isnan(approxvals(di,ci)) && di > 1
+                    approxvals(di,ci) = oldapproxvals(di-1,ci);
+                end
+                if isnan(approxvals(di,ci)) && di < length(drange)
+                    approxvals(di,ci) = oldapproxvals(di+1,ci);
+                end
+                if isnan(approxvals(di,ci)) && ci < length(crange)
+                    approxvals(di,ci) = oldapproxvals(di,ci+1);
+                end
+                if isnan(approxvals(di,ci)) && ci > 1
+                    approxvals(di,ci) = oldapproxvals(di,ci-1);
+                end
             end
         end
     end
@@ -113,6 +115,7 @@ ylabel('d');
 title(sprintf('Adj success, 1 trial, n = %d', N_TO_TEST));
 h = gcf;
 set(h,'PaperOrientation','landscape');
+pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
 set(frame_h,'Maximized',1); 
 pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_TEST,N_TO_TEST);

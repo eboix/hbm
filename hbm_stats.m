@@ -8,12 +8,18 @@ if nargin == 0
     d = 2.5;
     t = 1;
     trials = 10;
-    out_pref='res/'
+    out_pref=sprintf('res/%s/n%d',methodname,n);
     overwrite=false;
 end
 
+if ~exist(out_pref,'dir')
+    if ~mkdir(out_pref)
+        error('Unable to create folder %s',out_pref);
+    end
+end
+
 filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
-if exist(filename,'file')
+if overwrite && exist(filename,'file')
     res = -ones(1,trials);
     return
 end

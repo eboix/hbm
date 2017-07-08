@@ -1,7 +1,7 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'adj';
-n_vals = 10000;
+n_vals = 200;
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
@@ -38,7 +38,7 @@ rng default; % So that the partition is standardized.
 rng('shuffle'); % Restore "true" randomness.
 
 for iter=begin_raw_job:end_raw_job
-    if mod(iter,10) == 0
+    if mod(iter,100) == 0
         iter
     end
     perm_iter = perm(iter);
@@ -46,5 +46,5 @@ for iter=begin_raw_job:end_raw_job
     d = D(perm_iter);
     c = C(perm_iter);
     
-    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/',methodname),false);
+    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/n%d/',methodname,n),false);
 end

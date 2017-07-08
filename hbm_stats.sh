@@ -24,4 +24,4 @@ eval $EBOIX_MAT_CALL '"'$matfile', exit"'
 num_jobs=$(cat NUM_JOBS)
 
 # Run the jobs.
-srun ./mpi_parallelize $matfile $num_jobs
+sbatch ./mpi_parallelize $matfile $num_jobs

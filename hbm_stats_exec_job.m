@@ -1,6 +1,6 @@
 function hbm_stats_exec_job(job_num)
 
-methodname = 'nbwalk';
+methodname = 'adj';
 n_vals = 200;
 d_vals = 0:0.1:4;
 c_vals = 5:0.1:20;

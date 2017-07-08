@@ -2,7 +2,7 @@ function hbm_stats_parser(N_TO_PARSE)
 if nargin == 0
     N_TO_PARSE = 1000;
 end
-METHOD_TO_PARSE = 'adj';
+METHOD_TO_PARSE = 'nbwalk';
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;

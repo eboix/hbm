@@ -4,6 +4,11 @@ out_file_name = sprintf('rescombined/%s.mat',strrep(directory_name,'/','_'));
 
 if nargin == 1 || ~just_tell_me_out_file_name
     
+    if exist(out_file_name,'file')
+        load(out_file_name);
+        oldtable = T;
+    end
+    
     files = dir(directory_name);
     
     file_index = find(~[files.isdir]);
@@ -47,6 +52,15 @@ if nargin == 1 || ~just_tell_me_out_file_name
     D = Dval;
     giant_n = GiantNs;
     T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
+
+    % Combine new table and old table.
+    if exist('oldtable','var')
+        params = {'methodname','n','a','b','c','d','t'};
+        subsT = T(:,params);
+        subsoldT = oldtable(:,params);
+        [~,ia,ib] = union(subsT,subsoldT,'rows');
+        T = [T(ia); oldtable(ib)];
+    end
     
     if ~exist('rescombined','dir')
         mkdir('rescombined')

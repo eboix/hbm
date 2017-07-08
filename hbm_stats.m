@@ -19,7 +19,7 @@ if ~exist(out_pref,'dir')
 end
 
 filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
-if overwrite && exist(filename,'file')
+if ~overwrite && exist(filename,'file')
     res = -ones(1,trials);
     return
 end

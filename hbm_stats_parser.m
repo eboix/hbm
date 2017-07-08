@@ -1,7 +1,7 @@
 METHOD_TO_PARSE = 'adj';
-N_TO_PARSE = 100;
+N_TO_PARSE = 400;
 DO_APPROX_STEP = false;
-REFRESH_DATA = false;
+REFRESH_DATA = true;
 SAVE_PLOT = true;
 drange = 0:0.05:4;
 crange = 0:0.05:20;

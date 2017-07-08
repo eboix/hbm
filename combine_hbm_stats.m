@@ -1,8 +1,8 @@
-function out_file_name = combine_hbm_stats(directory_name,justOutputName)
+function out_file_name = combine_hbm_stats(directory_name,just_tell_me_out_file_name)
 
 out_file_name = sprintf('rescombined/%s.mat',strrep(directory_name,'/','_'));
 
-if nargin == 1 || ~justOutputName
+if nargin == 1 || ~just_tell_me_out_file_name
     
     files = dir(directory_name);
     

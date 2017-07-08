@@ -59,7 +59,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
         subsT = T(:,params);
         subsoldT = oldtable(:,params);
         [~,ia,ib] = union(subsT,subsoldT,'rows');
-        T = [T(ia); oldtable(ib)];
+        T = [T(ia,:); oldtable(ib,:)];
     end
     
     if ~exist('rescombined','dir')

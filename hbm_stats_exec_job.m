@@ -2,8 +2,8 @@ function hbm_stats_exec_job(job_num)
 
 methodname = 'nbwalk';
 n_vals = 20000;
-d_vals = 0:0.1:4;
-c_vals = 5:0.1:20;
+d_vals = 0:0.5:4;
+c_vals = 5:0.5:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
 
 raw_num_jobs = length(N(:));

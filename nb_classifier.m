@@ -56,10 +56,22 @@ function class=nb_classifier(obj,giant_mask)
     %less than k.
     flag=1;
     maxV=k+1;
+    opts.isreal = 1;
+    opts.issym = 1;
+    opts.tol = 1e-4;
     while flag>0
         maxV=maxV-1;
-        [V,D,flag]=eigs(B,maxV);
+        [V,D,flag]=eigs(B,maxV,'lm',opts);
     end
+
+%     opts.isreal = 1;
+%     opts.issym = 1;
+%     opts.v0 = ones(matrix_side,1);
+%     tic;
+%     [V,D,~]=eigs(B,1,'lm',opts);
+%     toc;
+    
+    
     %Convert the eigenvectors from vectors over the edges to vectors over the
     %vertices, and deletes the entries corresponding to vertices outside the
     %main community.

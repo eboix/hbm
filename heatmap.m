@@ -251,7 +251,7 @@ if p.ExplicitlyComputeImage
     end
     % Add a small dummy image so that colorbar subsequently works
     [indr, indc] = find(~isnan(mat),1);
-    imagesc(indr, indc, mat(indr,indc),'Parent',p.hAxes);
+    imagesc(indc, indr, mat(indr,indc),'Parent',p.hAxes); % THIS WAS A BUG. INDC AND INDR SWAPPED IN ORIGINAL CODE. FIXED. ENRIC
     nextplot = get(p.hAxes,'nextplot');
     set(p.hAxes,'nextplot','add');
     p.hImage = image(p.cdata, 'Parent', p.hAxes);

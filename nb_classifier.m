@@ -8,7 +8,8 @@ function class=nb_classifier(obj,giant_mask)
     %for each vertex. 1 to k are the communities, while vertices that are
     %outside the main component get an entry of 0 in the output.
     %Computes the graph’s nonbacktracking walk matrix.
-    disp('Running nb_classifier');
+
+%  disp('Running nb_classifier');
     if nargin == 1
         [~,giant_mask,~,~,~] = obj.get_giant_adj_matrix;
     end

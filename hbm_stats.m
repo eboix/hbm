@@ -17,10 +17,10 @@ if exist(filename,'file')
     res = -ones(1,trials);
     return
 end
-methodname
-n
-c
-d
+% methodname
+% n
+% c
+% d
 
 res = zeros(trials,1);
 giant_ns = zeros(trials,1);

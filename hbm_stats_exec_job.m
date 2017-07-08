@@ -1,9 +1,9 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'nbwalk';
-n_vals = 20000;
-d_vals = 0:0.5:4;
-c_vals = 5:0.5:20;
+n_vals = 200;
+d_vals = 0:0.1:4;
+c_vals = 5:0.1:20;
 [N,D,C] = meshgrid(n_vals,d_vals,c_vals);
 
 raw_num_jobs = length(N(:));
@@ -35,13 +35,16 @@ end
 rng default; % So that the partition is standardized.
 [~,perm] = sort(rand(1,raw_num_jobs));
 
-rng('shuffle'); % Restore true randomness.
+rng('shuffle'); % Restore "true" randomness.
 
 for iter=begin_raw_job:end_raw_job
+    if mod(iter,100) == 0
+        iter
+    end
     perm_iter = perm(iter);
     n = N(perm_iter);
     d = D(perm_iter);
     c = C(perm_iter);
     
-    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/',methodname),false)
+    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/',methodname),false);
 end

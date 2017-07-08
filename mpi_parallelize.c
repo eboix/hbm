@@ -2,6 +2,14 @@
 #include "mpi.h"
 
 
+void run_matlab(char* matlab_command, int job_num) {
+  char buf[2048];
+  char* MATLAB_RUN = "/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r"; 
+  sprintf(buf, "%s \"try, %s, catch fopen('errors/error%d','wt+'), end, exit\"",MATLAB_RUN,matlab_command,job_num);
+  fprintf(stderr, "%s\n", buf);
+  system(buf);
+}
+
 int main( argc, argv )
 int argc;
 char **argv;
@@ -17,7 +25,7 @@ char **argv;
     MPI_Comm_rank( MPI_COMM_WORLD, &rank );
     MPI_Comm_split( MPI_COMM_WORLD, rank == 0, 0, &new_comm );
     if (rank == 0)
-        master_io( MPI_COMM_WORLD, new_comm, tot_job_number );
+        master_io( MPI_COMM_WORLD, new_comm, tot_job_number, argc, argv );
     else
         slave_io( MPI_COMM_WORLD, new_comm, argv );
 
@@ -26,7 +34,7 @@ char **argv;
 }
 
 /* This is the master */
-int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number)
+int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number,int argc, char **argv)
 {
     int        i,proc_num,job_num, size; 
     int CANCEL_JOB = -1;
@@ -50,7 +58,7 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number)
             return 1;
         }
     }
-    // All jobs are done: now you can quickly post-process.
+    // All jobs are done: now you can quickly post-process, if desired.
     if(argc > 3) {
         char matlab_command[2048];
         char* matlab_file = argv[3];
@@ -93,12 +101,4 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
     MPI_Send(&EXITING,1,MPI_INT,0,0,master_comm);
         
     return 0;
-}
-
-void run_matlab(char* matlab_command, int job_num) {
-  char buf[2048];
-  char* MATLAB_RUN = "/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r"; 
-  sprintf(buf, "%s \"try, %s, catch fopen('errors/error%d','wt+'), end, exit\"",MATLAB_RUN,matlab_command,job_num);
-  fprintf(stderr, "%s\n", buf);
-  system(buf);
 }

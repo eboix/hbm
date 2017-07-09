@@ -53,6 +53,8 @@ for trialnum = 1:trials
     switch methodname
         case 'nbwalk'
             class = nb_classifier(obj,giant_mask);
+        case 'norm_nbwalk'
+            class = norm_nb_classifier(obj,giant_mask);
         case 'adj'
             [class,V,D] = adj_classifier(obj,giant_A,giant_rev);
         case 'norm_adj'

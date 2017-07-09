@@ -1,15 +1,14 @@
-function class=nb_classifier(obj,giant_mask)
-% CODE FROM COLIN SANDON'S THESIS. NBTRACKING WALK CLASSIFIER.
-% MODIFIED BY ENRIC FOR EFFICIENCY.
+function class=norm_nb_classifier(obj,giant_mask)
+% CODE MODIFIED FROM COLIN SANDON'S THESIS.
 % obj is a hybrid_block_model object.
 %Attempts to divide a graph’s vertices into clusters by using the dominant
-%eigenvectors of the graph’s nonbacktracking walk matrix.
+%eigenvectors of the graph’s NORMALIZED nonbacktracking walk matrix.
 %This function outputs a list of length n that lists a number from 0 to k
 %for each vertex. 1 to k are the communities, while vertices that are
 %outside the main component get an entry of 0 in the output.
 %Computes the graph’s nonbacktracking walk matrix.
 
-%  disp('Running nb_classifier');
+%  disp('Running norm_nb_classifier');
 if nargin == 1
     [~,giant_mask,~,~,~] = obj.get_giant_adj_matrix;
 end
@@ -30,11 +29,16 @@ Gt = Gt'; % transpose
 I2vec = [1:2*e; Gt(1:end)]; % read in column major order
 I2 = sparse(I2vec(1,:),I2vec(2,:),1,2*e,n);
 
+% Non-backtracking walks matrix.
 B=I2*I1';
-
 matrix_side = 2*e;
 B(2:(2*matrix_side+2):end) = 0;
 B((1+matrix_side):(2*matrix_side+2):end) = 0;
+
+% Normalized non-backtracking walks matrix.
+deg = sum(B,1);
+degi = 1./deg;
+norm_B = spdiags(degi',0,matrix_side,matrix_side) * B;
 
 %Finds the top k eigenvectors of the graph, or as many as it can if that is
 %less than k.
@@ -45,7 +49,7 @@ opts.issym = 1;
 opts.tol = 1e-10;
 while flag>0
     maxV=maxV-1;
-    [V,D,flag]=eigs(B,maxV,'lm',opts);
+    [V,D,flag]=eigs(norm_B,maxV,'lm',opts);
 end
 
 d=max(max(D));

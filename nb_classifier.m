@@ -59,6 +59,7 @@ function class=nb_classifier(obj,giant_mask)
     maxV=k+1;
     opts.isreal = 1;
     opts.issym = 1;
+    opts.tol = 1e-10;
     while flag>0
         maxV=maxV-1;
         [V,D,flag]=eigs(B,maxV,'lm',opts);

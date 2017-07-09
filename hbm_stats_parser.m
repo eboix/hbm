@@ -2,7 +2,8 @@ function hbm_stats_parser(N_TO_PARSE)
 if nargin == 0
     N_TO_PARSE = 1000;
 end
-METHOD_TO_PARSE = 'nbwalk';
+METHOD_TO_PARSE = 'randwalk';
+t_VAL_TO_PARSE = 1;
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
@@ -14,7 +15,7 @@ combined_file = combine_hbm_stats(directory_name,~REFRESH_DATA);
 
 load(combined_file); % LOAD T.
 
-Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == 1),:);
+Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE),:);
 
 % PARSE T.
 imgres = cell(length(drange), length(crange));
@@ -82,7 +83,7 @@ disp('About to draw heatmap.')
 heatmap(approxvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title(sprintf('Adj success, 1 trial, n = %d', N_TO_PARSE));
+title(sprintf('%s success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), N_TO_PARSE));
 h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);

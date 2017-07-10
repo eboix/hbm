@@ -44,11 +44,13 @@ for iter=begin_raw_job:end_raw_job
     end
     perm_iter = perm(iter);
     n = N(perm_iter);
+    a = 0;
+    b = 0;
     d = D(perm_iter);
     c = C(perm_iter);
     
     if (d-2)*10 > c
         continue
     end
-    hbm_stats(methodname,n,0,0,c,d,1,1,sprintf('res/%s/n%d/',methodname,n),false,optional_param);
+    filename = hbm_stats(methodname,n,a,b,c,d,1,1,sprintf('res/%s/n%d/',methodname,n),false,optional_param);
 end

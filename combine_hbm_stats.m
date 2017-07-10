@@ -6,7 +6,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     
     if exist(out_file_name,'file')
         load(out_file_name);
-        oldtable = T;
+        oldtable = preprocess_T(T);
     end
     
     files = dir(directory_name);
@@ -57,7 +57,8 @@ if nargin == 1 || ~just_tell_me_out_file_name
     giant_n = GiantNs;
     optional_param = Opt_Param;
     T = table(methodname,res,n,a,b,c,d,t,D,giant_n,optional_param);
-
+    T = preprocess_T(T);
+    
     % Combine new table and old table.
     if exist('oldtable','var')
         params = {'methodname','n','a','b','c','d','t','optional_param'};
@@ -72,4 +73,11 @@ if nargin == 1 || ~just_tell_me_out_file_name
     end
     save(out_file_name,'T');
 end
+end
+
+function Tout = preprocess_T(Tin)
+        % Merge observations with same parameters within tolerance.
+        doubleparams = {'a','b','c','d','t','optional_param'};
+        [~,ia] = uniquetol(table2array(Tin(:,doubleparams)),1e-10);
+        Tout = Tin(ia,:);
 end

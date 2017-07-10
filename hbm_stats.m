@@ -1,4 +1,4 @@
-function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
+function filename = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
 if nargin == 0
     methodname = 'randwalk';
     n = 20000;

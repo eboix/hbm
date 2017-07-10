@@ -1,10 +1,10 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_adj';
-n_vals = [100 200 400 1000];
+n_vals = [100];
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
-optional_param_vals = -1;
+optional_param_vals = 2;
 [N,D,C,O] = ndgrid(n_vals,d_vals,c_vals,optional_param_vals);
 
 raw_num_jobs = length(N(:));
@@ -43,52 +43,57 @@ rescombined_tables = {};
 loadedRescombined = table(rescombined_names,rescombined_tables);
 
 for iter=begin_raw_job:end_raw_job
-    if mod(iter,100) == 0
+    if mod(iter,1000) == 0
         iter
     end
-
+    
     perm_iter = perm(iter);
     n = N(perm_iter);
     a = 0;
     b = 0;
     d = D(perm_iter);
     c = C(perm_iter);
+    t = 1;
     opt_param = O(perm_iter);
     
-    % CHECK THAT WE HAVEN'T ALREADY CALCULATED THIS!
-    directory_name = sprintf('res/%s/n%d',methodname,n)
-    rescombined_name = combine_hbm_stats(directory_name,true);
-    searchintable = loadedRescombined(strcmp(loadedRescombined.rescombined_names, rescombined_name),:);
-    if height(searchintable) == 0
-	disp('Not found. Loading');
-        rescombined_names = {rescombined_name};
-        if exist(rescombined_name,'file')
-		load(rescombined_name);
-        else
-		T = table;
-	end;
-	rescombined_tables = {T};
-        loadedRescombined = [loadedRescombined; table(rescombined_names, rescombined_tables)];
-    end
-    curr_T = loadedRescombined(strcmp(loadedRescombined.rescombined_names,rescombined_name),:);
-    if height(curr_T) ~= 0
-	curr_T = curr_T.rescombined_tables;
-    	prior_obs = curr_T(curr_T.n == n,:);
-    	prior_obs = prior_obs(strcmp(prior_obs.methodname,methodname),:);
-    	prior_obs = prior_obs(abs(prior_obs.a - a) <= 0.0001,:);
-   	prior_obs = prior_obs(abs(prior_obs.b - b) <= 0.0001,:);
-    	prior_obs = prior_obs(abs(prior_obs.c - c) <= 0.0001,:);
-    	prior_obs = prior_obs(abs(prior_obs.d - d) <= 0.0001,:);
-    	prior_obs = prior_obs(abs(curr_T.optional_param - opt_param) <= 0.0001,:);
-    	if height(prior_obs) ~= 0
-        	continue
-    	end
-    end
     if (d-2)*10 > c
         continue
     end
-    hbm_stats(methodname,n,a,b,c,d,1,1,directory_name,false,optional_param);
+    
+    % CHECK THAT WE HAVEN'T ALREADY CALCULATED THIS!
+    directory_name = sprintf('res/%s/n%d',methodname,n);
+    rescombined_name = combine_hbm_stats(directory_name,true);
+    searchintable = loadedRescombined(strcmp(loadedRescombined.rescombined_names, rescombined_name),:);
+    if height(searchintable) == 0
+        directory_name
+        disp('Not found. Loading');
+        rescombined_names = {rescombined_name};
+        if exist(rescombined_name,'file')
+            load(rescombined_name);
+            keys = cell(1,height(T));
+            for row = 1:height(T)
+                if mod(row,1000)==0
+                    row
+                end
+                keys{row} = get_key(T.methodname(row),T.n(row),T.a(row),T.b(row),T.c(row),T.d(row),T.t(row),T.optional_param(row));
+            end
+        else
+            keys = {};
+        end
+        rescombined_tables = {containers.Map(keys,ones(1,length(keys)))};
+        loadedRescombined = [loadedRescombined; table(rescombined_names, rescombined_tables)];
+    end
+    curr_T = loadedRescombined(strcmp(loadedRescombined.rescombined_names,rescombined_name),:).rescombined_tables{1};
+    if isKey(curr_T,get_key(methodname,n,a,b,c,d,t,opt_param))
+        continue
+    end
 
+    disp('Calculating')
+    hbm_stats(methodname,n,a,b,c,d,1,1,directory_name,false,opt_param);
     
-    
+end
+end
+
+function key_val = get_key(mname,n,a,b,c,d,t,opt_param)
+key_val = sprintf('%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2f_t%0.2f_opt%0.2f', mname,n,a,b,c,d,t,opt_param);
 end

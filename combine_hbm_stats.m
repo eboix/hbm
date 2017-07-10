@@ -24,6 +24,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     T = zeros(num_files,1);
     Dval = cell(num_files,1);
     GiantNs = cell(num_files,1);
+    Opt_Param = zeros(num_files,1);
     for i = 1:num_files;
         if mod(i,100) == 0
             i
@@ -40,6 +41,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
         T(i) = t;
         Dval{i} = D;
         GiantNs{i} = giant_ns;
+        Opt_Param(i) = optional_param;
     end
     methodname = categorical(MethodName);
     res = Res;
@@ -51,11 +53,12 @@ if nargin == 1 || ~just_tell_me_out_file_name
     t = T;
     D = Dval;
     giant_n = GiantNs;
-    T = table(methodname,res,n,a,b,c,d,t,D,giant_n);
+    optional_param = Opt_Param;
+    T = table(methodname,res,n,a,b,c,d,t,D,giant_n,optional_param);
 
     % Combine new table and old table.
     if exist('oldtable','var')
-        params = {'methodname','n','a','b','c','d','t'};
+        params = {'methodname','n','a','b','c','d','t','optional_param'};
         subsT = T(:,params);
         subsoldT = oldtable(:,params);
         [~,ia,ib] = union(subsT,subsoldT,'rows');

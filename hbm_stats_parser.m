@@ -2,11 +2,12 @@ function hbm_stats_parser(N_TO_PARSE)
 if nargin == 0
     N_TO_PARSE = 1000;
 end
-METHOD_TO_PARSE = 'randwalk';
+METHOD_TO_PARSE = 'graph_pow_adj';
 t_VAL_TO_PARSE = 1;
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
+OPT_PARAM = 2;
 drange = 0:0.05:4;
 crange = 0:0.05:20;
 
@@ -15,7 +16,7 @@ combined_file = combine_hbm_stats(directory_name,~REFRESH_DATA);
 
 load(combined_file); % LOAD T.
 
-Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE),:);
+Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_PARAM),:);
 
 % PARSE T.
 imgres = cell(length(drange), length(crange));

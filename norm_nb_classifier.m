@@ -8,7 +8,8 @@ function class=norm_nb_classifier(obj,giant_mask)
 %outside the main component get an entry of 0 in the output.
 %Computes the graph’s nonbacktracking walk matrix.
 
-%  disp('Running norm_nb_classifier');
+disp('Running norm_nb_classifier');
+tic
 if nargin == 1
     [~,giant_mask,~,~,~] = obj.get_giant_adj_matrix;
 end
@@ -34,12 +35,12 @@ B=I2*I1';
 matrix_side = 2*e;
 B(2:(2*matrix_side+2):end) = 0;
 B((1+matrix_side):(2*matrix_side+2):end) = 0;
-
 % Normalized non-backtracking walks matrix.
 deg = sum(B,1);
 degi = 1./deg;
 norm_B = spdiags(degi',0,matrix_side,matrix_side) * B;
-
+matrix_side
+toc
 %Finds the top k eigenvectors of the graph, or as many as it can if that is
 %less than k.
 flag=1;

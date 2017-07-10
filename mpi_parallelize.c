@@ -41,6 +41,9 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number,int argc,
     char       buf[256];
     MPI_Status status;
     
+    // Preprocess, if desired.
+    system("./refresh_rescombined.sh");
+    
     MPI_Comm_size( master_comm, &size );
     for(job_num = 1; job_num <= tot_job_number; job_num++) {
         MPI_Recv(&proc_num, 1, MPI_INT, MPI_ANY_SOURCE, 0, master_comm, &status );
@@ -59,12 +62,7 @@ int master_io( MPI_Comm master_comm, MPI_Comm comm, int tot_job_number,int argc,
         }
     }
     // All jobs are done: now you can quickly post-process, if desired.
-    if(argc > 3) {
-        char matlab_command[2048];
-        char* matlab_file = argv[3];
-        sprintf(matlab_command, "%s", matlab_file);
-        run_matlab(matlab_command, tot_job_number + 1);
-    }
+    system("./refresh_rescombined.sh");
     
     return 0;
 }

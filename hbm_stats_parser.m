@@ -1,16 +1,33 @@
-function hbm_stats_parser(N_TO_PARSE)
+function hbm_stats_parser(N_TO_PARSE, OPT_PARAM)
 if nargin == 0
     N_TO_PARSE = 1000;
 end
+if nargin < 1
+    OPT_PARAM = -1;
+end
+
 METHOD_TO_PARSE = 'graph_pow_adj';
+
 t_VAL_TO_PARSE = 1;
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
-OPT_PARAM = 2;
-drange = 0:0.05:4;
-crange = 0:0.05:20;
+drange = 0:0.1:4;
+crange = 0:0.1:20;
 
+if OPT_PARAM == -1
+    PDF_NAME = sprintf('%s_n%d',METHOD_TO_PARSE,N_TO_PARSE);
+else
+    PDF_NAME = sprintf('%s_n%d_param%d',METHOD_TO_PARSE,N_TO_PARSE,OPT_PARAM);
+end
+
+if OPT_PARAM == -1
+    PLOT_TITLE = sprintf('%s success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), N_TO_PARSE);
+else
+    PLOT_TITLE = sprintf('%s(%d) success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), OPT_PARAM, N_TO_PARSE);
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 directory_name = sprintf('res/%s/n%d',METHOD_TO_PARSE,N_TO_PARSE);
 combined_file = combine_hbm_stats(directory_name,~REFRESH_DATA);
 
@@ -84,13 +101,13 @@ disp('About to draw heatmap.')
 heatmap(approxvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
 xlabel('c');
 ylabel('d');
-title(sprintf('%s success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), N_TO_PARSE));
+title(PLOT_TITLE);
 h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
 set(frame_h,'Maximized',1);
-pdfname = sprintf('manual_figs/%s_n%d.pdf',METHOD_TO_PARSE,N_TO_PARSE);
+pdfname = sprintf('manual_figs/%s.pdf',PDF_NAME);
 if SAVE_PLOT
     export_fig(pdfname,'-q101')
 end

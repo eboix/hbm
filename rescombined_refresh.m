@@ -22,20 +22,20 @@ for i = 1:length(dfs_stack)
         continue
     end
     
-    mindate = min([dir_obj(:).datenum]);
+    maxdate = max([dir_obj(:).datenum]);
     rescombined_file = combine_hbm_stats(curr_dir,true);
-    update_file = false;
+    update_file = true;
     
-    if ~exist(rescombined_file,'file')
-        update_file = true;
-    else
-        rescombined_dir = dir(rescombined_file);
-        rescombined_date = rescombined_dir.datenum;
-        if rescombined_date < mindate % UPDATE.
-            update_file = true;
-        end
-    end
-    
+%     if exist(rescombined_file,'file')
+%         update_file = true;
+%     else
+%         rescombined_dir = dir(rescombined_file);
+%         rescombined_date = rescombined_dir.datenum;
+%         if rescombined_date < maxdate % UPDATE.
+%             update_file = true;
+%         end
+%     end
+
     if update_file
         disp(['Updating ' rescombined_file]);
         combine_hbm_stats(curr_dir);

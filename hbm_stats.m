@@ -18,7 +18,7 @@ if ~exist(out_pref,'dir')
     end
 end
 
-filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f', out_pref, methodname, n, a, b, c, d, t);
+filename = fullfile(out_pref,sprintf('%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f', methodname, n, a, b, c, d, t));
 if ~exist('optional_param','var') || optional_param == -1
     optional_param = -1;
 else

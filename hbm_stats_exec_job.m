@@ -1,13 +1,17 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_adj';
-n_vals = [100];
-d_vals = 0:0.05:4;
-c_vals = 5:0.05:20;
-optional_param_vals = 2;
-[N,D,C,O] = ndgrid(n_vals,d_vals,c_vals,optional_param_vals);
+n_vals = [10000];
+a_vals = 0;
+b_vals = 0;
+c_vals = 5:0.1:20;
+d_vals = 0:0.1:4;
+t_vals = 1;
+optional_param_vals = [2 3];
 
-raw_num_jobs = length(N(:));
+[NV,AV,BV,CV,DV,TV,OV] = ndgrid(n_vals,a_vals,b_vals,c_vals,d_vals,t_vals,optional_param_vals);
+
+raw_num_jobs = length(NV(:));
 DESIRED_MAX_NUM_JOBS = 100;
 
 if DESIRED_MAX_NUM_JOBS > raw_num_jobs
@@ -48,13 +52,13 @@ for iter=begin_raw_job:end_raw_job
     end
     
     perm_iter = perm(iter);
-    n = N(perm_iter);
-    a = 0;
-    b = 0;
-    d = D(perm_iter);
-    c = C(perm_iter);
-    t = 1;
-    opt_param = O(perm_iter);
+    n = NV(perm_iter);
+    a = AV(perm_iter);
+    b = BV(perm_iter);
+    c = CV(perm_iter);
+    d = DV(perm_iter);
+    t = TV(perm_iter);
+    opt_param = OV(perm_iter);
     
     if (d-2)*10 > c
         continue
@@ -71,14 +75,20 @@ for iter=begin_raw_job:end_raw_job
         if exist(rescombined_name,'file')
             load(rescombined_name);
             keys = cell(1,height(T));
+            tic;
             for row = 1:height(T)
                 if mod(row,1000)==0
                     row
                 end
                 keys{row} = get_key(T.methodname(row),T.n(row),T.a(row),T.b(row),T.c(row),T.d(row),T.t(row),T.optional_param(row));
             end
+            toc;
+            
+%                         tic;
+%             keys = arrayfun(@(row) get_key(T.methodname(row),T.n(row),T.a(row),T.b(row),T.c(row),T.d(row),T.t(row),T.optional_param(row)),1:height(T),'UniformOutput',false);
+%             toc;
         else
-            keys = {};
+            keys = {'empty'};
         end
         rescombined_tables = {containers.Map(keys,ones(1,length(keys)))};
         loadedRescombined = [loadedRescombined; table(rescombined_names, rescombined_tables)];
@@ -88,12 +98,11 @@ for iter=begin_raw_job:end_raw_job
         continue
     end
 
-    disp('Calculating')
     hbm_stats(methodname,n,a,b,c,d,1,1,directory_name,false,opt_param);
     
 end
 end
 
 function key_val = get_key(mname,n,a,b,c,d,t,opt_param)
-key_val = sprintf('%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2f_t%0.2f_opt%0.2f', mname,n,a,b,c,d,t,opt_param);
+key_val = sprintf('%s_%d_%0.2f_%0.2f_%0.2f_%0.2f_%0.2f_%0.2f', mname,n,a,b,c,d,t,opt_param);
 end

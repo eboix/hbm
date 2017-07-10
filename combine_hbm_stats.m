@@ -1,6 +1,7 @@
 function out_file_name = combine_hbm_stats(directory_name,just_tell_me_out_file_name)
 
 out_file_name = sprintf('rescombined/%s.mat',strrep(directory_name,'/','_'));
+out_file_name = strrep(out_file_name,'\','_');
 
 if nargin == 1 || ~just_tell_me_out_file_name
     
@@ -70,15 +71,19 @@ if nargin == 1 || ~just_tell_me_out_file_name
     end
     save(out_file_name,'T');
     
-    system(sprintf('rm %s/*.mat',directory_name));
+    if isunix || ismac
+        system(sprintf('rm %s/*.mat',directory_name));
+    elseif ispc
+        system(sprintf('del %s\\*.mat',directory_name));
+    end
 end
 end
 
 function Tout = round_doubles(Tin)
         % Merge observations with same parameters within tolerance.
         doubleparams = {'a','b','c','d','t','optional_param'};
-        Tout(:,doubleparams) = array2table(round(table2array(Tin(:,doubleparams))),10);
-        Tout = unique(Tout,'rows');
+        Tout = Tin;
+        Tout(:,doubleparams) = array2table(round(table2array(Tin(:,doubleparams)),10));
 end
 
 function T = concat_tables(oldtable,T)

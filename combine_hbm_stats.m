@@ -6,7 +6,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     
     if exist(out_file_name,'file')
         load(out_file_name);
-        oldtable = preprocess_T(T);
+        oldtable = round_doubles(T);
     end
     
     % Tabulate files in directory.
@@ -58,15 +58,11 @@ if nargin == 1 || ~just_tell_me_out_file_name
     optional_param = Opt_Param;
     
     T = table(methodname,res,n,a,b,c,d,t,D,giant_n,optional_param);
-    T = preprocess_T(T);
+    T = round_doubles(T);
     
     % Combine new table and old table.
     if exist('oldtable','var')
-        params = {'methodname','n','a','b','c','d','t','optional_param'};
-        subsT = T(:,params);
-        subsoldT = oldtable(:,params);
-        [~,ia,ib] = union(subsT,subsoldT,'rows');
-        T = [T(ia,:); oldtable(ib,:)];
+        T = concat_tables(oldtable,T);
     end
     
     if ~exist('rescombined','dir')
@@ -82,9 +78,17 @@ if nargin == 1 || ~just_tell_me_out_file_name
 end
 end
 
-function Tout = preprocess_T(Tin)
+function Tout = round_doubles(Tin)
         % Merge observations with same parameters within tolerance.
         doubleparams = {'a','b','c','d','t','optional_param'};
-        [~,ia] = uniquetol(table2array(Tin(:,doubleparams)),1e-10,'ByRows',true);
-        Tout = Tin(ia,:);
+        Tout(:,doubleparams) = array2table(round(table2array(Tin(:,doubleparams))),10);
+        Tout = unique(Tout,'rows');
+end
+
+function T = concat_tables(oldtable,T)
+    params = {'methodname','n','a','b','c','d','t','optional_param'};
+    subsT = T(:,params);
+    subsoldT = oldtable(:,params);
+    [~,ia,ib] = union(subsT,subsoldT,'rows');
+    T = [T(ia,:); oldtable(ib,:)];
 end

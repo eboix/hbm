@@ -1,10 +1,10 @@
 function hbm_stats_exec_job(job_num)
 
-methodname = 'graph_pow_adj';
+methodname 'adj';
 n_vals = [100 200 400 1000];
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
-optional_param_vals = [2 3 4 5 6 7 8 9 10];
+optional_param_vals = -1;
 [N,D,C,O] = ndgrid(n_vals,d_vals,c_vals,optional_param_vals);
 
 raw_num_jobs = length(N(:));
@@ -38,18 +38,37 @@ rng default; % So that the partition is standardized.
 
 rng('shuffle'); % Restore "true" randomness.
 
+rescombined_names = {};
+rescombined_tables = {};
+loadedRescombined = table(rescombined_names,rescombined_tables);
+
 for iter=begin_raw_job:end_raw_job
     if mod(iter,100) == 0
         iter
     end
+
     perm_iter = perm(iter);
     n = N(perm_iter);
     a = 0;
     b = 0;
     d = D(perm_iter);
     c = C(perm_iter);
-    opt_param = O(perm_iter);    
+    opt_param = O(perm_iter);
+    
     directory_name = sprintf('res/%s/n%d/',methodname,n);
+    rescombined_name = combine_hbm_stats(directory_name,true);
+    searchintable = loadedRescombined(loadedRescombined.rescombined_names == rescombined_name);
+    if height(searchintable) == 0
+        rescombined_names = {rescombined_name};
+        load(rescombined_name);
+        rescombined_tables = {T};
+        loadedRescombined = [loadedRescombined table(rescombined_names, rescombined_tables)];
+    end
+    curr_T = loadedRescombined(loadedRescombined.rescombined_names == rescombined_name).rescombined_tables;
+    prior_obs = curr_T(curr_T.n == n & abs(curr_T.a - a) <= 0.0001 & abs(curr_T.b - b) <= 0.0001 & abs(curr_T.c - c) <= 0.0001 & abs(curr_T.d - d) <= 0.0001 & curr_T.optional_param == opt_param & strcmp(curr_T.methodname,methodname));
+    if height(prior_obs) ~= 0
+        continue
+    end
     
     if (d-2)*10 > c
         continue

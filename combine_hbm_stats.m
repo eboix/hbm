@@ -85,6 +85,6 @@ end
 function Tout = preprocess_T(Tin)
         % Merge observations with same parameters within tolerance.
         doubleparams = {'a','b','c','d','t','optional_param'};
-        [~,ia] = uniquetol(table2array(Tin(:,doubleparams)),1e-10);
+        [~,ia] = uniquetol(table2array(Tin(:,doubleparams)),1e-10,'ByRows',true);
         Tout = Tin(ia,:);
 end

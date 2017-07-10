@@ -1,4 +1,4 @@
-function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite)
+function res = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
 if nargin == 0
     methodname = 'randwalk';
     n = 20000;
@@ -18,7 +18,14 @@ if ~exist(out_pref,'dir')
     end
 end
 
-filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f.mat', out_pref, methodname, n, a, b, c, d, t);
+filename = sprintf('%s%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f', out_pref, methodname, n, a, b, c, d, t);
+if ~exist('optional_param','var') || optional_param == -1
+    optional_param = -1;
+else
+    filename = sprintf('%s_opt%d',filename,optional_param);
+end
+filename = sprintf('%s.mat',filename);
+
 if ~overwrite && exist(filename,'file')
     res = -ones(1,trials);
     return
@@ -57,6 +64,8 @@ for trialnum = 1:trials
             class = norm_nb_classifier(obj,giant_mask);
         case 'adj'
             [class,V,D] = adj_classifier(obj,giant_A,giant_rev);
+        case 'graph_pow_adj'
+           [class,V,D] = graph_pow_adj_classifier(obj,optional_param,giant_A,giant_rev);
         case 'norm_adj'
             class = sym_norm_adj_classifier(obj,giant_A,giant_rev);
         case 'lap'
@@ -89,5 +98,5 @@ end
 
 D = Dlist;
 
-save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D');
+save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D','optional_param');
 end

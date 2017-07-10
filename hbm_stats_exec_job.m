@@ -1,7 +1,7 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_adj';
-n_vals = [100 200 400 1000 2000];
+n_vals = [100 200 400 1000 2000 4000 8000];
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
 optional_param = 2;

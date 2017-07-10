@@ -74,11 +74,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     end
     save(out_file_name,'T');
     
-    for i = 1:num_files
-        file_name = files(file_index(i)).name;
-        fullname = sprintf('%s/%s', directory_name, file_name);
-        delete fullname
-    end
+    system(sprintf('rm %s/*.mat',directory_name));
 end
 end
 

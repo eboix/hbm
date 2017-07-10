@@ -1,11 +1,11 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_adj';
-n_vals = [100 200 400 1000 2000 4000 8000];
+n_vals = [100 200 400 1000];
 d_vals = 0:0.05:4;
 c_vals = 5:0.05:20;
-optional_param = 2;
-[N,D,C] = meshgrid(n_vals,d_vals,c_vals);
+optional_param_vals = [2 3 4 5 6 7 8 9 10];
+[N,D,C,O] = ndgrid(n_vals,d_vals,c_vals,optional_param_vals);
 
 raw_num_jobs = length(N(:));
 DESIRED_MAX_NUM_JOBS = 100;
@@ -48,9 +48,11 @@ for iter=begin_raw_job:end_raw_job
     b = 0;
     d = D(perm_iter);
     c = C(perm_iter);
-    
+    opt_param = O(perm_iter);    
+
     if (d-2)*10 > c
         continue
     end
     filename = hbm_stats(methodname,n,a,b,c,d,1,1,sprintf('res/%s/n%d/',methodname,n),false,optional_param);
+
 end

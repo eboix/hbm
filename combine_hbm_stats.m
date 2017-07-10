@@ -24,7 +24,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     T = zeros(num_files,1);
     Dval = cell(num_files,1);
     GiantNs = cell(num_files,1);
-    Opt_Param = zeros(num_files,1);
+    Opt_Param = -ones(num_files,1);
     for i = 1:num_files;
         if mod(i,100) == 0
             i
@@ -41,7 +41,9 @@ if nargin == 1 || ~just_tell_me_out_file_name
         T(i) = t;
         Dval{i} = D;
         GiantNs{i} = giant_ns;
-        Opt_Param(i) = optional_param;
+        if exist('optional_param','var')
+            Opt_Param(i) = optional_param;
+        else
     end
     methodname = categorical(MethodName);
     res = Res;

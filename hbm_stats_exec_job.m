@@ -49,10 +49,13 @@ for iter=begin_raw_job:end_raw_job
     d = D(perm_iter);
     c = C(perm_iter);
     opt_param = O(perm_iter);    
-
+    directory_name = sprintf('res/%s/n%d/',methodname,n);
+    
     if (d-2)*10 > c
         continue
     end
-    filename = hbm_stats(methodname,n,a,b,c,d,1,1,sprintf('res/%s/n%d/',methodname,n),false,optional_param);
+    hbm_stats(methodname,n,a,b,c,d,1,1,directory_name,false,optional_param);
 
+    
+    
 end

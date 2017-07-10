@@ -55,6 +55,7 @@ for iter=begin_raw_job:end_raw_job
     c = C(perm_iter);
     opt_param = O(perm_iter);
     
+    % CHECK THAT WE HAVEN'T ALREADY CALCULATED THIS!
     directory_name = sprintf('res/%s/n%d/',methodname,n);
     rescombined_name = combine_hbm_stats(directory_name,true);
     searchintable = loadedRescombined(loadedRescombined.rescombined_names == rescombined_name);
@@ -65,7 +66,13 @@ for iter=begin_raw_job:end_raw_job
         loadedRescombined = [loadedRescombined table(rescombined_names, rescombined_tables)];
     end
     curr_T = loadedRescombined(loadedRescombined.rescombined_names == rescombined_name).rescombined_tables;
-    prior_obs = curr_T(curr_T.n == n & abs(curr_T.a - a) <= 0.0001 & abs(curr_T.b - b) <= 0.0001 & abs(curr_T.c - c) <= 0.0001 & abs(curr_T.d - d) <= 0.0001 & curr_T.optional_param == opt_param & strcmp(curr_T.methodname,methodname));
+    prior_obs = curr_T(curr_T.n == n);
+    prior_obs = prior_obs(strcmp(prior_obs.methodname,methodname));
+    prior_obs = prior_obs(abs(prior_obs.a - a) <= 0.0001);
+    prior_obs = prior_obs(abs(prior_obs.b - b) <= 0.0001);
+    prior_obs = prior_obs(abs(prior_obs.c - c) <= 0.0001);
+    prior_obs = prior_obs(abs(prior_obs.d - d) <= 0.0001);
+    prior_obs = prior_obs(abs(curr_T.optional_param - opt_param) <= 0.0001);
     if height(prior_obs) ~= 0
         continue
     end

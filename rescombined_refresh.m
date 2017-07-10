@@ -11,20 +11,32 @@ while i <= length(dfs_stack)
     end
     i = i + 1;
 end
+disp('Read directories');
 
 for i = 1:length(dfs_stack)
     curr_dir = dfs_stack{i};
     dir_obj = dir(curr_dir);
     
-    hasfiles = any(~dir_obj.isdir);
+    hasfiles = any(~[dir_obj(:).isdir]);
     if ~hasfiles
         continue
     end
     
-    mindate = min(dir_obj.datenum);
+    mindate = min([dir_obj(:).datenum]);
     rescombined_file = combine_hbm_stats(curr_dir,true);
-    rescombineddate = dir(rescombined_file).datenum;
-    if rescombineddate < mindate % UPDATE.
+    update_file = false;
+    
+    if ~exist(rescombined_file,'file')
+        update_file = true;
+    else
+        rescombined_dir = dir(rescombined_file);
+        rescombined_date = rescombined_dir.datenum;
+        if rescombined_date < mindate % UPDATE.
+            update_file = true;
+        end
+    end
+    
+    if update_file
         disp(['Updating ' rescombined_file]);
         combine_hbm_stats(curr_dir);
     end

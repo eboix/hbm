@@ -43,7 +43,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
         GiantNs{i} = giant_ns;
         if exist('optional_param','var')
             Opt_Param(i) = optional_param;
-        else
+        end
     end
     methodname = categorical(MethodName);
     res = Res;

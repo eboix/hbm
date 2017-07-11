@@ -1,16 +1,16 @@
-function filename = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
-if nargin == 0
-    methodname = 'randwalk';
-    n = 20000;
-    a = 3.5;
-    b = 1;
-    c = 15;
-    d = 2.5;
-    t = 1;
-    trials = 10;
-    out_pref=sprintf('res/%s/n%d',methodname,n);
-    overwrite=false;
-end
+function [res,giant_ns] = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
+% if nargin == 0
+%     methodname = 'randwalk';
+%     n = 20000;
+%     a = 3.5;
+%     b = 1;
+%     c = 15;
+%     d = 2.5;
+%     t = 1;
+%     trials = 10;
+%     out_pref=sprintf('res/%s/n%d',methodname,n);
+%     overwrite=false;
+% end
 
 if ~exist(out_pref,'dir')
     if ~mkdir(out_pref)
@@ -18,7 +18,7 @@ if ~exist(out_pref,'dir')
     end
 end
 
-filename = fullfile(out_pref,sprintf('%s_n%d_a%0.2f_b%0.2f_c%0.2f_d%0.2ft_%0.2f', methodname, n, a, b, c, d, t));
+filename = fullfile(out_pref,sprintf('%s_n%d_a%0.4f_b%0.4f_c%0.2f_d%0.2ft_%0.2f', methodname, n, a, b, c, d, t));
 if ~exist('optional_param','var') || optional_param == -1
     optional_param = -1;
 else

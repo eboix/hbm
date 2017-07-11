@@ -1,17 +1,23 @@
 function hbm_stats_parser(N_TO_PARSE, OPT_PARAM)
-if nargin == 0
+if nargin < 1
     N_TO_PARSE = 1000;
 end
-if nargin < 1
+if nargin < 2
     OPT_PARAM = -1;
 end
 
-METHOD_TO_PARSE = 'graph_pow_adj';
+METHOD_TO_PARSE = 'adj';
 
-t_VAL_TO_PARSE = 1;
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
+
+% OTHERWISE THIS IS A CD PLOT.
+ABPLOT = true;
+t_VAL_TO_PARSE = 0;
+
+arange = 2:0.05:2.5;
+brange = 0:0.05:0.5;
 drange = 0:0.1:4;
 crange = 0:0.1:20;
 
@@ -25,7 +31,7 @@ if OPT_PARAM == -1
     PLOT_TITLE = sprintf('%s success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), N_TO_PARSE);
 else
     PLOT_TITLE = sprintf('%s(%d) success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), OPT_PARAM, N_TO_PARSE);
-    
+end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 directory_name = sprintf('res/%s/n%d',METHOD_TO_PARSE,N_TO_PARSE);
@@ -35,29 +41,45 @@ load(combined_file); % LOAD T.
 
 Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_PARAM),:);
 
+if ABPLOT
+    xrange = arange;
+    yrange = brange;
+else
+    xrange = crange;
+    yrange = drange;
+end
+
 % PARSE T.
-imgres = cell(length(drange), length(crange));
-imggiantn = cell(length(drange), length(crange));
-imgtrials = zeros(length(drange), length(crange));
-di = 0;
-for d = drange
-    d
-    di = di + 1;
-    ci = 0;
-    Trnd = Trn(abs(Trn.d - d) <= 0.0001,:);
-    for c = crange
+imgres = cell(length(yrange), length(xrange));
+imggiantn = cell(length(yrange), length(xrange));
+imgtrials = zeros(length(yrange), length(xrange));
+yi = 0;
+for y = yrange
+    y
+    yi = yi + 1;
+    xi = 0;
+    if ABPLOT
+        Trny = Trn(abs(Trn.b - y) <= 0.00001,:);
+    else
+        Trny = Trn(abs(Trn.d - y) <= 0.00001,:);
+    end
+    for x = xrange
         % c
         % d
-        ci = ci + 1;
-        currtab = Trnd(abs(Trnd.c - c) <= 0.0001,:);
-        if size(currtab,1) == 0
-            imgres(di,ci) = {NaN};
-            imggiantn(di,ci) = {NaN};
-            imgtrials(di,ci) = 0;
+        xi = xi + 1;
+        if ABPLOT
+            currtab = Trny(abs(Trny.a - x) <= 0.00001,:);
         else
-            imgres(di,ci) = currtab.res(1);
-            imgtrials(di,ci) = length(imgres(di,ci));
-            imggiantn(di,ci) = currtab.giant_n(1);
+            currtab = Trny(abs(Trny.c - x) <= 0.00001,:);
+        end
+        if size(currtab,1) == 0
+            imgres(yi,xi) = {NaN};
+            imggiantn(yi,xi) = {NaN};
+            imgtrials(yi,xi) = 0;
+        else
+            imgres(yi,xi) = currtab.res(1);
+            imgtrials(yi,xi) = length(imgres(yi,xi));
+            imggiantn(yi,xi) = currtab.giant_n(1);
         end
     end
 end
@@ -74,19 +96,19 @@ if DO_APPROX_STEP && sum(sum(~isnan(approxvals))) ~= 0
     while(sum(sum(isnan(approxvals))) ~= 0)
         approx_iter = approx_iter + 1
         oldapproxvals = approxvals;
-        for di = 1:length(drange)
-            for ci = 1:length(crange)
-                if isnan(approxvals(di,ci)) && di > 1
-                    approxvals(di,ci) = oldapproxvals(di-1,ci);
+        for yi = 1:length(yrange)
+            for xi = 1:length(xrange)
+                if isnan(approxvals(yi,xi)) && yi > 1
+                    approxvals(yi,xi) = oldapproxvals(yi-1,xi);
                 end
-                if isnan(approxvals(di,ci)) && di < length(drange)
-                    approxvals(di,ci) = oldapproxvals(di+1,ci);
+                if isnan(approxvals(yi,xi)) && yi < length(yrange)
+                    approxvals(yi,xi) = oldapproxvals(yi+1,xi);
                 end
-                if isnan(approxvals(di,ci)) && ci < length(crange)
-                    approxvals(di,ci) = oldapproxvals(di,ci+1);
+                if isnan(approxvals(yi,xi)) && xi < length(xrange)
+                    approxvals(yi,xi) = oldapproxvals(yi,xi+1);
                 end
-                if isnan(approxvals(di,ci)) && ci > 1
-                    approxvals(di,ci) = oldapproxvals(di,ci-1);
+                if isnan(approxvals(yi,xi)) && xi > 1
+                    approxvals(yi,xi) = oldapproxvals(yi,xi-1);
                 end
             end
         end
@@ -98,18 +120,47 @@ end
 color_res = 1024;
 colormap(jet(color_res));
 disp('About to draw heatmap.')
-heatmap(approxvals,crange,drange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
-xlabel('c');
-ylabel('d');
+heatmap(approxvals,xrange,yrange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
+if ABPLOT
+    xlabel('a');
+    ylabel('b');
+else
+    xlabel('c');
+    ylabel('d');
+end
+
+if ABPLOT
+    x = linspace(xrange(1),xrange(end),1000);
+    y = -sqrt(4*x + 1) + x + 1;
+    plot_fun_with_axes(x,y,xrange,yrange);
+end
+
 title(PLOT_TITLE);
 h = gcf;
 set(h,'PaperOrientation','landscape');
 pause(0.1);
 frame_h = get(handle(gcf),'JavaFrame');
 set(frame_h,'Maximized',1);
+h = gca;
+h.YDir = 'normal';
 pdfname = sprintf('manual_figs/%s.pdf',PDF_NAME);
 if SAVE_PLOT
     export_fig(pdfname,'-q101')
 end
 % print('-fillpage',pdfname,'-dpdf')
+end
+
+function plot_fun_with_axes(x,y,xrange,yrange)
+    h = gca;
+    xlim = h.XLim;
+    ylim = h.YLim;
+    xside = (xrange(end) - xrange(1)) / length(xrange);
+    yside = (yrange(end) - yrange(1)) / length(yrange);
+    x = (x - xrange(1))/xside + 0.5;
+    y = (y - yrange(1))/yside + 0.5;
+    hold on;
+    plot(x,y,'k');
+    h.XLim = xlim;
+    h.YLim = ylim;
+    hold off;
 end

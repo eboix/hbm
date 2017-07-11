@@ -1,13 +1,13 @@
 function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_adj';
-n_vals = [10000];
-a_vals = 0;
-b_vals = 0;
-c_vals = 5:0.1:20;
-d_vals = 0:0.1:4;
-t_vals = 1;
-optional_param_vals = [2 3];
+n_vals = [100000];
+a_vals = 2:0.05:2.5;
+b_vals = 0:0.05:0.5;
+c_vals = 0;
+d_vals = 0;
+t_vals = 0;
+optional_param_vals = 4;
 
 [NV,AV,BV,CV,DV,TV,OV] = ndgrid(n_vals,a_vals,b_vals,c_vals,d_vals,t_vals,optional_param_vals);
 
@@ -47,7 +47,7 @@ rescombined_tables = {};
 loadedRescombined = table(rescombined_names,rescombined_tables);
 
 for iter=begin_raw_job:end_raw_job
-    if mod(iter,1000) == 0
+    if mod(iter,100) == 0
         iter
     end
     
@@ -60,7 +60,11 @@ for iter=begin_raw_job:end_raw_job
     t = TV(perm_iter);
     opt_param = OV(perm_iter);
     
-    if (d-2)*10 > c
+    if t == 1 && (d-2)*10 > c
+        continue
+    end
+    
+    if t == 0 && a < b
         continue
     end
     
@@ -98,7 +102,7 @@ for iter=begin_raw_job:end_raw_job
         continue
     end
 
-    hbm_stats(methodname,n,a,b,c,d,1,1,directory_name,false,opt_param);
+    hbm_stats(methodname,n,a,b,c,d,t,1,directory_name,false,opt_param);
     
 end
 end

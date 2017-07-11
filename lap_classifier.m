@@ -6,7 +6,7 @@ function [class,V,D] = lap_classifier(obj,giant_A,giant_rev)
 
     assert(nargin == 1 || nargin == 3);
     
-    classeigvecnum = 1;
+    classeigvecnum = 2;
     disp(sprintf('Running lap_classifier on eigvec #%d', classeigvecnum));
     
     if nargin == 1
@@ -17,9 +17,9 @@ function [class,V,D] = lap_classifier(obj,giant_A,giant_rev)
 
     deg = sum(giant_A,1);
     giant_lap = spdiags(deg',0,giant_n,giant_n) - giant_A;
+    numcalculate = 2;
     [V,D] = eigs(giant_lap,2,'sm');
-    classeigvecnum = 1;
-    classeigvec = V(:,classeigvecnum);
+    classeigvec = V(:,numcalculate-classeigvecnum+1);
     [~,idx] = sort(classeigvec);
     class = zeros(n,1);
     class(giant_rev(idx(1:floor(giant_n/2)))) = 1;

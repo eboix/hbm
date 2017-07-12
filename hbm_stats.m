@@ -66,6 +66,8 @@ for trialnum = 1:trials
             [class,V,D] = adj_classifier(obj,giant_A,giant_rev);
         case 'graph_pow_adj'
            [class,V,D] = graph_pow_adj_classifier(obj,optional_param,giant_A,giant_rev);
+        case 'graph_pow_lap'
+            [class,V,D] = graph_pow_lap_classifier(obj,optional_param,giant_A,giant_rev);
         case 'norm_adj'
             class = sym_norm_adj_classifier(obj,giant_A,giant_rev);
         case 'lap'

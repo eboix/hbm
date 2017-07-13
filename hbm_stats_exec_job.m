@@ -6,7 +6,7 @@ a_vals = 2;
 b_vals = 0.5;
 c_vals = 5:0.05:15;
 d_vals = 0:0.05:3;
-t_vals = 0.9:0.1:1;
+t_vals = 0:0.05:0.2;
 optional_param_vals = 1;
 
 [NV,AV,BV,CV,DV,TV,OV] = ndgrid(n_vals,a_vals,b_vals,c_vals,d_vals,t_vals,optional_param_vals);

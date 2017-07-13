@@ -10,7 +10,7 @@ function [class,V,D] = graph_pow_lap_classifier(obj,graph_pow,giant_A,giant_rev)
     classeigvecnum = 2;
     disp(sprintf('Running graph_pow_lap_classifier on eigvec #%d', classeigvecnum));
     
-    if nargin == 1
+    if nargin == 2 
         [giant_A,~,giant_rev,~,~] = get_giant_adj_matrix(obj);
     end
     n = obj.n;

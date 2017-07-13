@@ -2,12 +2,12 @@ function hbm_stats_exec_job(job_num)
 
 methodname = 'graph_pow_lap';
 n_vals = [10000];
-a_vals = 2:0.05:2.5;
-b_vals = 0:0.05:0.5;
-c_vals = 0;
-d_vals = 0;
-t_vals = 0;
-optional_param_vals = [1 2 3 4];
+a_vals = 0;
+b_vals = 0;
+c_vals = 5:0.05:20;
+d_vals = 0:0.05:4;
+t_vals = 1;
+optional_param_vals = [1 2 3];
 
 [NV,AV,BV,CV,DV,TV,OV] = ndgrid(n_vals,a_vals,b_vals,c_vals,d_vals,t_vals,optional_param_vals);
 

@@ -1,25 +1,27 @@
-function hbm_stats_parser(N_TO_PARSE, OPT_PARAM)
+function hbm_stats_parser(N_TO_PARSE, OPT_PARAM, t_VAL_TO_PARSE)
 if nargin < 1
     N_TO_PARSE = 1000;
 end
 if nargin < 2
     OPT_PARAM = -1;
 end
+if nargin < 3
+    t_VAL_TO_PARSE = 0;
+end
 
-METHOD_TO_PARSE = 'adj';
+METHOD_TO_PARSE = 'graph_pow_lap';
 
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
 
-% OTHERWISE THIS IS A CD PLOT.
+% IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
 ABPLOT = true;
-t_VAL_TO_PARSE = 0;
 
-arange = 2:0.05:2.5;
+arange = 0:0.05:2.5;
 brange = 0:0.05:0.5;
-drange = 0:0.1:4;
-crange = 0:0.1:20;
+crange = 5;
+drange = 0;
 
 if OPT_PARAM == -1
     PDF_NAME = sprintf('%s_n%d',METHOD_TO_PARSE,N_TO_PARSE);
@@ -42,11 +44,23 @@ load(combined_file); % LOAD T.
 Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_PARAM),:);
 
 if ABPLOT
-    xrange = arange;
+    xrange = arange;  
     yrange = brange;
+    assert(length(crange) == 1);
+    assert(length(drange) == 1);
+    Trn = Trn(abs(Trn.c - crange) <= 0.00001,:);
+    Trn = Trn(abs(Trn.d - drange) <= 0.00001,:);
+    PLOT_TITLE = sprintf('%s, t = %0.2f, c = %0.2f, d = %0.2f', PLOT_TITLE, t_VAL_TO_PARSE,crange,drange);
+    PDF_NAME = sprintf('%s_t%0.2f_c%0.2f_d%0.2f', PDF_NAME, t_VAL_TO_PARSE, crange, drange);
 else
     xrange = crange;
     yrange = drange;
+    assert(length(arange) == 1);
+    assert(length(brange) == 1);
+    Trn = Trn(abs(Trn.a - arange) <= 0.00001,:);
+    Trn = Trn(abs(Trn.b - brange) <= 0.00001,:);
+   PLOT_TITLE = sprintf('%s, t = %0.2f, a = %0.2f, b = %0.2f', PLOT_TITLE, t_VAL_TO_PARSE,arange,brange);
+    PDF_NAME = sprintf('%s_t%0.2f_a%0.2f_b%0.2f', PDF_NAME, t_VAL_TO_PARSE, arange, brange);
 end
 
 % PARSE T.

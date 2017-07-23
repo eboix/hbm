@@ -22,6 +22,14 @@ function [class,V,D] = graph_pow_lap_classifier(obj,graph_pow,giant_A,giant_rev)
     deg = sum(A_pow,1);
     giant_lap = spdiags(deg',0,giant_n,giant_n) - A_pow;
     
+    if sum(sum(giant_lap ~= 0)) > 5e5
+       warning('Not enough memory to do calculation')
+       class = zeros(n,1);
+       V = zeros(n,1);
+       D = 0;
+       return
+    end
+    
     numcalculate = 2;
     [V,D] = eigs(giant_lap,2,'sm');
     classeigvec = V(:,numcalculate-classeigvecnum+1);

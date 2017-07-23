@@ -1,5 +1,8 @@
 function hbm_stats_exec_job(job_num)
 
+global USE_KMEANS;
+
+USE_KMEANS = true; % Only supported by nb_classifier.
 methodname = 'nbwalk';
 n_vals = [20000];
 a_vals = 2:0.05:2.5;

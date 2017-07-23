@@ -52,10 +52,18 @@ d=max(max(D));
 V2=I1'*V;
 
 V2t = V2(giant_mask(:),2);
-[~,idx] = sort(V2t);
-comp_n = length(V2t);
-C = ones(comp_n,1);
-C(idx(1:floor(comp_n/2))) = 2;
+
+global USE_KMEANS
+if USE_KMEANS
+    C = kmeans(V2t,obj.k,'replicates',10);
+else
+    [~,idx] = sort(V2t);
+    comp_n = length(V2t);
+    C = ones(comp_n,1);
+    C(idx(1:floor(comp_n/2))) = 2;
+end
+
+
 class = zeros(n,1);
 class(giant_mask) = C;
 end

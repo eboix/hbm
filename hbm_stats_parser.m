@@ -9,8 +9,6 @@ if nargin < 3
     t_VAL_TO_PARSE = 0;
 end
 
-METHOD_TO_PARSE = 'graph_pow_lap';
-
 DO_APPROX_STEP = false;
 REFRESH_DATA = false;
 SAVE_PLOT = true;
@@ -18,13 +16,14 @@ SAVE_PLOT = true;
 % IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
 ABPLOT = true;
 
-arange = 0:0.05:2.5;
+METHOD_TO_PARSE = 'graph_pow_lap';
+arange = 2:0.05:2.5;
 brange = 0:0.05:0.5;
-crange = 5;
+crange = 10;
 drange = 0;
 
 if OPT_PARAM == -1
-    PDF_NAME = sprintf('%s_n%d',METHOD_TO_PARSE,N_TO_PARSE);
+    PDF_NAME = sprintf('%s_n%d_t%f',METHOD_TO_PARSE,N_TO_PARSE);
 else
     PDF_NAME = sprintf('%s_n%d_param%d',METHOD_TO_PARSE,N_TO_PARSE,OPT_PARAM);
 end
@@ -101,6 +100,7 @@ end
 mintrials = min(imgtrials);
 maxtrials = max(imgtrials);
 mres = cellfun(@(x) sum(x)/length(x), imgres);
+mres(mres == 0) = NaN;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % OPTIONALLY FILL WITH APPROX DATA:

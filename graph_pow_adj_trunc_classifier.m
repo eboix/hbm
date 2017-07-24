@@ -27,11 +27,11 @@ function [class,V,D] = graph_pow_adj_trunc_classifier(obj,graph_pow,giant_A,gian
 
     A_pow = giant_A;
     % UNIFORM SUBSAMPLING.
-    for iter = 1:graph_pow
+    for iter = 2:graph_pow
         A_pow = giant_A*A_pow;
         A_pow = triu(A_pow,1);
         [row, col]= find(A_pow);
-        pos = col*(giant_n - 1) + row;
+        pos = sub2ind(size(A_pow), row, col);
         numnonzero = length(row);
         thresh = min(numnonzero, e_bound)/numnonzero;
         pos_remove = pos(rand(numnonzero,1) > thresh);

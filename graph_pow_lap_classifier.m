@@ -31,7 +31,13 @@ function [class,V,D] = graph_pow_lap_classifier(obj,graph_pow,giant_A,giant_rev)
     end
     
     numcalculate = 2;
-    [V,D] = eigs(giant_lap,2,'sm');
+    try
+        [V,D] = eigs(giant_lap,2,'sm');
+    catch
+        warning('eigs had a problem');
+        V = zeros(n,1);
+        D = 0;
+    end
     classeigvec = V(:,numcalculate-classeigvecnum+1);
     global USE_KMEANS
     if USE_KMEANS

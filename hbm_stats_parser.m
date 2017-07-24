@@ -16,7 +16,7 @@ SAVE_PLOT = true;
 % IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
 ABPLOT = true;
 
-METHOD_TO_PARSE = 'nbwalk';
+METHOD_TO_PARSE = 'graph_pow_lap';
 arange = 2:0.05:2.5;
 brange = 0:0.05:0.5;
 crange = 5;

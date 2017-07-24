@@ -16,9 +16,9 @@ SAVE_PLOT = true;
 % IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
 ABPLOT = true;
 
-METHOD_TO_PARSE = 'graph_pow_adj';
-arange = 2:0.05:2.5;
-brange = 0:0.05:0.5;
+METHOD_TO_PARSE = 'giant_size';
+arange = 2:0.05:3;
+brange = 0:0.05:1;
 crange = 1;
 drange = 0;
 
@@ -99,7 +99,11 @@ end
 
 mintrials = min(imgtrials);
 maxtrials = max(imgtrials);
-mres = cellfun(@(x) sum(x)/length(x), imgres);
+if strcmp(METHOD_TO_PARSE, 'giant_size')
+    mres = cellfun(@(x) sum(x)/length(x), imggiantn);
+else
+    mres = cellfun(@(x) sum(x)/length(x), imgres);
+end
 mres(mres == 0) = NaN;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -134,7 +138,14 @@ end
 color_res = 1024;
 colormap(jet(color_res));
 disp('About to draw heatmap.')
-heatmap(approxvals,xrange,yrange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',0.5,'MaxColorValue',1)
+if strcmp(METHOD_TO_PARSE, 'giant_size')
+    mincolorval = 0;
+    maxcolorval = N_TO_PARSE;
+else
+    mincolorval = 0.5;
+    maxcolorval = 1;
+end
+heatmap(approxvals,xrange,yrange,[],'NanColor', [1 1 1],'ColorBar',true,'MinColorValue',mincolorval,'MaxColorValue',maxcolorval)
 if ABPLOT
     xlabel('a');
     ylabel('b');

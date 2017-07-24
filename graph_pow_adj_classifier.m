@@ -7,7 +7,7 @@ function [class,V,D] = graph_pow_adj_classifier(obj,graph_pow,giant_A,giant_rev)
 
     assert(nargin == 2 || nargin == 4);
     
- %   disp('Running adj_classifier');
+    disp('Running graph_pow_adj_classifier');
     if nargin == 2
         [giant_A,~,giant_rev,~,~] = get_giant_adj_matrix(obj);
     end

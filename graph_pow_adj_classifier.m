@@ -18,12 +18,30 @@ function [class,V,D] = graph_pow_adj_classifier(obj,graph_pow,giant_A,giant_rev)
     A_pow(A_pow ~= 0) = 1;
     A_pow(1:(giant_n+1):end) = 0;
     
-    [V,D] = eigs(A_pow,2);
-
+    try
+        [V,D] = eigs(A_pow,2);
+    catch
+        warning('eigs had a problem');
+        class = zeros(n,1);
+        V = zeros(n,1);
+        D = 0;
+        return
+    end
+    
     classeigvec = V(:,2);
-    [~,idx] = sort(classeigvec);
-    class = zeros(n,1);
-    class(giant_rev(idx(1:floor(giant_n/2)))) = 1;
-    class(giant_rev(idx(floor(giant_n/2):end))) = 2;
+    
+    global USE_KMEANS
+    if USE_KMEANS
+        C = kmeans(classeigvec,obj.k,'replicates',10);
+        class = zeros(n,1);
+        class(giant_rev(C == 1)) = 1;
+        class(giant_rev(C == 2)) = 2;
+    else 
+        [~,idx] = sort(classeigvec);
+        class = zeros(n,1);
+        class(giant_rev(idx(1:floor(giant_n/2)))) = 1;
+        class(giant_rev(idx(floor(giant_n/2):end))) = 2;
+    end
+    
         
 end

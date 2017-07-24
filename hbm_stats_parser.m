@@ -16,10 +16,10 @@ SAVE_PLOT = true;
 % IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
 ABPLOT = true;
 
-METHOD_TO_PARSE = 'graph_pow_lap';
+METHOD_TO_PARSE = 'graph_pow_adj';
 arange = 2:0.05:2.5;
 brange = 0:0.05:0.5;
-crange = 5;
+crange = 1;
 drange = 0;
 
 if OPT_PARAM == -1

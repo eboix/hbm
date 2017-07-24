@@ -33,9 +33,16 @@ function [class,V,D] = graph_pow_lap_classifier(obj,graph_pow,giant_A,giant_rev)
     numcalculate = 2;
     [V,D] = eigs(giant_lap,2,'sm');
     classeigvec = V(:,numcalculate-classeigvecnum+1);
-    [~,idx] = sort(classeigvec);
-    class = zeros(n,1);
-    class(giant_rev(idx(1:floor(giant_n/2)))) = 1;
-    class(giant_rev(idx(floor(giant_n/2):end))) = 2;
-        
+    global USE_KMEANS
+    if USE_KMEANS
+        C = kmeans(classeigvec,obj.k,'replicates',10);
+        class = zeros(n,1);
+        class(giant_rev(C == 1)) = 1;
+        class(giant_rev(C == 2)) = 2;
+    else 
+        [~,idx] = sort(classeigvec);
+        class = zeros(n,1);
+        class(giant_rev(idx(1:floor(giant_n/2)))) = 1;
+        class(giant_rev(idx(floor(giant_n/2):end))) = 2; 
+    end
 end

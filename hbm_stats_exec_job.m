@@ -7,10 +7,10 @@ methodname = 'nbwalk';
 n_vals = [20000];
 a_vals = 2:0.05:2.5;
 b_vals = 0:0.05:0.5;
-c_vals = [15];
+c_vals = [5 10];
 d_vals = 0;
 t_vals = [0 0.05 0.1 0.5 0.9 0.95 1];
-optional_param_vals = [-1];
+optional_param_vals = [1 2 3 4];
 
 [NV,AV,BV,CV,DV,TV,OV] = ndgrid(n_vals,a_vals,b_vals,c_vals,d_vals,t_vals,optional_param_vals);
 

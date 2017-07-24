@@ -6,4 +6,4 @@
 # Run the jobs.
 /usr/licensed/bin/matlab -nojvm -nosplash -nodisplay -singleCompThread -r "rescombined_refresh, exit"
 
-git add rescombined
+git add --ignore-removal rescombined

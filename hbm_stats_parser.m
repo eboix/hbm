@@ -1,49 +1,55 @@
-function hbm_stats_parser(N_TO_PARSE, OPT_PARAM, t_VAL_TO_PARSE)
-if nargin < 1
-    N_TO_PARSE = 1000;
+function hbm_stats_parser(parse_config)
+run(parse_config);
+
+for n = n_vals
+    for opt = optional_param_vals
+        for t = t_vals
+            if ABPLOT
+                for c = c_vals
+                    for d = d_vals
+                        hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a_vals, b_vals, c, d);
+                    end
+                end
+            else
+                for a = a_vals
+                    for b = b_vals
+                        hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a, b, c_vals, d_vals);
+                    end
+                end
+            end
+        end
+    end
 end
-if nargin < 2
-    OPT_PARAM = -1;
+
 end
-if nargin < 3
-    t_VAL_TO_PARSE = 0;
-end
+
+function hbm_stats_parser_helper(METHOD_TO_PARSE, N_TO_PARSE, OPT_TO_PARSE, t_VAL_TO_PARSE, ABPLOT, arange, brange, crange, drange)
 
 DO_APPROX_STEP = false;
-REFRESH_DATA = false;
 SAVE_PLOT = true;
 
-% IF TRUE, AB PLOT. OTHERWISE THIS IS A CD PLOT.
-ABPLOT = true;
-
-METHOD_TO_PARSE = 'nbwalk';
-arange = 2:0.05:3;
-brange = 0:0.05:1;
-crange = 1;
-drange = 0;
-
-if OPT_PARAM == -1
+if OPT_TO_PARSE == -1
     PDF_NAME = sprintf('%s_n%d_t%f',METHOD_TO_PARSE,N_TO_PARSE);
 else
-    PDF_NAME = sprintf('%s_n%d_param%d',METHOD_TO_PARSE,N_TO_PARSE,OPT_PARAM);
+    PDF_NAME = sprintf('%s_n%d_param%d',METHOD_TO_PARSE,N_TO_PARSE,OPT_TO_PARSE);
 end
 
-if OPT_PARAM == -1
+if OPT_TO_PARSE == -1
     PLOT_TITLE = sprintf('%s success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), N_TO_PARSE);
 else
-    PLOT_TITLE = sprintf('%s(%d) success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), OPT_PARAM, N_TO_PARSE);
+    PLOT_TITLE = sprintf('%s(%d) success, 1 trial, n = %d', strrep(METHOD_TO_PARSE,'_',' '), OPT_TO_PARSE, N_TO_PARSE);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 directory_name = sprintf('res/%s/n%d',METHOD_TO_PARSE,N_TO_PARSE);
-combined_file = combine_hbm_stats(directory_name,~REFRESH_DATA);
+combined_file = combine_hbm_stats(directory_name,true);
 
 load(combined_file); % LOAD T.
 
-Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_PARAM),:);
+Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_TO_PARSE),:);
 
 if ABPLOT
-    xrange = arange;  
+    xrange = arange;
     yrange = brange;
     assert(length(crange) == 1);
     assert(length(drange) == 1);
@@ -58,7 +64,7 @@ else
     assert(length(brange) == 1);
     Trn = Trn(abs(Trn.a - arange) <= 0.00001,:);
     Trn = Trn(abs(Trn.b - brange) <= 0.00001,:);
-   PLOT_TITLE = sprintf('%s, t = %0.2f, a = %0.2f, b = %0.2f', PLOT_TITLE, t_VAL_TO_PARSE,arange,brange);
+    PLOT_TITLE = sprintf('%s, t = %0.2f, a = %0.2f, b = %0.2f', PLOT_TITLE, t_VAL_TO_PARSE,arange,brange);
     PDF_NAME = sprintf('%s_t%0.2f_a%0.2f_b%0.2f', PDF_NAME, t_VAL_TO_PARSE, arange, brange);
 end
 
@@ -176,16 +182,16 @@ end
 end
 
 function plot_fun_with_axes(x,y,xrange,yrange)
-    h = gca;
-    xlim = h.XLim;
-    ylim = h.YLim;
-    xside = (xrange(end) - xrange(1)) / length(xrange);
-    yside = (yrange(end) - yrange(1)) / length(yrange);
-    x = (x - xrange(1))/xside + 0.5;
-    y = (y - yrange(1))/yside + 0.5;
-    hold on;
-    plot(x,y,'k');
-    h.XLim = xlim;
-    h.YLim = ylim;
-    hold off;
+h = gca;
+xlim = h.XLim;
+ylim = h.YLim;
+xside = (xrange(end) - xrange(1)) / length(xrange);
+yside = (yrange(end) - yrange(1)) / length(yrange);
+x = (x - xrange(1))/xside + 0.5;
+y = (y - yrange(1))/yside + 0.5;
+hold on;
+plot(x,y,'k');
+h.XLim = xlim;
+h.YLim = ylim;
+hold off;
 end

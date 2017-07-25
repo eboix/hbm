@@ -9,7 +9,7 @@ function [class,V,D] = graph_pow_adj_trunc_classifier(obj,graph_pow,giant_A,gian
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % WE WILL ITERATIVELY POWER AND SUBSAMPLE. WE ALLOW
-    % THE NUMBER OF EDGES TO GO UP TO AS MANY AS 2*THE ORIGINAL NUMBER.
+    % THE NUMBER OF EDGES TO GO UP TO AS MANY some constant*THE ORIGINAL NUMBER OF EDGES.
     % THIS IS PRETTY ARBITRARY. WE SUBSAMPLE REGULARLY TO KEEP A BOUND ON THE TOTAL # OF
     % EDGES.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,7 +21,7 @@ function [class,V,D] = graph_pow_adj_trunc_classifier(obj,graph_pow,giant_A,gian
     
     giant_n = length(giant_A);
     orig_e = sum(sum(giant_A))/2;
-    e_bound = 2*orig_e;
+    e_bound = 4*orig_e;
     
     n = obj.n;
 

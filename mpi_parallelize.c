@@ -89,7 +89,8 @@ int slave_io( MPI_Comm master_comm, MPI_Comm comm, char** argv)
         else {
             char matlab_command[2048];
     	    char* matlab_file = argv[1];
-            sprintf(matlab_command, "%s(%d)", matlab_file, job_num);
+            char* job_config = argv[3];
+            sprintf(matlab_command, "%s(%d,'%s')", matlab_file, job_num, job_config);
             run_matlab(matlab_command, job_num);
         }
         

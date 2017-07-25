@@ -1,16 +1,4 @@
 function [res,giant_ns] = hbm_stats(methodname,n,a,b,c,d,t,trials,out_pref,overwrite,optional_param)
-% if nargin == 0
-%     methodname = 'randwalk';
-%     n = 20000;
-%     a = 3.5;
-%     b = 1;
-%     c = 15;
-%     d = 2.5;
-%     t = 1;
-%     trials = 10;
-%     out_pref=sprintf('res/%s/n%d',methodname,n);
-%     overwrite=false;
-% end
 
 if ~exist(out_pref,'dir')
     if ~mkdir(out_pref)

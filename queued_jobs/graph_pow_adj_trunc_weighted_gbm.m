@@ -3,7 +3,7 @@
 global USE_KMEANS;
 USE_KMEANS = true;
 
-methodname = 'graph_pow_adj_weighted';
+methodname = 'graph_pow_adj_trunc_weighted';
 n_vals = [20000];
 a_vals = 0;
 b_vals = 0;

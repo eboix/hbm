@@ -10,7 +10,7 @@ b_vals = 0;
 c_vals = 2:0.1:15;
 d_vals = 0:0.1:3;
 t_vals = 1;
-optional_param_vals = 1:2;
+optional_param_vals = 1:3;
 
 %%%%%%%%%% HBM_STATS_PARSER options.
 ABPLOT=false;

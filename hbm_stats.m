@@ -95,6 +95,6 @@ for trialnum = 1:trials
 end
 
 D = Dlist;
-
-save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D','optional_param', 'USE_KMEANS');
+use_kmeans = USE_KMEANS;
+save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D','optional_param', 'use_kmeans');
 end

@@ -21,6 +21,9 @@ if USE_KMEANS
     class = zeros(n,1);
     class(giant_rev(C == 1)) = 1;
     class(giant_rev(C == 2)) = 2;
+    if obj.center(1) < -2.5
+        disp('pause')
+    end
 else
     [~,idx] = sort(classeigvec);
     class = zeros(n,1);

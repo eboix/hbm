@@ -85,7 +85,7 @@ for trialnum = 1:trials
     end
     
     [agreement, ~] = obj.classification_agreement(class);
-    agreement = agreement*n/giant_n;
+   % agreement = agreement*n/giant_n; DO NOT NORMALIZE AGREEMENT ANYMORE!
     %     if obj.t ~= 0
     %         [geo_map_agreement, ~] = obj.classification_agreement_geo_predictor(class);
     %         geo_map_agreement = geo_map_agreement*n/giant_n;

@@ -186,9 +186,12 @@ h = gca;
 h.YDir = 'normal';
 pdfname = sprintf('manual_figs/%s.pdf',PDF_NAME);
 if SAVE_PLOT
-    export_fig(pdfname,'-q101')
+    try
+        export_fig(pdfname,'-q101')
+    catch
+        print('-fillpage',pdfname,'-dpdf')
+    end
 end
-% print('-fillpage',pdfname,'-dpdf')
 end
 
 function plot_fun_with_axes(x,y,xrange,yrange)

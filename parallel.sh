@@ -1,7 +1,7 @@
 #!/bin/bash 
 # #SBATCH -N 4 # node count 
 # #SBATCH --ntasks-per-node=4
-#SBATCH -N 2
+#SBATCH -N 1
 #SBATCH --ntasks-per-node=20
 # #SBATCH --gres=gpu:1
 #SBATCH -t 4:00:00 

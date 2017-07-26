@@ -28,13 +28,13 @@ def main():
 
             # Check ~every minute if slurm is done.
             # If slurm is not done, keep on checking.
-            time.sleep(100);
-            while check_slurm_status() == 'RUNNING':
+            last_status = 'RUNNING';
+            while last_status == 'RUNNING' or last_status == 'PENDING':
                 time.sleep(120);
+                last_status = check_slurm_status();
 
             # Once slurm is done, it has either COMPLETED or there was something unexpected.
-            done_status = check_slurm_status();
-            if done_status != 'COMPLETED':
+            if last_status != 'COMPLETED':
                  # If there was something unexpected, then send an e-mail to eboix@princeton.edu, and STOP everything.
                 smtpObj = smtplib.SMTP('localhost');
                 smtpObj.sendmail('eboix@princeton.edu', 'eboix@princeton.edu', 'SLURM JOB ' + curr_job_file + 'ON YOUR QUEUE ENDED WITH STATUS ' + done_status);
@@ -52,6 +52,7 @@ def main():
                 os.system("git push -u origin master");
         # Check every five minutes for updates to the queued_jobs directory.
         time.sleep(300);
+        os.system("git pull");
         num_iter += 1;
         if num_iter % 300 == 0:
             smtpObj = smtplib.SMTP('localhost');

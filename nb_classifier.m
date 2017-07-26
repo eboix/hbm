@@ -55,7 +55,7 @@ V2t = V2(giant_mask(:),2);
 
 global USE_KMEANS
 if USE_KMEANS
-    C = kmeans(V2t,obj.k,'replicates',10);
+    C = kmeans([real(V2t) imag(V2t)],obj.k,'replicates',10);
 else
     [~,idx] = sort(V2t);
     comp_n = length(V2t);

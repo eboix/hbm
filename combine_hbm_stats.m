@@ -26,6 +26,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     Dval = cell(num_files,1);
     GiantNs = cell(num_files,1);
     Opt_Param = -ones(num_files,1);
+    use_kmeans = -ones(num_files,1);
     for i = 1:num_files;
         if mod(i,100) == 0
             i
@@ -45,6 +46,9 @@ if nargin == 1 || ~just_tell_me_out_file_name
         if exist('optional_param','var')
             Opt_Param(i) = optional_param;
         end
+        if exist('USE_KMEANS','var')
+            use_kmeans(i) = USE_KMEANS;
+        end
     end
     methodname = categorical(MethodName);
     res = Res;
@@ -58,7 +62,7 @@ if nargin == 1 || ~just_tell_me_out_file_name
     giant_n = GiantNs;
     optional_param = Opt_Param;
     
-    T = table(methodname,res,n,a,b,c,d,t,D,giant_n,optional_param);
+    T = table(methodname,res,n,a,b,c,d,t,D,giant_n,optional_param,use_kmeans);
     T = round_doubles(T);
     
     % Combine new table and old table.
@@ -87,7 +91,7 @@ function Tout = round_doubles(Tin)
 end
 
 function T = concat_tables(oldtable,T)
-    params = {'methodname','n','a','b','c','d','t','optional_param'};
+    params = {'methodname','n','a','b','c','d','t','optional_param','USE_KMEANS'};
     subsT = T(:,params);
     subsoldT = oldtable(:,params);
     [~,ia,ib] = union(subsT,subsoldT,'rows');

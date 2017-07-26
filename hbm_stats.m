@@ -7,6 +7,10 @@ if ~exist(out_pref,'dir')
 end
 
 filename = fullfile(out_pref,sprintf('%s_n%d_a%0.4f_b%0.4f_c%0.4f_d%0.4ft_%0.4f', methodname, n, a, b, c, d, t));
+global USE_KMEANS
+if ~USE_KMEANS
+    filename = [filename '_nokmeans']
+end
 if ~exist('optional_param','var') || optional_param == -1
     optional_param = -1;
 else
@@ -92,5 +96,5 @@ end
 
 D = Dlist;
 
-save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D','optional_param');
+save(filename, 'res', 'methodname', 'n', 'a', 'b', 'c', 'd', 't', 'giant_ns', 'D','optional_param', 'USE_KMEANS');
 end

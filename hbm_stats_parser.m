@@ -13,14 +13,14 @@ for n = n_vals
             if ABPLOT
                 for c = c_vals
                     for d = d_vals
-                        pdfnames{i} = hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a_vals, b_vals, c, d);
+                        pdfnames{i} = hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a_vals, b_vals, c, d,USE_KMEANS);
                         i = i + 1;
                     end
                 end
             else
                 for a = a_vals
                     for b = b_vals
-                        pdfnames{i} = hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a, b, c_vals, d_vals);
+                        pdfnames{i} = hbm_stats_parser_helper(methodname, n, opt, t, ABPLOT, a, b, c_vals, d_vals,USE_KMEANS);
                         i = i + 1;
                     end
                 end
@@ -33,7 +33,7 @@ append_pdfs(['job_pdfs/' name '.pdf'], pdfnames{:});
 
 end
 
-function pdfname = hbm_stats_parser_helper(METHOD_TO_PARSE, N_TO_PARSE, OPT_TO_PARSE, t_VAL_TO_PARSE, ABPLOT, arange, brange, crange, drange)
+function pdfname = hbm_stats_parser_helper(METHOD_TO_PARSE, N_TO_PARSE, OPT_TO_PARSE, t_VAL_TO_PARSE, ABPLOT, arange, brange, crange, drange, use_kmeans)
 
 DO_APPROX_STEP = false;
 SAVE_PLOT = true;
@@ -56,7 +56,7 @@ combined_file = combine_hbm_stats(directory_name,true);
 
 load(combined_file); % LOAD T.
 
-Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_TO_PARSE),:);
+Trn = T((T.methodname == METHOD_TO_PARSE) & (T.n == N_TO_PARSE) & (T.t == t_VAL_TO_PARSE) & (T.optional_param == OPT_TO_PARSE) & (T.use_kmeans == use_kmeans),:);
 
 if ABPLOT
     xrange = arange;

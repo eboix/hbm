@@ -28,7 +28,7 @@ def main():
 
             # Check ~every minute if slurm is done.
             # If slurm is not done, keep on checking.
-            time.sleep(20);
+            time.sleep(100);
             while check_slurm_status() == 'RUNNING':
                 time.sleep(120);
 

@@ -52,9 +52,9 @@ for iter=begin_raw_job:end_raw_job
     t = TV(perm_iter);
     opt_param = OV(perm_iter);
     
-   % if t == 1 && (d-2)*10 > c
-   %     continue
-   % end
+   if t == 1 && (d-2)*10 > c
+       continue
+   end
     
     if t == 0 && a < b
         continue

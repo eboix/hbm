@@ -47,6 +47,7 @@ def main():
                 # Then parse the stats! This is pretty short... maybe I should do it on the computing nodes!
 
                 os.system("mv -u " + QUEUE_DIR + "/" + curr_job_file + " " + COMPLETED_DIR + "/" + curr_job_file);
+                os.system("git add completed_jobs");
                 os.system("git commit -a -m 'Finished " + curr_job_file + " job.'");
                 os.system("git push -u origin master");
         # Check every five minutes for updates to the queued_jobs directory.

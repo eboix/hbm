@@ -52,7 +52,7 @@ def main():
                 os.system("git push -u origin master");
         # Check every five minutes for updates to the queued_jobs directory.
         time.sleep(300);
-        os.system("git pull");
+        os.system("git pull --no-edit origin master");
         num_iter += 1;
         if num_iter % 300 == 0:
             smtpObj = smtplib.SMTP('localhost');

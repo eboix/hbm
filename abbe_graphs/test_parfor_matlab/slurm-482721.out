@@ -1,0 +1,122 @@
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -r "parfor_test"
+
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ "parfor_test"
+ |
+ "parfor_test"
+ |
+ "parfor_test"
+ |
+ "parfor_test"
+ |
+{Error: Creating a string using double quotes is not supported.  Use the string
+function.
+} 
+{Error: Creating a string using double quotes is not supported.  Use the string
+function.
+} 
+{Error: Creating a string using double quotes is not supported.  Use the string
+function.
+} 
+{Error: Creating a string using double quotes is not supported.  Use the string
+function.
+} 
+>> >> >> >> 

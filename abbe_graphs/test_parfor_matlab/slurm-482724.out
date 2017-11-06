@@ -1,0 +1,238 @@
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -r parfor_test
+
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017b
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+ 
+ 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+For product information, visit www.mathworks.com.
+ 
+
+pc = 
+
+
+pc = 
+
+
+pc = 
+
+
+pc = 
+
+ Local Cluster
+
+    Properties: 
+
+ Local Cluster
+
+    Properties: 
+
+ Local Cluster
+
+    Properties: 
+
+ Local Cluster
+
+    Properties: 
+
+                          Profile: local
+                         Modified: false
+                             Host: adroit-07
+                          Profile: local
+                         Modified: false
+                             Host: adroit-07
+                          Profile: local
+                         Modified: false
+                             Host: adroit-07
+                          Profile: local
+                         Modified: false
+                             Host: adroit-07
+                       NumWorkers: 1
+                       NumWorkers: 1
+                       NumWorkers: 1
+                       NumWorkers: 1
+                       NumThreads: 1
+
+               JobStorageLocation: /home/eboix/.matlab/local_cluster_jobs/R2016b
+                       NumThreads: 1
+
+               JobStorageLocation: /home/eboix/.matlab/local_cluster_jobs/R2016b
+                       NumThreads: 1
+
+               JobStorageLocation: /home/eboix/.matlab/local_cluster_jobs/R2016b
+                       NumThreads: 1
+
+               JobStorageLocation: /home/eboix/.matlab/local_cluster_jobs/R2016b
+ RequiresMathWorksHostedLicensing: false
+ RequiresMathWorksHostedLicensing: false
+ RequiresMathWorksHostedLicensing: false
+ RequiresMathWorksHostedLicensing: false
+
+    Associated Jobs: 
+
+
+    Associated Jobs: 
+
+
+    Associated Jobs: 
+
+
+    Associated Jobs: 
+
+                   Number Pending: 0
+                    Number Queued: 0
+                   Number Pending: 0
+                    Number Queued: 0
+                   Number Pending: 0
+                    Number Queued: 0
+                   Number Pending: 0
+                    Number Queued: 0
+                   Number Running: 0
+                  Number Finished: 0
+
+                   Number Running: 0
+                  Number Finished: 0
+
+                   Number Running: 0
+                  Number Finished: 0
+
+                   Number Running: 0
+                  Number Finished: 0
+
+{Error using parallel.Cluster/parpool (line 81)
+You requested a minimum of 4 workers, but the cluster "local" has the
+NumWorkers property set to allow a maximum of 1 workers. To run a communicating
+job on more workers than this (up to a maximum of 512 for the Local cluster),
+increase the value of the NumWorkers property for the cluster. The default
+value of NumWorkers for a Local cluster is the number of cores on the local
+machine.
+
+Error in parfor_test (line 4)
+parpool(pc, str2num(getenv('SLURM_CPUS_ON_NODE')))
+} 
+{Error using parallel.Cluster/parpool (line 81)
+You requested a minimum of 4 workers, but the cluster "local" has the
+NumWorkers property set to allow a maximum of 1 workers. To run a communicating
+job on more workers than this (up to a maximum of 512 for the Local cluster),
+increase the value of the NumWorkers property for the cluster. The default
+value of NumWorkers for a Local cluster is the number of cores on the local
+machine.
+
+Error in parfor_test (line 4)
+parpool(pc, str2num(getenv('SLURM_CPUS_ON_NODE')))
+} 
+{Error using parallel.Cluster/parpool (line 81)
+You requested a minimum of 4 workers, but the cluster "local" has the
+NumWorkers property set to allow a maximum of 1 workers. To run a communicating
+job on more workers than this (up to a maximum of 512 for the Local cluster),
+increase the value of the NumWorkers property for the cluster. The default
+value of NumWorkers for a Local cluster is the number of cores on the local
+machine.
+
+Error in parfor_test (line 4)
+parpool(pc, str2num(getenv('SLURM_CPUS_ON_NODE')))
+} 
+{Error using parallel.Cluster/parpool (line 81)
+You requested a minimum of 4 workers, but the cluster "local" has the
+NumWorkers property set to allow a maximum of 1 workers. To run a communicating
+job on more workers than this (up to a maximum of 512 for the Local cluster),
+increase the value of the NumWorkers property for the cluster. The default
+value of NumWorkers for a Local cluster is the number of cores on the local
+machine.
+
+Error in parfor_test (line 4)
+parpool(pc, str2num(getenv('SLURM_CPUS_ON_NODE')))
+} 
+Starting parallel pool (parpool) using the 'local' profile ... >> Starting parallel pool (parpool) using the 'local' profile ... >> Starting parallel pool (parpool) using the 'local' profile ... >> Starting parallel pool (parpool) using the 'local' profile ... >> 

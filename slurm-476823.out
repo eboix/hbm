@@ -1,0 +1,4498 @@
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+INITING PROC
+MATLAB FILE TO CALL: hbm_stats_exec_job
+TOT NUMBER OF JOBS: 101
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+Read directories
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(2,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error2','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(1,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error1','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(3,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error3','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(4,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error4','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(5,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error5','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(6,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error6','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(7,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error7','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(8,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error8','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(9,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error9','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(10,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error10','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(12,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error12','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(13,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error13','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(14,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error14','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(15,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error15','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(16,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error16','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(17,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error17','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(18,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error18','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(19,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error19','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(11,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error11','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(20,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error20','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(21,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error21','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(22,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error22','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(23,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error23','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(24,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error24','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(25,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error25','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(26,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error26','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(27,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error27','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(28,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error28','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(29,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error29','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(30,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error30','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(31,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error31','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(32,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error32','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(33,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error33','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(34,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error34','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(35,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error35','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(36,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error36','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(37,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error37','wt+'), end, exit"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(38,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error38','wt+'), end, exit"
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(39,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error39','wt+'), end, exit"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For product information, visit www.mathworks.com.
+For online documentation, see http://www.mathworks.com/support
+ 
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+ 
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+For online documentation, see http://www.mathworks.com/support
+ 
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.330035 seconds.
+Elapsed time is 1.331714 seconds.
+Elapsed time is 1.335949 seconds.
+Elapsed time is 1.321486 seconds.
+Elapsed time is 1.326553 seconds.
+Elapsed time is 1.329428 seconds.
+Elapsed time is 1.326930 seconds.
+Elapsed time is 1.329425 seconds.
+Elapsed time is 1.329030 seconds.
+Elapsed time is 1.336487 seconds.
+Elapsed time is 1.339667 seconds.
+Elapsed time is 1.343963 seconds.
+Elapsed time is 1.337621 seconds.
+Elapsed time is 1.322999 seconds.
+Elapsed time is 1.346398 seconds.
+Elapsed time is 1.328042 seconds.
+Elapsed time is 1.328702 seconds.
+Elapsed time is 1.344421 seconds.
+
+iter =
+
+   200
+
+
+iter =
+
+   400
+
+
+iter =
+
+   100
+
+Elapsed time is 1.328187 seconds.
+
+iter =
+
+   300
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.324227 seconds.
+Elapsed time is 1.325985 seconds.
+Elapsed time is 1.326223 seconds.
+Elapsed time is 1.326753 seconds.
+Elapsed time is 1.328569 seconds.
+Elapsed time is 1.329348 seconds.
+Elapsed time is 1.329944 seconds.
+Elapsed time is 1.330374 seconds.
+Elapsed time is 1.331069 seconds.
+Elapsed time is 1.332182 seconds.
+Elapsed time is 1.334212 seconds.
+Elapsed time is 1.334162 seconds.
+Elapsed time is 1.335050 seconds.
+Elapsed time is 1.337123 seconds.
+Elapsed time is 1.337880 seconds.
+Elapsed time is 1.338647 seconds.
+Elapsed time is 1.338453 seconds.
+Elapsed time is 1.338279 seconds.
+Elapsed time is 1.340915 seconds.
+Elapsed time is 1.339152 seconds.
+
+iter =
+
+   800
+
+
+iter =
+
+   500
+
+
+iter =
+
+   600
+
+
+iter =
+
+   700
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(40,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error40','wt+'), end, exit"
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(41,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error41','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(43,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error43','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(42,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error42','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(44,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error44','wt+'), end, exit"
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(45,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error45','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(46,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error46','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(48,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error48','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(47,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error47','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(49,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error49','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(50,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error50','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(51,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error51','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(52,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error52','wt+'), end, exit"
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(53,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error53','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(54,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error54','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(55,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error55','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(57,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error57','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(58,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error58','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(56,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error56','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(60,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error60','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(59,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error59','wt+'), end, exit"
+
+
+
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(61,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error61','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(62,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error62','wt+'), end, exit"
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For product information, visit www.mathworks.com.
+ 
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(63,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error63','wt+'), end, exit"
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+Elapsed time is 1.419288 seconds.
+Elapsed time is 1.422430 seconds.
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+Elapsed time is 1.426201 seconds.
+Elapsed time is 1.429706 seconds.
+
+row =
+
+        1000
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+Elapsed time is 1.431499 seconds.
+
+iter =
+
+   900
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.477061 seconds.
+Elapsed time is 1.484213 seconds.
+Elapsed time is 1.462125 seconds.
+Elapsed time is 1.467822 seconds.
+Elapsed time is 1.467480 seconds.
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.386429 seconds.
+Elapsed time is 1.399347 seconds.
+Elapsed time is 1.409047 seconds.
+Elapsed time is 1.400950 seconds.
+
+row =
+
+        2000
+
+Elapsed time is 1.403854 seconds.
+Elapsed time is 1.397934 seconds.
+Elapsed time is 1.398051 seconds.
+Elapsed time is 1.406047 seconds.
+Elapsed time is 1.402155 seconds.
+Elapsed time is 1.402795 seconds.
+Elapsed time is 1.405327 seconds.
+
+iter =
+
+        1100
+
+Elapsed time is 1.437916 seconds.
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(64,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error64','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(65,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error65','wt+'), end, exit"
+
+
+iter =
+
+        1300
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(66,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error66','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(67,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error67','wt+'), end, exit"
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(68,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error68','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(69,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error69','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(70,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error70','wt+'), end, exit"
+
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(71,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error71','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(72,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error72','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(74,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error74','wt+'), end, exit"
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(73,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error73','wt+'), end, exit"
+
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(75,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error75','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(76,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error76','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.586460 seconds.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+row =
+
+        2000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(77,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error77','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+Elapsed time is 1.567875 seconds.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(78,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error78','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(79,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error79','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+Elapsed time is 1.531476 seconds.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+Elapsed time is 1.545905 seconds.
+
+iter =
+
+        1400
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+row =
+
+        1000
+
+Not found. Loading
+
+iter =
+
+        1200
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+Elapsed time is 1.480834 seconds.
+Elapsed time is 1.484428 seconds.
+Elapsed time is 1.476786 seconds.
+
+iter =
+
+        1500
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(80,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error80','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        1000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(81,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error81','wt+'), end, exit"
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.587958 seconds.
+Elapsed time is 1.515209 seconds.
+Elapsed time is 1.518506 seconds.
+Elapsed time is 1.511695 seconds.
+Elapsed time is 1.514416 seconds.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(82,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error82','wt+'), end, exit"
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(83,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error83','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(84,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error84','wt+'), end, exit"
+
+iter =
+
+        1600
+
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(85,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error85','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+Elapsed time is 1.569525 seconds.
+Elapsed time is 1.503635 seconds.
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(86,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error86','wt+'), end, exit"
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(87,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error87','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(88,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error88','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(89,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error89','wt+'), end, exit"
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        2000
+
+Elapsed time is 1.514216 seconds.
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(90,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error90','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(91,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error91','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        1000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(92,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error92','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        1000
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+row =
+
+        2000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(93,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error93','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(94,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error94','wt+'), end, exit"
+
+Elapsed time is 1.503245 seconds.
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+row =
+
+        2000
+
+
+iter =
+
+        1700
+
+Elapsed time is 1.794046 seconds.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(95,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error95','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(96,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error96','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(97,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error97','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(98,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error98','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(99,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error99','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+Elapsed time is 1.435096 seconds.
+Elapsed time is 1.427497 seconds.
+Elapsed time is 1.454662 seconds.
+Elapsed time is 1.454608 seconds.
+Elapsed time is 1.433973 seconds.
+Elapsed time is 1.428030 seconds.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(100,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error100','wt+'), end, exit"
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+/usr/licensed/bin/matlab -singleCompThread -nodisplay -nosplash -nojvm -r "try, hbm_stats_exec_job(101,'queued_jobs/nbwalk_c2_job.m'), catch fopen('errors/error101','wt+'), end, exit"
+
+row =
+
+        2000
+
+
+The default version of matlab in /usr/licensed/bin is matlab-R2016b 
+
+The following versions are available in /usr/licensed/bin:
+	matlab-R2017a
+	matlab-R2016b
+	matlab-R2016a
+	matlab-R2015b
+	matlab-R2015a
+	matlab-R2014b
+	matlab-R2014a
+	matlab-R2013b
+	matlab-R2013a
+	matlab-R2012a
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        2000
+
+Elapsed time is 1.390016 seconds.
+Elapsed time is 1.396045 seconds.
+Elapsed time is 1.384019 seconds.
+
+row =
+
+        1000
+
+Elapsed time is 1.416362 seconds.
+
+iter =
+
+        1900
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Elapsed time is 1.469365 seconds.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+directory_name =
+
+res/nbwalk/n20000
+
+
+row =
+
+        1000
+
+Not found. Loading
+
+row =
+
+        2000
+
+Elapsed time is 1.469133 seconds.
+
+row =
+
+        1000
+
+
+iter =
+
+        2000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        2000
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+Elapsed time is 1.450249 seconds.
+
+row =
+
+        1000
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        2000
+
+
+iter =
+
+        1800
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Elapsed time is 1.502950 seconds.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2016 The MathWorks, Inc.
+                   R2016b (9.1.0.441655) 64-bit (glnxa64)
+                             September 7, 2016
+
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        1000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Elapsed time is 1.654797 seconds.
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+Elapsed time is 1.415412 seconds.
+Elapsed time is 1.450792 seconds.
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+row =
+
+        2000
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+Elapsed time is 1.378640 seconds.
+
+row =
+
+        1000
+
+ 
+For online documentation, see http://www.mathworks.com/support
+For product information, visit www.mathworks.com.
+ 
+
+iter =
+
+        2100
+
+
+row =
+
+        2000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+Elapsed time is 1.398636 seconds.
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+row =
+
+        1000
+
+
+row =
+
+        1000
+
+
+directory_name =
+
+res/nbwalk/n20000
+
+Not found. Loading
+
+iter =
+
+        1000
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.357780 seconds.
+Elapsed time is 1.461634 seconds.
+
+iter =
+
+        2200
+
+
+row =
+
+        1000
+
+
+row =
+
+        2000
+
+Elapsed time is 1.455844 seconds.
+
+row =
+
+        2000
+
+Elapsed time is 1.694111 seconds.
+I should only be getting cancel messages!

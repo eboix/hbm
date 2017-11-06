@@ -1,0 +1,111 @@
+#include <iostream>
+#include <algorithm>
+#include <utility>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+typedef vector<int> vi;
+typedef vector<double> vd;
+typedef pair<int, int> pii;
+typedef pair<double, int> pdi;
+typedef pair<double, double> pdd;
+typedef vector<pii> vpii;
+typedef vector<vi> vvi;
+
+/* Want to calculate I(X; Y | L_n) =
+H(Y|L_n) - sum_{x = 0,1} p_x H(Y|X = x,L_n).
+*/
+
+int n, m;
+const int MAX_M = 20;
+double p[2][1<<MAX_M];
+int e1[MAX_M];
+int e2[MAX_M];
+double Q[2][2][2];
+
+int get_bit(int val, int i) {
+	return (val >> i) % 2; 
+}
+
+void clear_states() {
+	for(int i = 0; i < (1<<m); i++) {
+		p[0][i] = p[1][i] = 0;
+	}
+}
+
+double eval_state(int vstate, int estate) {
+	double w = 1;
+	for(int i = 0; i < m; i++) {
+		int u = e1[i]; int v = e2[i];
+		int us = get_bit(vstate, u);
+		int vs = get_bit(vstate, v);
+		int es = estate % 2;
+		w *= Q[us][vs][es];
+		estate = estate >> 1;
+	}
+	return w;
+}
+
+void add_vstate(int i) {
+	int v0 = get_bit(i,0);
+	for(int j = 0; j < (1<<m); j++) {
+		p[v0][j] += eval_state(i,j);
+	}
+	return;
+}
+
+
+double calc_entropy() {
+	double norm = 0;
+	double h = 0;
+	for(int v0 = 0; v0 < 2; v0++) {
+		for(int i = 0; i < (1<<m); i++) {
+			double tp = p[v0][i];
+			if(tp == 0) continue;
+			norm += tp;
+			h +=  tp * log2(tp);
+		}
+	}
+	h = h / norm;
+	h = h - log2(norm);
+	return -h;
+}
+
+int main() {
+	double e[2];
+	cin >> e[0] >> e[1];
+	for(int i = 0; i < 2; i++) {
+		for(int j = 0; j < 2; j++) {
+			for(int k = 0; k < 2; k++) {
+				int eq = 1;
+				if(i != j) eq = 0;
+				if(k == eq) {
+					Q[i][j][k] = 1 - e[k];
+				}
+				else {
+					Q[i][j][k] = e[k];
+				}
+			}
+		}
+	}
+
+	cin >> n >> m;
+	// Label 0 vs. label n.
+	for(int i = 0; i < m; i++) {
+		int u, v; cin >> u >> v;
+		e1[i] = u;
+		e2[i] = v;
+	}
+	
+	clear_states();
+	// v_n = 0, wlog.
+	for(int i = 0; i < (1<<(n-1)); i++) {
+		add_vstate(i);
+	}
+	
+	cout << calc_entropy() << endl;
+	
+	return 0;
+}

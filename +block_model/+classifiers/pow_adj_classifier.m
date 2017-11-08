@@ -1,4 +1,4 @@
-function [class_guess,vout] = pow_classifier(obj,varargin)
+function [class_guess,vout] = pow_adj_classifier(obj,varargin)
 % obj is hybrid_block_model object, graph object, or adjacency matrix to
 % cluster using the adjacency matrix of the powered graph.
 % Optional parameters:

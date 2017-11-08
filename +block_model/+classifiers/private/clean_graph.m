@@ -9,7 +9,7 @@ function [clean_A,clean_mask,clean_rev] = clean_graph(A,c)
     
     giant_graph = graph(giant_A,'upper');
     diam_approx = max(distances(giant_graph,1)); % 2-approximation of the diameter.
-    r_clean = c * (log(diam_approx))^3
+    r_clean = c * (log(diam_approx))^3;
     
     % 2. Repeat the following until it does not delete any vertices.
     new_num_nodes = size(giant_A,1);

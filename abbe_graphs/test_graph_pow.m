@@ -1,9 +1,9 @@
 import block_model.*;
 import block_model.classifiers.*;
 
-thresh_c = 10;
+thresh_c = 5;
 center_dist = 2;
-n = 20000;
+n = 20;
 thresh = thresh_c/sqrt(n);
 
 community_rel_sizes = [1 1];

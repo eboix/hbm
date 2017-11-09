@@ -21,10 +21,11 @@ function [class_guess,vout] = pow_classifier(class_func,obj,varargin)
     parse(p,varargin{:});
     
     [giant_A,~,giant_rev] = get_giant_adj_matrix_from_obj(obj);
-    [clean_A,clean_mask,clean_rev] = clean_graph(giant_A,p.Results.clean_c);
-    giant_to_clean = cumsum(clean_mask);
+    [clean_A,~,clean_rev] = clean_graph(giant_A,p.Results.clean_c);
     giant_closest_in_clean = find_closest_vertices_to(graph(giant_A),clean_rev);
-    giant_closest_in_clean = giant_to_clean(giant_closest_in_clean);
+    
+    
+    clean_rev = giant_rev(clean_rev);
     pow_A = pow_graph(clean_A,p.Results.pow_c);
     
     [n, obj_k] = get_n_and_k_from_obj(obj);
@@ -41,7 +42,7 @@ function [class_guess,vout] = pow_classifier(class_func,obj,varargin)
     giant_class_guess = clean_class_guess(giant_closest_in_clean);
     class_guess = zeros(n,1);
     for i = 1:k
-        class_guess(giant_rev(giant_class_guess == i)) = i;
+        class_guess(clean_rev(clean_class_guess == i)) = i;
     end    
     
 end

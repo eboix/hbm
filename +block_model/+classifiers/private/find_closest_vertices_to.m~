@@ -1,0 +1,11 @@
+function closest_vertices = find_closest_vertices_to(A,s)
+
+n = size(A,1);
+closest_vertices = zeros(n,1);
+closest_vertices(s) = s;
+vis = zeros(n,1);
+vis(s) = 1;
+% BFS to find the closest vertices in A to giant. (DFS suffices, because of the
+% structure of the pruned subgraph.)
+    
+end

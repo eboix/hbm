@@ -42,8 +42,7 @@ function [class_guess,vout] = pow_classifier(class_func,obj,varargin)
         class_guess(clean_rev(clean_class_guess == i)) = i;
     end
     
-    % We also want to guess the labels of vertices that were pruned out in
-    % the cleaning phase. We assign these vertices the label of the closest
-    % non-pruned vertex of the giant.
+    % We also want to guess the labels of vertices that were cleaned out.
+    % We assign these v
     
 end

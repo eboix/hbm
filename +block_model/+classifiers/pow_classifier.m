@@ -21,7 +21,18 @@ function [class_guess,vout] = pow_classifier(class_func,obj,varargin)
     parse(p,varargin{:});
     
     [giant_A,~,giant_rev] = get_giant_adj_matrix_from_obj(obj);
-    [clean_A,~,clean_rev] = clean_graph(giant_A,p.Results.clean_c);    
+    [clean_A,~,clean_rev] = clean_graph(giant_A,p.Results.clean_c);
+    
+    giant_n = size(giant_A,1);
+    clean_n = size(clean_A,1);
+    closest_in_giant = zeros(giant_n,1);
+    closest_in_giant(clean_rev) = clean_rev;
+    vis = zeros(giant_n,1);
+    vis(clean_rev) = 1;
+    % DFS to find the closest in the giant. (DFS suffices, because of the
+    % structure of the pruned subgraph.)
+    
+    
     clean_rev = giant_rev(clean_rev);
     pow_A = pow_graph(clean_A,p.Results.pow_c);
     
@@ -40,10 +51,6 @@ function [class_guess,vout] = pow_classifier(class_func,obj,varargin)
     class_guess = zeros(n,1);
     for i = 1:k
         class_guess(clean_rev(clean_class_guess == i)) = i;
-    end
-    
-    % We also want to guess the labels of vertices that were pruned out in
-    % the cleaning phase. We assign these vertices the label of the closest
-    % non-pruned vertex of the giant.
+    end    
     
 end

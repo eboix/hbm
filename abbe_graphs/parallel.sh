@@ -5,7 +5,7 @@
 #SBATCH -o matlab.out # stdout is redirected to that file
 #SBATCH -e matlab.err # stderr is redirected to that file
 #SBATCH --gres=gpu:1
-#SBATCH -t 04:00:00 
+#SBATCH -t 20:00:00 
 # sends mail when process begins, and
 # when it ends. Make sure you define your email
 #SBATCH --mail-type=begin

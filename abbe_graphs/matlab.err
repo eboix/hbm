@@ -1,0 +1,8 @@
+slurmstepd: error: Exceeded job memory limit
+slurmstepd: error: Step 482842.0 exceeded memory limit (53914508 > 52428800), being killed
+slurmstepd: error: *** STEP 482842.0 ON adroit-h11g1 CANCELLED AT 2017-11-09T17:12:23 ***
+slurmstepd: error: Exceeded job memory limit at some point.
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+srun: error: adroit-h11g1: task 0: Killed
+srun: Terminating job step 482842.0
+slurmstepd: error: Exceeded job memory limit at some point.

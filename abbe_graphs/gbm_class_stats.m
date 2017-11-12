@@ -1,5 +1,11 @@
 import block_model.classifiers.*;
 
+try
+load('gbm_stats_data.mat');
+catch
+    warning('COULD NOT FIND GBM_STATS_DATA.mat. OVERWRITING.');
+end
+
 % graphpowtemp_adj = @(x) pow_adj_classifier(x,'clean_c',2, 'pow_c',0.15);
 
 classifiers = ...

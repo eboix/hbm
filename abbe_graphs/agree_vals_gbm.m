@@ -1,4 +1,4 @@
-function agree_vals = agree_vals_gbm(class_func, c, d, n, num_trials)
+function agree_vals = agree_vals_gbm(class_func, c, d, n, num_trials, varargin)
 
 import block_model.hybrid_block_model;
 
@@ -18,7 +18,7 @@ import block_model.hybrid_block_model;
         center = [[0 0]; [d 0]];
         gbm = hybrid_block_model(n,community_rel_sizes,GBM_MODEL,center,thresh,sbm_junk);
 
-        class_guess = class_func(gbm);
+        class_guess = class_func(gbm,varargin{:});
         [agree_class,~] = gbm.giant_classification_agreement(class_guess);
         agree_vals(i) = agree_class;
     end

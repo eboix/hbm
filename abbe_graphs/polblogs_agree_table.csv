@@ -1,0 +1,55 @@
+data_set,classifier,agreement,time_elapsed
+polblogs,"adj",0.579908675799087,0.053181241
+polblogs,"lap",0.525114155251142,0.075550631
+polblogs,"normlap",0.953424657534247,0.082212315
+polblogs,"nb",0.621917808219178,0.180779834
+polblogs,"graphpow (adj)",0.643835616438356,0.110905887
+polblogs,"graphpow (adj) 2 0.15",0.643835616438356,0.099106181
+polblogs,"graphpow (adj) 2 0.3",0.643835616438356,0.0973385
+polblogs,"graphpow (adj) 2 0.5",0.643835616438356,0.081438582
+polblogs,"graphpow (adj) 2 1",0.929680365296804,0.152839163
+polblogs,"graphpow (adj) 2 2",0.528767123287671,0.572039301
+polblogs,"graphpow (lap) 2 0.15",0.525114155251142,0.104484744
+polblogs,"graphpow (lap) 2 0.3",0.525114155251142,0.100289698
+polblogs,"graphpow (lap) 2 0.5",0.525114155251142,0.106600304
+polblogs,"graphpow (lap) 2 1",0.525114155251142,0.328184551
+polblogs,"graphpow (lap) 2 2",0.525114155251142,0.698467876
+polblogs,"graphpow (norm lap) 2 0.15",0.953424657534247,0.112267213
+polblogs,"graphpow (norm lap) 2 0.3",0.953424657534247,0.10560029
+polblogs,"graphpow (norm lap) 2 0.5",0.953424657534247,0.106312544
+polblogs,"graphpow (norm lap) 2 1",0.955251141552511,0.263825577
+polblogs,"graphpow (norm lap) 2 2",0.528767123287671,0.717274651
+polblogs,"graphpow (randwalk) 2 0.15",0.957990867579909,0.128187555
+polblogs,"graphpow (randwalk) 2 0.3",0.957990867579909,0.099855163
+polblogs,"graphpow (randwalk) 2 0.5",0.957990867579909,0.107908968
+polblogs,"graphpow (randwalk) 2 1",0.951598173515982,0.195167648
+polblogs,"graphpow (randwalk) 2 2",0.528767123287671,0.609056333
+polblogs,"graphpow (nb) 2 0.15",0.65296803652968,0.187609954
+polblogs,"graphpow (nb) 2 0.3",0.65296803652968,0.195927848
+polblogs,"graphpow (nb) 2 0.5",0.65296803652968,0.172974114
+polblogs,"graphpow (nb) 2 1",0.953424657534247,9.419135361
+polblogs,"pow (adj) none 0",0.588127853881279,0.075136167
+polblogs,"pow (adj) none 0.15",0.588127853881279,0.058087822
+polblogs,"pow (adj) none 0.3",0.588127853881279,0.052576437
+polblogs,"pow (adj) none 0.5",0.884018264840183,0.12982405
+polblogs,"pow (adj) none 1",0.604566210045662,0.705582448
+polblogs,"pow (lap) none 0",0.525114155251142,0.070545754
+polblogs,"pow (lap) none 0.15",0.525114155251142,0.060779021
+polblogs,"pow (lap) none 0.3",0.525114155251142,0.067750051
+polblogs,"pow (lap) none 0.5",0.526027397260274,0.247731663
+polblogs,"pow (lap) none 1",0.526027397260274,0.880532561
+polblogs,"lap (no clean)",0.525114155251142,0.076678892
+polblogs,"lap (clean 1)",0.525114155251142,0.115853024
+polblogs,"lap (clean 2)",0.525114155251142,0.099858026
+polblogs,"lap (clean 3)",0.525114155251142,0.105642822
+polblogs,"nb (no clean)",0.621917808219178,0.140624268
+polblogs,"nb (clean 1)",0.65296803652968,0.174427537
+polblogs,"nb (clean 2)",0.65296803652968,0.183755954
+polblogs,"nb (clean 3)",0.65296803652968,0.187653671
+polblogs,"normadj (no clean, pow 0.15)",0.953424657534247,0.072677622
+polblogs,"normadj (1 clean, pow 0.15)",0.953424657534247,0.108672501
+polblogs,"normadj (1 clean, no pow)",0.953424657534247,0.114088281
+polblogs,"normlap (no clean)",0.953424657534247,0.082385823
+polblogs,"normlap (clean 1)",0.953424657534247,0.104790808
+polblogs,"normlap (clean 2)",0.953424657534247,0.102144968
+polblogs,"normlap (clean 3)",0.953424657534247,0.100370515

@@ -1,4 +1,4 @@
-function class=nb_classifier(obj)
+function [class,vout]=nb_classifier(obj,varargin)
 % CODE FROM COLIN SANDON'S THESIS. NBTRACKING WALK CLASSIFIER. MODIFIED BY
 % ENRIC FOR SOME EXTRA EFFICIENCY.
 % obj is a hybrid_block_model object.
@@ -65,7 +65,7 @@ function class=nb_classifier(obj)
     end
 
 
-class = base_giant_classifier(@nb_helper, obj, 'use_kmeans', 1);
+[class,vout] = base_giant_classifier(@nb_helper, obj, varargin{:});
 
 end
 

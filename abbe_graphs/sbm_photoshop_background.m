@@ -29,23 +29,25 @@ for u = giant_rev
     nebs = find(A(u,:));
     for v = nebs
         if u < v
-            line([pos(u,1) pos(v,1)], [pos(u,2) pos(v,2)], 'Color', [0.9 0.9 0.9]);
+            line([pos(u,1) pos(v,1)], [pos(u,2) pos(v,2)], 'Color', [0.8 0.8 0.8]);
         end
     end
 end
 
-col_mat_face = [[2/3 2/3 0.98]; [0.98 2/3 2/3]; [0.984 0.776 0.776]]; % [0.89 0.99 0.89];
+col_mat_face = [[0.45 0.45 0.98]; [0.98 0.45 0.45]; [0.984 0.776 0.776]]; % [0.89 0.99 0.89];
 col_mat_edge = [[0.04 0.38 0.04]; [0.491 0.007 0.007]];
 
 for i = giant_rev
     if ~giant_mask(i), continue; end
-    plot(pos(i,1),pos(i,2),'.','Color',col_mat_face(sbm.community(i),:),'MarkerSize',7);
+    plot(pos(i,1),pos(i,2),'.','Color',col_mat_face(sbm.community(i),:),'MarkerSize',25);
 end
 
-
+set(gcf, 'Position', get(0, 'Screensize'));
+set(gcf, 'Color', [1 1 1])
 axis equal
 set(gca,'visible','off')
 set(gcf, 'PaperPositionMode', 'auto');
 set(gcf, 'PaperOrientation', 'landscape');
-print(gcf, '-depsc', 'example_graph_picture.eps')
+export_fig('example_graph_picture.png');
+% print(gcf, '-dpdf', 'example_graph_picture.pdf')
 

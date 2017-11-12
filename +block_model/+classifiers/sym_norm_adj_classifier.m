@@ -7,6 +7,7 @@ function [class,V,D] = sym_norm_adj_classifier(obj,varargin)
     function [classeigvec,vout] = sym_norm_adj_helper(giant_A)
         deg = sum(giant_A,1);
         degi = sqrt(1./deg);
+        giant_n = length(deg);
         sdegi = spdiags(degi', 0, giant_n, giant_n);
         sym_norm_adj = sdegi * giant_A * sdegi;
     

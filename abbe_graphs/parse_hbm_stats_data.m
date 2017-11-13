@@ -8,25 +8,19 @@ clear_and_create_tempdir(tempdir);
 fignames = {};
 
 numfig = 1;
-for c = 10
-    
-    rowc = [datatable.thresh_c{:}];
-    temptablec = datatable(rowc == c,:);
-    if(height(temptablec) == 0), continue; end;
-    for d = 1:1:3
-        
-        
-        rowd = [temptablec.center_dist{:}];
-        temptable = temptablec(rowd == d,:);
-        if(height(temptable) == 0), continue; end;
 
-        classifiers = {...
-    {@pow_adj_classifier, 'pow (adj) none 0','no_clean',true,'pow_c',0},... 
-      {@pow_adj_classifier, 'pow (adj) none 0.15','no_clean',true,'pow_c',0.15},... 
-      {@pow_adj_classifier, 'pow (adj) none 0.3','no_clean',true,'pow_c',0.3}, ...
-      {@pow_adj_classifier, 'pow (adj) none 0.5','no_clean',true,'pow_c',0.5}, ...
-      {@pow_adj_classifier, 'pow (adj) none 1','no_clean',true,'pow_c',1}, ...
-      {@pow_adj_classifier, 'pow (adj) none 2','no_clean',true,'pow_c',2}};
+% Assume there is just one set of parameters, for now!
+
+classifiers = ...
+    {
+    {@pow_sym_norm_adj_classifier, 'normadj (1 clean, pow 0.15)','clean_c',1,'pow_c',0.15},...
+    {@nb_classifier, 'nb'}, ...
+    {@adj_classifier, 'adj'}, ...
+    {@lap_classifier, 'lap'}, ...
+    {@sym_norm_lap_classifier, 'normlap'}, ...
+    {@pow_sym_norm_lap_classifier, 'normlap (clean 1)','clean_c',1,'pow_c',0},...
+};
+
          
         
         fh = figure;
@@ -34,7 +28,7 @@ for c = 10
         for class_num = 1:length(classifiers)
             class_name = classifiers{class_num};
             class_name = class_name{2};
-            temptable2 = temptable(strcmp(temptable.class_name,class_name),:);
+            temptable2 = datatable(strcmp(datatable.class_name,class_name),:);
             if(height(temptable2) == 0), continue; end;
             
 
@@ -65,7 +59,7 @@ for c = 10
         hXLabel = xlabel('$\log_{10}$(Number of Vertices)','interpreter','latex','FontName','Times');
         hYLabel = ylabel('Agreement on Giant','interpreter','latex','FontName','Times');
         ylim([0.5 1]);
-        hTitle  = title (sprintf('\\parbox{4in}{\\centering \\textbf{Classifier Performance on GBM} \\\\ edge threshold $= \\frac{%d}{\\sqrt{n}}$, center distance $= %.3f$}', c, d),'interpreter','latex','FontName','Times');
+        hTitle  = title (sprintf('\\parbox{4in}{\\centering \\textbf{Classifier Performance on HBM}, $t$ = 0.5 \\\\ SBM: $a = 2.500$, $b = 0.187$ \\\\ GBM: edge threshold $= \\frac{%d}{\\sqrt{n}}$, center distance $= %.3f$}', 10, 1),'interpreter','latex','FontName','Times');
         
         lgd = legend('show');
         lgd.Location = 'southwest';
@@ -101,7 +95,6 @@ for c = 10
         close all
         fignames = [fignames {figfilename}]; %#ok<AGROW>
         numfig = numfig + 1;
-    end
-end
-append_pdfs('parse_gbm_stats_plots.pdf', fignames{:});
+
+append_pdfs('parse_hbm_stats_plots.pdf', fignames{:});
 end

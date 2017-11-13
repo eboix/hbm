@@ -41,7 +41,7 @@ for TIMEOUT = 1:200
     timeout = false;
     for ii = 1:height(model_params)
 
-        class_cell = model_params.class_cell{ii}
+        class_cell = model_params.class_cell{ii};
         a = model_params.a(ii);
         b = model_params.b(ii);
         c = model_params.c(ii);
@@ -73,7 +73,6 @@ for TIMEOUT = 1:200
 
         [in_table,time_elapsed] = check_if_in_hbm_stats_data(hbm_stats_data,class_name,a,b,c,d,t,n);
         if in_table
-            time_elapsed
             if time_elapsed > TIMEOUT
                 timeout = true;
                 continue;

@@ -32,137 +32,12 @@ adj
 
 class_name =
 
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
+randwalk
 
 
 n =
 
-       10000
+   100
 
 Starting parallel pool (parpool) using the 'local' profile ... [Warning: The system time zone setting, 'US/Eastern', does not specify a single
 time zone unambiguously. It will be treated as 'America/New_York'. See the <a
@@ -187,6 +62,56 @@ details about specifying time zones.]
   In agree_vals_sbm (line 11)
   In sbm_class_stats (line 112)] 
 connected to 12 workers.
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 class_name =
 
@@ -202,1151 +127,1976 @@ class_name =
 
 pow (adj) none 0.3
 
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+n =
+
+   200
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   300
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   400
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   500
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   600
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   700
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   800
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   900
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        1000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        2000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        3000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        4000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        5000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        6000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        7000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
         8000
 
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-n =
-
-       30000
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
         9000
 
-
-class_name =
-
-adj
-
-
-n =
-
-       50000
-
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-n =
-
-       40000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
        10000
 
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-n =
-
-       50000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-n =
-
-       60000
-
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
        20000
 
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
-       70000
+       30000
 
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
-class_name =
+n =
 
-lap
+       40000
 
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
-class_name =
+n =
 
-normadj
+       50000
 
-
-class_name =
-
-nb
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
        60000
 
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-n =
-
-       80000
-
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 n =
 
        70000
 
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+       80000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
 
 class_name =
 
@@ -1360,7 +2110,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -1381,144 +2131,116 @@ pow (adj) none 0.3
 class_name =
 
 adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
 
 
 n =
 
        90000
 
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
 
 class_name =
 
-lap
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
 
 
 class_name =
@@ -1543,7 +2265,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -1554,6 +2276,1716 @@ normadj
 class_name =
 
 nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+n =
+
+      100000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+n =
+
+      200000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+n =
+
+       70000
 
 
 n =
@@ -1563,6 +3995,11 @@ n =
 
 class_name =
 
+nb
+
+
+class_name =
+
 pow (adj) none 0.3
 
 
@@ -1573,7 +4010,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -1596,139 +4033,2474 @@ class_name =
 adj
 
 
-n =
-
-      100000
-
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
 class_name =
 
-lap
+randwalk
 
 
 class_name =
 
 normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+normadj
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.3
 
 
 n =
@@ -1736,21 +6508,6 @@ n =
        40000
 
 
-n =
-
-       50000
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
 class_name =
 
 adj
@@ -1758,7 +6515,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -1783,17 +6540,7 @@ adj
 
 class_name =
 
-lap
-
-
-n =
-
-       20000
-
-
-n =
-
-       30000
+randwalk
 
 
 class_name =
@@ -1818,179 +6565,7 @@ adj
 
 class_name =
 
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-n =
-
-       90000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-n =
-
-      200000
-
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap
+randwalk
 
 
 class_name =
@@ -2015,7 +6590,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -2040,37 +6615,7 @@ adj
 
 class_name =
 
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-n =
-
-      100000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
+randwalk
 
 
 class_name =
@@ -2095,7 +6640,7 @@ adj
 
 class_name =
 
-lap
+randwalk
 
 
 class_name =
@@ -2111,634 +6656,4 @@ nb
 class_name =
 
 pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-       30000
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-n =
-
-       60000
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-n =
-
-      200000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-n =
-
-       40000
 

@@ -27,12 +27,122 @@ For product information, visit www.mathworks.com.
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 n =
 
-   100
+        2000
 
 Starting parallel pool (parpool) using the 'local' profile ... [Warning: The system time zone setting, 'US/Eastern', does not specify a single
 time zone unambiguously. It will be treated as 'America/New_York'. See the <a
@@ -54,178 +164,463 @@ details about specifying time zones.]
   In pctTryCreatePoolIfNecessary (line 23)
   In distcomp.remoteparfor.tryRemoteParfor
   In parallel_function (line 433)
-  In agree_vals_gbm (line 11)
-  In gbm_class_stats (line 117)] 
+  In agree_vals_hbm (line 11)
+  In hbm_class_stats (line 74)] 
 connected to 12 workers.
 
 class_name =
 
-pow (adj) none 0.15
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-n =
-
-        2000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   100
-
-
-n =
-
-   300
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   500
-
-
-n =
-
-   700
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -233,189 +628,69 @@ n =
         4000
 
 
-n =
-
-        6000
-
-
 class_name =
 
-pow (adj) none 0.15
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-class_name =
-
-pow (adj) none 1
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-n =
-
-        2000
-
-
-n =
-
-        4000
+normadj (1 clean, pow 0.15)
 
 
 n =
 
         6000
+
+Warning: Failed to converge in 100 iterations during replicate 1.
+> In kmeans/loopBody (line 468)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In base_giant_classifier (line 33)
+  In block_model.classifiers.sym_norm_adj_classifier (line 24)
+  In block_model.classifiers.pow_classifier (line 48)
+  In block_model.classifiers.pow_sym_norm_adj_classifier (line 16)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Failed to converge in 100 iterations during replicate 3.
+> In kmeans/loopBody (line 468)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In base_giant_classifier (line 33)
+  In block_model.classifiers.sym_norm_adj_classifier (line 24)
+  In block_model.classifiers.pow_classifier (line 48)
+  In block_model.classifiers.pow_sym_norm_adj_classifier (line 16)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Failed to converge in 100 iterations during replicate 5.
+> In kmeans/loopBody (line 468)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In base_giant_classifier (line 33)
+  In block_model.classifiers.sym_norm_adj_classifier (line 24)
+  In block_model.classifiers.pow_classifier (line 48)
+  In block_model.classifiers.pow_sym_norm_adj_classifier (line 16)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Failed to converge in 100 iterations during replicate 8.
+> In kmeans/loopBody (line 468)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In base_giant_classifier (line 33)
+  In block_model.classifiers.sym_norm_adj_classifier (line 24)
+  In block_model.classifiers.pow_classifier (line 48)
+  In block_model.classifiers.pow_sym_norm_adj_classifier (line 16)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Failed to converge in 100 iterations during replicate 9.
+> In kmeans/loopBody (line 468)
+  In internal.stats.parallel.smartForReduce (line 136)
+  In kmeans (line 335)
+  In base_giant_classifier (line 33)
+  In block_model.classifiers.sym_norm_adj_classifier (line 24)
+  In block_model.classifiers.pow_classifier (line 48)
+  In block_model.classifiers.pow_sym_norm_adj_classifier (line 16)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -425,202 +700,17 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-n =
-
-   900
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-n =
-
-   700
-
-
-class_name =
-
-pow (adj) none 1
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-   100
-
-
-n =
-
-   300
-
-
-n =
-
-   500
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-   900
-
-
-class_name =
-
-pow (adj) none 1
-
-
-n =
-
-   700
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-        8000
+normadj (1 clean, pow 0.15)
 
 
 n =
 
        10000
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -630,287 +720,7 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-   900
-
-
-class_name =
-
-pow (adj) none 1
-
-
-n =
-
-   700
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-       10000
-
-
-n =
-
-       20000
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-   900
-
-
-class_name =
-
-pow (adj) none 1
-
-
-n =
-
-   700
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-   700
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-   700
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-   700
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-        2000
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -920,602 +730,1027 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
-        2000
 
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
 
-       40000
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
 
-        2000
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
 
+normadj (1 clean, pow 0.15)
 
+
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        6000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        4000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -1525,687 +1760,2542 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
-        6000
 
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
+
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        4000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        6000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       60000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        4000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -2215,537 +4305,2807 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
 
-       80000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
 
-        8000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 n =
@@ -2755,4145 +7115,4435 @@ n =
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
 
-        8000
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
+
+
+class_name =
+
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   300
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   500
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   700
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-   900
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        4000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        6000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        8000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       10000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       20000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       40000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       60000
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-       80000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-      100000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
-n =
+class_name =
 
-        2000
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.15
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.3
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0.5
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 1
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 2
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-best possible
+normadj (1 clean, pow 0.15)
 
 
 class_name =
 
-pow (adj) none 0
+normadj (1 clean, pow 0.15)
 
 
 n =
 
       200000
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-        8000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-        2000
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-n =
-
-        2000
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-      100000
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-      200000
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-       10000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-       10000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-n =
-
-      200000
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-       10000
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-n =
-
-        4000
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-pow (adj) none 0.5
-
-
-class_name =
-
-pow (adj) none 1
-
-
-class_name =
-
-pow (adj) none 2
-
-
-class_name =
-
-best possible
-
-
-class_name =
-
-pow (adj) none 0
-
-
-class_name =
-
-pow (adj) none 0.15
-
-
-n =
-
-       20000
 

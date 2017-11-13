@@ -952,3 +952,1268 @@ n =
 
        40000
 
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+       20000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+n =
+
+       60000
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+       10000
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+n =
+
+       80000
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+       40000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+       20000
+

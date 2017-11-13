@@ -8,41 +8,39 @@ end
 
 classifiers = ...
     {
+    {@pow_sym_norm_adj_classifier, 'normadj (1 clean, pow 0.15)','clean_c',1,'pow_c',0.15},...
     {@nb_classifier, 'nb'}, ...
     {@adj_classifier, 'adj'}, ...
     {@lap_classifier, 'lap'}, ...
-    {@sdp_classifier, 'sdp'}, ...
     {@sym_norm_lap_classifier, 'normlap'}, ...
-    {@pow_adj_classifier, 'graphpow (adj) 2 0.5', 'clean_c',2,'pow_c',0.5}, ...
-    {@pow_adj_classifier, 'graphpow (adj) 2 1','clean_c',2,'pow_c',1}, ...
-    {@pow_adj_classifier, 'graphpow (adj) 2 2','clean_c',2,'pow_c',2}, ...
-    };
+    {@pow_sym_norm_lap_classifier, 'normlap (clean 1)','clean_c',1,'pow_c',0},...
+};
 
-for a = 2.01:0.5:4.01
+a = 2.51;
 b = -sqrt(4*a + 1) + a + 1;
 a = a - 0.01; % Go slightly below KS threshold, so recovery is possible at large n.
-end
-a_vals = {0};
-b_vals = {0};
-c_vals = {1};
+
+a_vals = {a};
+b_vals = {b};
+c_vals = {10};
 d_vals = {1};
-t_vals = {1};
-n_vals = num2cell([100:100:1000 2000:1000:10000 20000:10000:100000 200000]);
-num_trials = 100;
+t_vals = {0.5};
+n_vals = num2cell([100:200:1000 2000:2000:10000 20000:20000:100000 200000]);
+num_trials = 50;
 
 model_params = allcomb(classifiers, a_vals, b_vals, c_vals, d_vals, t_vals, n_vals); % Important that n should be last....
 model_params = cell2table(model_params);
 model_params.Properties.VariableNames = {'class_cell', 'a', 'b', 'c', 'd', 't', 'n'};
 
 if ~exist('hbm_stats_data', 'var')
-    hbm_stats_data = table({},{},{},{},{},{});
+    hbm_stats_data = table({},{},{},{},{},{},{},{},{});
     hbm_stats_data.Properties.VariableNames = {'class_name', 'a', 'b', 'c', 'd', 't', 'n', 'giant_agreement','time_elapsed'};
 end
 
 for TIMEOUT = 1:200
 
     for ii = 1:height(model_params)
-        class_cell = model_params.class_cell(ii);
+        class_cell = model_params.class_cell{ii};
         a = model_params.a(ii);
         b = model_params.b(ii);
         c = model_params.c(ii);

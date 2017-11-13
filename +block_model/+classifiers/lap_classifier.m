@@ -7,18 +7,18 @@ function [class,V,D] = lap_classifier(obj,varargin)
 %                     TODO: THIS DOES NOT YET DEPEND ON obj.k.
 
 
-function [classeigvec,vout] = lap_helper(giant_A)
+function [classeigvec,vout] = lap_helper(giant_A,k)
     deg = sum(giant_A,1);
     giant_n = length(deg);
     giant_lap = spdiags(deg',0,giant_n,giant_n) - giant_A;
-    [Vv,Dd] = eigs(giant_lap,2,'sm');
+    [Vv,Dd] = eigs(giant_lap,k,'sm');
     % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
     [Dd,I] = sort(diag(Dd),'ascend');
     Vv = Vv(:,I);
     
     vout{1} = Vv;
     vout{2} = Dd;
-    classeigvec = Vv(:,2);
+    classeigvec = Vv(:,2:k);
 end
 
 [class,vout] = base_giant_classifier(@lap_helper, obj, varargin{:});

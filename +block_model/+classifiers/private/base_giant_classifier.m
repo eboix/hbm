@@ -24,7 +24,7 @@ function [class_guess,vout] = base_giant_classifier(class_func,obj,varargin)
     
     [giant_A,~,giant_rev] = get_giant_adj_matrix_from_obj(obj);
     
-    [classeigvec,vout] = class_func(giant_A);
+    [classeigvec,vout] = class_func(giant_A,k);
     % classeigvec should be giant_n x K for some K.
 
     giant_n = length(giant_rev);

@@ -5,7 +5,7 @@ function [class,V,D] = randwalk_classifier(obj,varargin)
 
 disp('Running randwalk_classifier');
 
-function [classeigvec,vout] = randwalk_helper(giant_A)
+function [classeigvec,vout] = randwalk_helper(giant_A,k)
     deg = sum(giant_A,1);
     degi = 1./deg;
     giant_size = size(giant_A);
@@ -13,7 +13,7 @@ function [classeigvec,vout] = randwalk_helper(giant_A)
     rand_walk = spdiags(degi',0,giant_n,giant_n) * giant_A;
     
     opts.tol = 1e-14;
-    [Vv,Dd,flag] = eigs(rand_walk,2,'lr',opts);
+    [Vv,Dd,flag] = eigs(rand_walk,k,'lr',opts);
     if flag
         error('Randwalk eigenvalues did not all converge.')
     end
@@ -21,7 +21,7 @@ function [classeigvec,vout] = randwalk_helper(giant_A)
     vout = cell(1,2);
     vout{1} = Vv;
     vout{2} = Dd;
-    classeigvec = Vv(:,2);
+    classeigvec = Vv(:,2:k);
 end
 
 [class,vout] = base_giant_classifier(@randwalk_helper, obj, varargin{:});

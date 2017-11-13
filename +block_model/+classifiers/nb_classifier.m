@@ -11,9 +11,8 @@ function [class,vout]=nb_classifier(obj,varargin)
 
 % disp('Running nb_classifier');
 
-    function [class_matrix,vout] = nb_helper(giant_A)
+    function [class_matrix,vout] = nb_helper(giant_A,k)
         
-        k = 2; % TODO: varargin will take this in as a parameter.
         n = size(giant_A,1);
         
         % n x 2 list of undirected edges. Each edge appears exactly once.

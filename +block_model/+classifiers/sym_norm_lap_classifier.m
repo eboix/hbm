@@ -7,20 +7,20 @@ function [class,V,D] = sym_norm_lap_classifier(obj,varargin)
 %                     TODO: THIS DOES NOT YET DEPEND ON obj.k.
 
 
-function [classeigvec,vout] = sym_norm_lap_helper(giant_A)
+function [classeigvec,vout] = sym_norm_lap_helper(giant_A,k)
     deg = sum(giant_A,1);
     degi = sqrt(1./deg);
     giant_n = length(deg);
     Dmhalf = spdiags(degi',0,giant_n,giant_n);
     giant_sym_norm_lap = speye(giant_n) - Dmhalf * giant_A * Dmhalf;
-    [Vv,Dd] = eigs(giant_sym_norm_lap,2,'sm');
+    [Vv,Dd] = eigs(giant_sym_norm_lap,k,'sm');
     % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
     [Dd,I] = sort(diag(Dd),'ascend');
     Vv = Vv(:,I);
     
     vout{1} = Vv;
     vout{2} = Dd;
-    classeigvec = Vv(:,2);
+    classeigvec = Vv(:,2:k);
 end
 
 [class,vout] = base_giant_classifier(@sym_norm_lap_helper, obj, varargin{:});

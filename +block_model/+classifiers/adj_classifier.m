@@ -8,15 +8,15 @@ function [class,V,D] = adj_classifier(obj,varargin)
 %                     TODO: THIS DOES NOT YET DEPEND ON obj.k.
 
 
-function [classeigvec,vout] = adj_helper(giant_A)
-    [Vv,Dd] = eigs(giant_A,2,'la');
+function [classeigvec,vout] = adj_helper(giant_A,k)
+    [Vv,Dd] = eigs(giant_A,k,'la');
     % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
     [Dd,I] = sort(diag(Dd),'descend');
     Vv = Vv(:,I);
     
     vout{1} = Vv;
     vout{2} = Dd;
-    classeigvec = Vv(:,2);
+    classeigvec = Vv(:,2:k);
 end
 
 [class,vout] = base_giant_classifier(@adj_helper, obj, varargin{:});

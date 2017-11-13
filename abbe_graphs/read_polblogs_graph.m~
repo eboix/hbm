@@ -1,1 +1,0 @@
-function [labels,A] = read_polblogs_graph()

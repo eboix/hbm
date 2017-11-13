@@ -38,9 +38,10 @@ if ~exist('hbm_stats_data', 'var')
 end
 
 for TIMEOUT = 1:200
-
+    timeout = false;
     for ii = 1:height(model_params)
-        class_cell = model_params.class_cell{ii};
+
+        class_cell = model_params.class_cell{ii}
         a = model_params.a(ii);
         b = model_params.b(ii);
         c = model_params.c(ii);
@@ -57,13 +58,25 @@ for TIMEOUT = 1:200
             b = 0;
         end
         
+        if ii > 1
+            old_class_name = class_name;
+        end
         class_func = class_cell{1};
         class_name = class_cell{2}
+        if ii > 1 && timeout
+            if strcmp(old_class_name,class_name)
+                continue;
+            else
+                timeout = false;
+            end
+        end
 
         [in_table,time_elapsed] = check_if_in_hbm_stats_data(hbm_stats_data,class_name,a,b,c,d,t,n);
         if in_table
+            time_elapsed
             if time_elapsed > TIMEOUT
-                break;
+                timeout = true;
+                continue;
             end
             continue;
         end

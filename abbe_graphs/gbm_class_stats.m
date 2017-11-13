@@ -101,7 +101,7 @@ end
 for TIMEOUT = 1:200
     
     for c = 10
-        for d = 1:1:3
+        for d = 2
             for classi = 1:length(classifiers)
                 class_cell = classifiers{classi};
                 class_func = class_cell{1};

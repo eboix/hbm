@@ -54,8 +54,8 @@ details about specifying time zones.]
   In pctTryCreatePoolIfNecessary (line 23)
   In distcomp.remoteparfor.tryRemoteParfor
   In parallel_function (line 433)
-  In agree_vals_sbm (line 11)
-  In sbm_class_stats (line 123)] 
+  In agree_vals_gbm (line 11)
+  In gbm_class_stats (line 132)] 
 connected to 12 workers.
 
 class_name =
@@ -65,482 +65,12 @@ lap (clean 1)
 
 class_name =
 
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
+randwalk (clean 1) (pow 0)
 
 
 n =
 
-   200
+   100
 
 
 n =
@@ -550,17 +80,7 @@ n =
 
 n =
 
-   400
-
-
-n =
-
    500
-
-
-n =
-
-   600
 
 
 n =
@@ -570,7 +90,67 @@ n =
 
 n =
 
-   800
+   900
+
+
+n =
+
+        2000
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+   100
+
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
+
+
+n =
+
+   900
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+   100
+
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
 
 
 n =
@@ -580,7 +160,617 @@ n =
 
 n =
 
-        1000
+        2000
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+n =
+
+        4000
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+        2000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+n =
+
+        6000
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+        4000
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+n =
+
+        8000
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+        4000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+n =
+
+       10000
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+n =
+
+       20000
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+        6000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+        6000
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+n =
+
+        8000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+n =
+
+        8000
+
+
+class_name =
+
+adj (clean 1)
+
+
+class_name =
+
+lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
+nb (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
+
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
+
+
+n =
+
+   900
 
 
 n =
@@ -590,17 +780,7 @@ n =
 
 n =
 
-        3000
-
-
-n =
-
         4000
-
-
-n =
-
-        5000
 
 
 n =
@@ -610,17 +790,7 @@ n =
 
 n =
 
-        7000
-
-
-n =
-
         8000
-
-
-n =
-
-        9000
 
 
 n =
@@ -632,160 +802,20 @@ n =
 
        20000
 
-Warning: Failed to converge in 100 iterations during replicate 1.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-n =
-
-       30000
-
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 6.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 9.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
 
 n =
 
        40000
 
 
-n =
-
-       50000
-
-
-n =
-
-       60000
-
-Warning: Failed to converge in 100 iterations during replicate 2.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 8.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
 class_name =
 
 lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
 
 
 class_name =
@@ -810,6 +840,11 @@ lap (clean 1)
 
 class_name =
 
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
 nb (clean 1)
 
 
@@ -830,27 +865,37 @@ lap (clean 1)
 
 class_name =
 
+randwalk (clean 1) (pow 0)
+
+
+class_name =
+
 nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
 
 
 n =
 
-       70000
+       10000
+
+
+class_name =
+
+randwalk (clean 1) (pow 0.15)
+
+
+class_name =
+
+adj (clean 1)
 
 
 class_name =
 
 lap (clean 1)
+
+
+class_name =
+
+randwalk (clean 1) (pow 0)
 
 
 class_name =
@@ -875,22 +920,7 @@ lap (clean 1)
 
 class_name =
 
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
+randwalk (clean 1) (pow 0)
 
 
 class_name =
@@ -915,2010 +945,10 @@ lap (clean 1)
 
 class_name =
 
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-n =
-
-       80000
-
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-Warning: Failed to converge in 100 iterations during replicate 3.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-n =
-
-       90000
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-n =
-
-      100000
-
-Warning: Failed to converge in 100 iterations during replicate 10.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 4.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-Warning: Failed to converge in 100 iterations during replicate 5.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
+randwalk (clean 1) (pow 0)
 
 
 n =
 
        40000
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-n =
-
-      200000
-
-Warning: Failed to converge in 100 iterations during replicate 7.
-> In kmeans/loopBody (line 468)
-  In internal.stats.parallel.smartForReduce (line 136)
-  In kmeans (line 335)
-  In base_giant_classifier (line 33)
-  In block_model.classifiers.adj_classifier (line 22)
-  In block_model.classifiers.pow_classifier (line 48)
-  In block_model.classifiers.pow_adj_classifier (line 16)
-  In parallel_function>make_general_channel/channel_general (line 914)
-  In remoteParallelFunction (line 38)
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-class_name =
-
-nb (clean 1)
-
-
-class_name =
-
-randwalk (clean 1) (pow 0.15)
-
-
-class_name =
-
-adj (clean 1)
-
-
-class_name =
-
-lap (clean 1)
-
-
-n =
-
-       50000
 

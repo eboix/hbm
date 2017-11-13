@@ -8,4 +8,5 @@ NUM_JOBS
 manual_figs/
 abbe_graphs/tmpfiles/
 abbe_graphs/realdata/
-
+abbe_graphs/matlab.out
+abbe_graphs/matlab.err

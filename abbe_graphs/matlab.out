@@ -32,6 +32,11 @@ adj
 
 class_name =
 
+lap
+
+
+class_name =
+
 randwalk
 
 
@@ -59,8 +64,8 @@ details about specifying time zones.]
   In pctTryCreatePoolIfNecessary (line 23)
   In distcomp.remoteparfor.tryRemoteParfor
   In parallel_function (line 433)
-  In agree_vals_sbm (line 11)
-  In sbm_class_stats (line 112)] 
+  In agree_vals_gbm (line 11)
+  In gbm_class_stats (line 122)] 
 connected to 12 workers.
 Running randwalk_classifier
 Running randwalk_classifier
@@ -115,12 +120,42 @@ Running randwalk_classifier
 
 class_name =
 
-normadj
+nb
 
 
 class_name =
 
-nb
+pow (adj) none 0.25
+
+
+n =
+
+   100
+
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
+
+
+n =
+
+   900
+
+
+n =
+
+        2000
 
 
 class_name =
@@ -135,577 +170,7 @@ adj
 
 class_name =
 
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
+lap
 
 
 class_name =
@@ -715,7 +180,7 @@ randwalk
 
 n =
 
-   200
+   100
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -825,117 +290,7 @@ Running randwalk_classifier
 
 n =
 
-   400
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
    500
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-   600
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -1045,117 +400,7 @@ Running randwalk_classifier
 
 n =
 
-   800
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
    900
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-        1000
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -1265,7 +510,397 @@ Running randwalk_classifier
 
 n =
 
-        3000
+        4000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+n =
+
+   100
+
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
+
+
+n =
+
+   900
+
+
+n =
+
+        2000
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+n =
+
+   100
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   300
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   500
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   700
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+   900
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+n =
+
+        2000
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -1373,60 +1008,95 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
 n =
 
-        5000
+   100
 
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
+
+n =
+
+   300
+
+
+n =
+
+   500
+
+
+n =
+
+   700
+
+
+n =
+
+   900
+
+
+n =
+
+        2000
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
 
 n =
 
@@ -1483,9 +1153,39 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
 n =
 
-        7000
+        6000
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -1593,9 +1293,69 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
 n =
 
-        9000
+        8000
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -1647,6 +1407,36 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
 
 n =
 
@@ -1703,6 +1493,241 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+n =
+
+       10000
+
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+Running randwalk_classifier
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.25
+
+
+class_name =
+
+pow (adj) none 0.3
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
 n =
 
        20000
@@ -1758,344 +1783,14 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 
-n =
-
-       30000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-       40000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-       50000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-       60000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-       70000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-n =
-
-       80000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-class_name =
-
-normadj
-
-
 class_name =
 
 nb
+
+
+class_name =
+
+pow (adj) none 0.25
 
 
 class_name =
@@ -2106,6 +1801,11 @@ pow (adj) none 0.3
 class_name =
 
 adj
+
+
+class_name =
+
+lap
 
 
 class_name =
@@ -2115,12 +1815,12 @@ randwalk
 
 class_name =
 
-normadj
+nb
 
 
 class_name =
 
-nb
+pow (adj) none 0.25
 
 
 class_name =
@@ -2135,27 +1835,7 @@ adj
 
 class_name =
 
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
+lap
 
 
 class_name =
@@ -2165,7 +1845,7 @@ randwalk
 
 n =
 
-       90000
+       20000
 
 Running randwalk_classifier
 Running randwalk_classifier
@@ -2217,11 +1897,6 @@ Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
 Running randwalk_classifier
-
-class_name =
-
-normadj
-
 
 class_name =
 
@@ -2230,157 +1905,12 @@ nb
 
 class_name =
 
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
+pow (adj) none 0.25
 
 
 n =
 
-      100000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
+        4000
 
 
 class_name =
@@ -2395,12 +1925,12 @@ adj
 
 class_name =
 
-randwalk
+lap
 
 
 class_name =
 
-normadj
+randwalk
 
 
 class_name =
@@ -2410,182 +1940,12 @@ nb
 
 class_name =
 
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
+pow (adj) none 0.25
 
 
 n =
 
-      200000
-
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-Running randwalk_classifier
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
+        4000
 
 
 class_name =
@@ -2600,12 +1960,12 @@ adj
 
 class_name =
 
-randwalk
+lap
 
 
 class_name =
 
-normadj
+randwalk
 
 
 class_name =
@@ -2615,4045 +1975,10 @@ nb
 
 class_name =
 
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
+pow (adj) none 0.25
 
 
 n =
 
-       70000
-
-
-n =
-
-       80000
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-n =
-
-       40000
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-normadj
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.3
+        4000
 

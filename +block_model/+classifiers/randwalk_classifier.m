@@ -3,7 +3,7 @@ function [class,V,D] = randwalk_classifier(obj,varargin)
 % Use second eigval of D^(-1) A to split vertices.
 % TODO DOES NOT DEPEND ON obj.k.
 
-disp('Running randwalk_classifier');
+% disp('Running randwalk_classifier');
 
 function [classeigvec,vout] = randwalk_helper(giant_A,k)
     deg = sum(giant_A,1);

@@ -347,87 +347,7 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 n =
@@ -757,572 +677,97 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
+n =
 
-pow (adj) none 0.7
+   100
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 n =
@@ -1332,7 +777,342 @@ n =
 
 class_name =
 
-pow (adj) none 0.7
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+adj
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+lap
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+randwalk
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+nb
+
+
+class_name =
+
+pow (adj) none 0.55
+
+
+class_name =
+
+pow (adj) none 0.55
+
+
+n =
+
+   300
+
+
+class_name =
+
+pow (adj) none 0.55
 
 
 n =
@@ -1662,162 +1442,102 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
-class_name =
+n =
 
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
+   500
 
 
 class_name =
@@ -2142,1062 +1862,22 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 n =
@@ -3527,1122 +2207,107 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
+n =
 
-pow (adj) none 0.7
+   700
 
 
 class_name =
@@ -4967,162 +2632,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -5447,162 +3112,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -5927,162 +3592,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -6403,111 +4068,31 @@ nb
 class_name =
 
 nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.55
 
 
 n =
@@ -6837,3046 +4422,116 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-adj
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-lap
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-randwalk
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
+n =
 
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
+   900
 
 
 class_name =
 
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
 adj
 
 
@@ -10197,162 +4852,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -10677,162 +5332,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -11157,162 +5812,162 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
@@ -11633,166 +6288,41 @@ nb
 class_name =
 
 nb
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.6
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
-class_name =
-
-pow (adj) none 0.6
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
-
-pow (adj) none 0.7
-
-
-class_name =
+n =
 
-pow (adj) none 0.7
+        2000
 
 
 class_name =
@@ -12117,112 +6647,112 @@ nb
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.6
+pow (adj) none 0.55
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 class_name =
 
-pow (adj) none 0.7
+pow (adj) none 0.65
 
 
 n =

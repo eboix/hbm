@@ -1,3 +1,0 @@
-srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
-slurmstepd: error: *** JOB 483329 ON adroit-h11g1 CANCELLED AT 2017-11-15T13:08:28 ***
-slurmstepd: error: *** STEP 483329.0 ON adroit-h11g1 CANCELLED AT 2017-11-15T13:08:28 ***

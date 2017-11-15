@@ -53,12 +53,20 @@ function [class,vout]=nb_classifier(obj,varargin)
         opts.tol = 1e-14;
         while flag > 0
             maxV=maxV-1;
-            [V,~,flag]=eigs(B,maxV,'lm',opts);
+            [V,Dd,flag]=eigs(B,maxV,'lr',opts);
+           % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
+           [Dd,I] = sort(diag(Dd),'descend');
+            V2 = V(:,I);
+            V2 = V(:,2:end);
         end
-        
+    
         % class_matrix is n X 2k. Values of eigenvectors have been
         % consolidated into tails of directed edges.
-        V2 = [real(V) imag(V)];
+        if all(imag(V2) == 0)
+            V2 = real(V2);
+        else
+            V2 = [real(V2) imag(V2)];
+        end
         class_matrix=I1'*V2;
         vout = cell(0); % No extra outputs.
     end

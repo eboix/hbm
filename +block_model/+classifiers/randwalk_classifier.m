@@ -14,6 +14,9 @@ function [classeigvec,vout] = randwalk_helper(giant_A,k)
     
     opts.tol = 1e-14;
     [Vv,Dd,flag] = eigs(rand_walk,k,'lr',opts);
+    % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
+    [Dd,I] = sort(diag(Dd),'descend');
+    Vv = Vv(:,I);
     if flag
         error('Randwalk eigenvalues did not all converge.')
     end

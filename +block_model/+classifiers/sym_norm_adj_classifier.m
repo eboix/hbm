@@ -11,7 +11,7 @@ function [class,V,D] = sym_norm_adj_classifier(obj,varargin)
         sdegi = spdiags(degi', 0, giant_n, giant_n);
         sym_norm_adj = sdegi * giant_A * sdegi;
     
-        [Vv,Dd] = eigs(sym_norm_adj,k,'lm');
+        [Vv,Dd] = eigs(sym_norm_adj,k,'lr');
         % MATLAB DOES NOT AUTOMATICALLY SORT EIGS IN R2017a AND BELOW:
         [Dd,I] = sort(diag(Dd),'descend');
         Vv = Vv(:,I);

@@ -8,7 +8,7 @@ import block_model.hybrid_block_model;
 
     agree_vals = zeros(1,num_trials);
   
-    parfor i = 1:num_trials
+    for i = 1:num_trials
         community_rel_sizes = [1 1];
         center = [[0 0]; [d 0]];
         thresh = c / sqrt(n);

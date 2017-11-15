@@ -39,9 +39,12 @@ function [class_guess,vout] = base_giant_classifier(class_func,obj,varargin)
         if k ~= 2
             error('Use kmeans to cut into > 2 communities.');
         end
-        [~,idx] = sort(classeigvec);
+        assert(all(size(classeigvec) == [giant_n 1])); % o/w method will fail. Need just one vector.
         class_guess = zeros(n,1);
-        class_guess(giant_rev(idx(1:floor(giant_n/2)))) = 1;
-        class_guess(giant_rev(idx(floor(giant_n/2):end))) = 2;
+        class_guess(giant_rev(classeigvec < 0)) = 1;
+        class_guess(giant_rev(classeigvec >= 0)) = 2;
+    %   [~,idx] = sort(classeigvec);
+    %    class_guess(giant_rev(idx(1:floor(giant_n/2)))) = 1;
+    %    class_guess(giant_rev(idx(floor(giant_n/2):end))) = 2;
     end
 end

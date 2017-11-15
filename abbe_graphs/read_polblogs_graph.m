@@ -1,5 +1,5 @@
-function [labels,A] = read_polblogs_graph()
-
+function [labels,A,adj_list] = read_polblogs_graph(k)
+assert(k == 2);
 contents = csvread('realdata/polblogs/polblogs.txt');
 n = contents(1,1);
 m = contents(1,2);

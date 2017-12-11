@@ -22,7 +22,7 @@ clear_and_create_tempdir(tempdir);
 % So given a > 2, we can calculate the threshold value for b.
 a = 2.2;
 b = -sqrt(4*a + 1) + a + 1;
-a = a - 0.01; % Go slightly below KS threshold, so recovery is possible at large n.
+a = a + 0.01; % Go slightly below KS threshold, so recovery is possible at large n.
 
 for ni = 1:length(n_vals)
     n = n_vals(ni)

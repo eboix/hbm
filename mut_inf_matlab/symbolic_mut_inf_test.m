@@ -1,20 +1,20 @@
-% % 2-vertex path.
-% n = 2;
-% m = 1;
-% edge_list = [[1 2]];
-% p2inf = get_symbolic_mut_inf(n,m,edge_list);
+% 2-vertex path.
+n = 2;
+m = 1;
+edge_list = [[1 2]];
+p2inf = get_symbolic_mut_inf(n,m,edge_list);
 % 
-% % 3-vertex path.
-% n = 3;
-% m = 2;
-% edge_list = [[1 2]; [2 3]];
-% p3inf = get_symbolic_mut_inf(n,m,edge_list);
+% 3-vertex path.
+n = 3;
+m = 2;
+edge_list = [[1 2]; [2 3]];
+p3inf = get_symbolic_mut_inf(n,m,edge_list);
 % 
-% % 4-vertex path.
-% n = 4;
-% m = 3;
-% edge_list = [[1 2]; [2 3]; [3 4]];
-% p4inf = get_symbolic_mut_inf(n,m,edge_list);
+% 4-vertex path.
+n = 4;
+m = 3;
+edge_list = [[1 2]; [2 3]; [3 4]];
+p4inf = get_symbolic_mut_inf(n,m,edge_list);
 % 
 % % 5-vertex path.
 % n = 5;
@@ -63,12 +63,12 @@
 % m = 5;
 % edge_list = [[1 2]; [1 2]; [1 2]; [1 2]; [1 2]];
 % par5inf = get_symbolic_mut_inf(n,m,edge_list);
-% 
-% % Lasso
-% n = 3;
-% m = 3;
-% edge_list = [[1 2]; [2 3]; [2 3]];
-% lassoinf = get_symbolic_mut_inf(n,m,edge_list);
+
+% Lasso
+n = 3;
+m = 3;
+edge_list = [[1 2]; [2 3]; [2 3]];
+lassoinf = get_symbolic_mut_inf(n,m,edge_list);
 % 
 % % C3
 % n = 3;
@@ -82,17 +82,23 @@
 % edge_list = [[1 2]; [1 3]; [1 4]; [2 3]; [2 4]; [3 4]; [2 3]; [2 3]];
 % k4extrainf = get_symbolic_mut_inf(n,m,edge_list);
 
+% % Bad general when fixed.
+% n = 4;
+% m = 5;
+% edge_list = [[1 2]; [1 3]; [2 3]; [2 4]; [3 4]];
+% badgeninf = get_symbolic_mut_inf(n,m,edge_list);
+
 % Series of 2 parallel edges. (Figure Eight).
-n = 3;
-m = 4;
-edge_list = [[1 2]; [1 2]; [2 3]; [2 3]];
-fig8inf = get_symbolic_mut_inf(n,m,edge_list);
+% n = 3;
+% m = 4;
+% edge_list = [[1 2]; [1 2]; [2 3]; [2 3]];
+% fig8inf = get_symbolic_mut_inf(n,m,edge_list);
 
 % Figure 8 with shortcut.
-n = 3;
-m = 5;
-edge_list = [[1 2]; [1 2]; [2 3]; [2 3]; [1 3]];
-fig8modinf = get_symbolic_mut_inf(n,m,edge_list);
+% n = 3;
+% m = 5;
+% edge_list = [[1 2]; [1 2]; [2 3]; [2 3]; [1 3]];
+% fig8modinf = get_symbolic_mut_inf(n,m,edge_list);
 
 % 
 % [~,p2tay] = taylor_expand_symmetrized(p2inf,40);
@@ -108,11 +114,11 @@ fig8modinf = get_symbolic_mut_inf(n,m,edge_list);
 % [~,par5tay] = taylor_expand_symmetrized(par5inf,40);
 % [~,lassotay] = taylor_expand_symmetrized(lassoinf,40);
 % [~,k4extratay] = taylor_expand_symmetrized(k4extrainf,40);
-[~,fig8tay] = taylor_expand_symmetrized(fig8inf,40);
-[~,fig8modtay] = taylor_expand_symmetrized(fig8modinf,40);
+% [~,fig8tay] = taylor_expand_symmetrized(fig8inf,40);
+% [~,fig8modtay] = taylor_expand_symmetrized(fig8modinf,40);
 
-[c,t] = coeffs(p2tay + 4*p3tay - fig8modtay);
-res = fliplr([t; c*log(sym(2))])
+% [c,t] = coeffs(p2tay + 4*p3tay - fig8modtay);
+% res = fliplr([t; c*log(sym(2))])
 
 % approx = p2inf + 2*p3inf + 2*p4inf; % Good up to O(x^6). Even orders.
 % approx = p2inf + 2*p3inf; % Good up to O(x^8). Even orders.
